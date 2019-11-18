@@ -1,0 +1,46 @@
+.aquilaAdmin.wp-core-ui #save-post.button,
+.aquilaAdmin.wp-core-ui a#post-preview,
+.aquilaAdmin.wp-core-ui a.page-title-action {
+    /* height: 30px !important; */
+    /* line-height: 30px !important; */
+    /* display: inline-block !important; */
+}
+.aquilaAdmin.wp-core-ui #publish.button {
+    /* height: 30px !important; */
+    /* line-height: 28px !important; */
+    /* display: inline-block !important; */
+}
+.aquilaAdmin p > a.button,
+.aquilaAdmin p > a.button-cancel,
+.aquilaAdmin div > input.button,
+.aquilaAdmin button.button,
+.aquilaAdmin div > a.button,
+.aquilaAdmin div > a.button-cancel,
+.aquilaAdmin td > a.button,
+.aquilaAdmin .wp-picker-container input[type="text"].wp-color-picker {
+    /* height: 28px !important; */
+    /* line-height: 26px !important; */
+}
+.aquilaAdmin p > input.button {
+    /* height: 28px !important; */
+    /* line-height: 28px !important; */
+}
+.aquilaAdmin.wp-core-ui a#post-preview,
+.aquilaAdmin.wp-core-ui input#publish,
+.aquilaAdmin.wp-core-ui #save-post.button,
+.aquilaAdmin.wp-core-ui a.page-title-action,
+.aquilaAdmin p > a.button,
+.aquilaAdmin p > a.button-cancel,
+.aquilaAdmin button.button,
+body.aquilaAdmin input.button,
+.aquilaAdmin div > a.button,
+.aquilaAdmin div > a.button-cancel,
+.aquilaAdmin .wp-picker-container input[type="text"].wp-color-picker {
+    /* padding: 1px 12px 1px !important; */
+    /* box-sizing: border-box; */
+    /* vertical-align: middle; */
+}
+.aquilaAdmin.wp-core-ui a.page-title-action {
+    /* height: 36px !important; */
+    /* line-height: 34px !important; */
+}

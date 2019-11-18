@@ -1,0 +1,22 @@
+/* Morpho Admin - Custom Divi Builder Styles */
+
+
+#et-boc #et-fb-settings-column .et-fb-settings-tabs-nav-item {
+    max-width: inherit !important;
+}
+
+/* Cache header et footer dans le constructeur de page */
+.et-fb #top-header,
+.et-fb #main-header,
+.et-fb #my-footer {
+	display: none;
+}
+
+
+/* Styles from WP and other plugins
+------------------------------------------------------*/
+
+body.modal-open tr.compat-field-media-category,
+body.modal-open tr.compat-field-media-tag {
+    display: none;
+}

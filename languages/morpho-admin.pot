@@ -1,0 +1,119 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Morpho Admin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-15 14:33+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.0.3"
+
+#: includes/core-functions.php:174
+msgid "Sermon"
+msgstr ""
+
+#: includes/core-functions.php:193 includes/core-functions.php:542
+msgid "View Site"
+msgstr ""
+
+#: includes/core-functions.php:477
+msgid "Welcome to your dashboard"
+msgstr ""
+
+#: includes/core-functions.php:482
+msgid ""
+"You can use the links below to quickly navigate to the most important areas "
+"of the website"
+msgstr ""
+
+#: includes/core-functions.php:487
+msgid "If you need any assistance, please do not hesitate to contact me"
+msgstr ""
+
+#: includes/core-functions.php:492
+msgid "Hoping you will enjoy your experience with Wordpress!"
+msgstr ""
+
+#: includes/core-functions.php:523
+msgid "Welcome"
+msgstr ""
+
+#: includes/core-functions.php:672
+msgid "Events"
+msgstr ""
+
+#: includes/core-functions.php:931
+msgid "Posts to translate"
+msgstr ""
+
+#: includes/core-functions.php:975
+msgid "Pages to translate"
+msgstr ""
+
+#: includes/core-functions.php:1019
+msgid "Need assistance?"
+msgstr ""
+
+#: includes/core-functions.php:1030
+msgid "Contact me"
+msgstr ""
+
+#: includes/core-functions.php:1035
+msgid ""
+"If you have any questions or need assistance, call me or send me an email. I "
+"will answer you as soon as possible."
+msgstr ""
+
+#: includes/core-functions.php:1040
+msgid "Phone:"
+msgstr ""
+
+#: includes/core-functions.php:1045
+msgid "Email:"
+msgstr ""
+
+#: includes/core-functions.php:1109
+msgid "Trash"
+msgstr ""
+
+#: includes/core-functions.php:1117
+msgid "Stick this post to the Home Page"
+msgstr ""
+
+#: includes/core-functions.php:1121
+#, php-format
+msgid "Allow <a href=\"%s\">trackbacks and pingbacks</a>"
+msgstr ""
+
+#: includes/core-functions.php:1146
+msgid "Name and Surname"
+msgstr ""
+
+#: includes/core-functions.php:1160
+msgid "Personal data"
+msgstr ""
+
+#. Name of the plugin
+msgid "Morpho Admin"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"This plugin cleans and customizes admin area, allowing to better find "
+"yourself in all the mumbo jumbo of WordPress."
+msgstr ""
+
+#. Author of the plugin
+msgid "Philip Normandin"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/philipnormandin"
+msgstr ""
