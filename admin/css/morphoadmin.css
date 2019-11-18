@@ -1181,6 +1181,9 @@ body.aquilaAdmin .luv-framework-notice-inner {
 /* Aquila Admin UI - Menu
 ------------------------------------------------------------------------*/
 
+.aquilaAdmin #adminmenu {
+    margin: 5px 0;
+}
 .aquilaAdmin #adminmenu .wp-submenu a {
     line-height: 26px;
 }
