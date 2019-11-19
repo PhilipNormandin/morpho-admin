@@ -1181,6 +1181,9 @@ body.aquilaAdmin .luv-framework-notice-inner {
 /* Aquila Admin UI - Menu
 ------------------------------------------------------------------------*/
 
+.aquilaAdmin.et-common-scroll-lock #wpadminbar {
+    display: none;
+}
 .aquilaAdmin #adminmenu {
     margin: 5px 0;
 }
