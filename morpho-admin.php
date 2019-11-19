@@ -8,6 +8,7 @@ Author:      Philip Normandin
 Author URI:  https://profiles.wordpress.org/philipnormandin
 Text Domain: morpho-admin
 Domain Path: /languages
+GitHub Plugin URI: https://github.com/PhilipNormandin/morpho-admin
 License:     GPL2
 
 Morpho Admin is free software: you can redistribute it and/or modify
