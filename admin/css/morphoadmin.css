@@ -1181,9 +1181,6 @@ body.aquilaAdmin .luv-framework-notice-inner {
 /* Aquila Admin UI - Menu
 ------------------------------------------------------------------------*/
 
-.aquilaAdmin.et-common-scroll-lock #wpadminbar {
-    display: none;
-}
 .aquilaAdmin #adminmenu {
     margin: 5px 0;
 }
@@ -1303,7 +1300,10 @@ body.aquilaAdmin .luv-framework-notice-inner {
 /* Aquila Admin UI - Divi Builder
 ------------------------------------------------------------------------*/
 
-.aquilaAdmin #et-boc #et-fb-app .et-fb-modal.et-fb-modal--snapped {
+.aquilaAdmin.et-common-scroll-lock #wpadminbar {
+    display: none;
+}
+.aquilaAdmin:not(.et-common-scroll-lock) #et-boc #et-fb-app .et-fb-modal.et-fb-modal--snapped {
     top: 65px !important;
     transition: none;
 }
@@ -1342,7 +1342,7 @@ body.aquilaAdmin .luv-framework-notice-inner {
 .aquilaAdmin #et-fb-app .et-fb-modal.et-fb-modal--draggable[style*="inset: 64px"] {
     top: 65px !important;
 }
-.aquilaAdmin #et-fb-app .et-fb-modal.et-fb-modal--snapped .et-fb-modal__content {
+.aquilaAdmin:not(.et-common-scroll-lock) #et-fb-app .et-fb-modal.et-fb-modal--snapped .et-fb-modal__content {
     height: calc(100vh - 161px) !important;
     max-height: calc(100vh - 161px) !important;
 }
