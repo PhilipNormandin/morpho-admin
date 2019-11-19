@@ -1303,6 +1303,9 @@ body.aquilaAdmin .luv-framework-notice-inner {
 .aquilaAdmin.et-common-scroll-lock #wpadminbar {
     display: none;
 }
+.aquilaAdmin.block-editor-page .edit-post-layout .editor-post-publish-panel {
+    top: 65px;
+}
 .aquilaAdmin:not(.et-common-scroll-lock) #et-boc #et-fb-app .et-fb-modal.et-fb-modal--snapped {
     top: 65px !important;
     transition: none;
