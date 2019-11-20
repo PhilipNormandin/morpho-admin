@@ -15,18 +15,24 @@
     box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.25), 5px 0px 10px rgba(0, 0, 0, 0.22);
 }
 
-#wp-admin-bar-root-default * {
+#wp-admin-bar-my-account > a {
     color: #fff !important;
     font-size: 16px !important;
     line-height: 50px !important;
 }
 
-#wpadminbar .ab-icon,
-#wpadminbar .ab-item:before,
-#wpadminbar > #wp-toolbar > #wp-admin-bar-root-default .ab-icon {
+#wpadminbar .ab-icon {
   height: 50px;
   font-size: 28px;
   line-height: 2;
+}
+
+#wpadminbar .ab-icon,
+#wpadminbar .ab-item:before,
+#wpadminbar > #wp-toolbar > #wp-admin-bar-root-default .ab-icon {
+  /* height: 50px; */
+  /* font-size: 28px; */
+  /* line-height: 2; */
 }
 
 #wp-admin-bar-root-default > li > a,
