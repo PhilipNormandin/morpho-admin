@@ -46,10 +46,10 @@
 }
 
 #adminmenu {
-    background: #4a5158;
+    background: #4a5158 !important;
 }
 #adminmenu .wp-submenu {
-    background: #5e656c;
+    background: #5e656c !important;
 }
 
 
