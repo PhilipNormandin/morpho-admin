@@ -21,6 +21,14 @@
     line-height: 50px !important;
 }
 
+#wpadminbar .ab-icon,
+#wpadminbar .ab-item:before,
+#wpadminbar > #wp-toolbar > #wp-admin-bar-root-default .ab-icon {
+  height: 50px;
+  font-size: 28px;
+  line-height: 2;
+}
+
 #wp-admin-bar-root-default > li > a,
 #wp-admin-bar-root-default > li > a > .ab-label,
 #wp-admin-bar-root-default > li > div.ab-item,
