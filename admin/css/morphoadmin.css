@@ -9,7 +9,7 @@
 #wpadminbar {
     color: #fff;
     background: #5e656c;
-    /* height: 65px; */
+    height: 50px;
     -webkit-box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.25), 5px 0px 10px rgba(0, 0, 0, 0.22);
     -moz-box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.25), 5px 0px 10px rgba(0, 0, 0, 0.22);
     box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.25), 5px 0px 10px rgba(0, 0, 0, 0.22);
@@ -19,7 +19,7 @@
 #adminmenu .wp-submenu,
 #adminmenuback,
 #adminmenuwrap {
-    width: 250px;
+    width: 200px;
 }
 
 body.wp-admin #adminmenuback,
