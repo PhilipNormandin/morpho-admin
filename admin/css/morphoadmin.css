@@ -18,7 +18,7 @@
 #wp-admin-bar-root-default * {
     color: #fff !important;
     font-size: 16px !important;
-    line-height: 50px !important;
+    /* line-height: 50px !important; */
 }
 
 #wp-admin-bar-root-default > li > a,
@@ -35,7 +35,7 @@
 #adminmenu,
 #adminmenu .wp-submenu,
 #wp-admin-bar-view-site {
-    width: 200px;
+    /* width: 200px; */
 }
 
 #adminmenu,
@@ -52,7 +52,6 @@
 #adminmenu .wp-submenu {
     background: #5e656c !important;
 }
-
 #adminmenu a:hover {
     color: #fff !important;
     background-color: #727980 !important;
