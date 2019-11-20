@@ -53,6 +53,17 @@
     background: #5e656c !important;
 }
 
+#adminmenu a:hover {
+    background-color: #727980 !important;
+}
+
+body.wp-admin #adminmenu a:hover,
+body.wp-admin #adminmenu li.menu-top:hover,
+body.wp-admin #adminmenu li.opensub > a.menu-top,
+body.wp-admin #adminmenu li > a.menu-top:focus {
+    /* background-color: #727980 !important; */
+}
+
 
 body.wp-admin #adminmenu .wp-submenu,
 body.wp-admin #adminmenu .wp-has-current-submenu .wp-submenu,
