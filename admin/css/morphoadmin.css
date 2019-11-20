@@ -54,6 +54,7 @@
 }
 
 #adminmenu a:hover {
+    color: #fff !important;
     background-color: #727980 !important;
 }
 
