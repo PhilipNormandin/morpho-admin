@@ -32,7 +32,8 @@
     text-align: center;
 }
 
-#adminmenu {
+#adminmenu,
+#adminmenu .wp-submenu {
     width: 200px;
 }
 
