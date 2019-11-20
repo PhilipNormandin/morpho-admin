@@ -2,17 +2,33 @@
 
 
 /* =========================================
-                  Adminbar
+              Adminbar & Menu
 ========================================= */
 
 
 #wpadminbar {
     color: #fff;
     background: #5e656c;
+    /* height: 65px; */
     -webkit-box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.25), 5px 0px 10px rgba(0, 0, 0, 0.22);
     -moz-box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.25), 5px 0px 10px rgba(0, 0, 0, 0.22);
     box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.25), 5px 0px 10px rgba(0, 0, 0, 0.22);
 }
+
+#adminmenu,
+#adminmenu .wp-submenu,
+#adminmenuback,
+#adminmenuwrap {
+    width: 250px;
+}
+
+body.wp-admin #adminmenuback,
+body.wp-admin #adminmenuwrap,
+body.wp-admin #adminmenu {
+    background: #4a5158;
+}
+
+
 
 
 /* Propriétés communes
