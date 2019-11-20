@@ -247,7 +247,7 @@ function morphoadmin_remove_howdy( $wp_admin_bar ) {
         'title' => $newtitle,
     ));
 }
-add_filter( 'admin_bar_menu', 'morphoadmin_remove_howdy', 25 );
+add_filter( 'wp_before_admin_bar_render', 'morphoadmin_remove_howdy' );
 
 
 //	================================================================================================
