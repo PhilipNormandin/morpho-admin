@@ -15,7 +15,7 @@
     box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.25), 5px 0px 10px rgba(0, 0, 0, 0.22);
 }
 
-#wp-admin-bar-my-account > a {
+#wp-admin-bar-my-account > a.ab-item {
     color: #fff !important;
     font-size: 16px !important;
     line-height: 50px !important;
