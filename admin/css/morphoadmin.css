@@ -45,8 +45,19 @@
     /* width: 200px; */
 }
 
-body.wp-admin #adminmenu {
+#adminmenu {
     background: #4a5158;
+}
+#adminmenu .wp-submenu {
+    background: #5e656c;
+}
+
+
+body.wp-admin #adminmenu .wp-submenu,
+body.wp-admin #adminmenu .wp-has-current-submenu .wp-submenu,
+body.wp-admin #adminmenu .wp-has-current-submenu.opensub .wp-submenu,
+body.wp-admin #adminmenu a.wp-has-current-submenu:focus + .wp-submenu {
+    /* background: #5e656c; */
 }
 
 body.wp-admin #adminmenuback,
@@ -54,6 +65,8 @@ body.wp-admin #adminmenuwrap,
 body.wp-admin #adminmenu {
     /* background: #4a5158; */
 }
+
+
 
 
 
