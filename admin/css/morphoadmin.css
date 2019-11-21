@@ -433,15 +433,19 @@ body.wp-core-ui.post-new-php #major-publishing-actions {
     justify-content: space-between;
 }
 
-
+body.wp-core-ui.post-php #delete-action > a {
+    display: flex;
+    align-items: center;
+}
 body.wp-core-ui.post-type-post #delete-action > a,
 body.wp-core-ui.post-type-page #delete-action > a,
 body.wp-core-ui.post-type-class #delete-action > a,
 body.wp-core-ui.post-type-class a#trash,
 body.post-type-et_pb_layout #delete-action > a {
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
 }
+
 body.wp-core-ui.post-type-post #delete-action .submitdelete.deletion::before,
 body.wp-core-ui.post-type-page #delete-action .submitdelete.deletion::before,
 body.wp-core-ui.post-type-class #delete-action .submitdelete.deletion::before,
