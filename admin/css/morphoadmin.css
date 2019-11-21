@@ -431,6 +431,13 @@ body.wp-core-ui.post-php #major-publishing-actions {
     align-items: center;
     justify-content: space-between;
 }
+
+body.wp-core-ui.post-new-php #major-publishing-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 body.wp-core-ui.post-type-post #delete-action > a,
 body.wp-core-ui.post-type-page #delete-action > a,
 body.wp-core-ui.post-type-class #delete-action > a,
