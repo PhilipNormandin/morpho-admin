@@ -238,18 +238,6 @@ function morphoadmin_remove_help_tab( $old_help, $screen_id, $screen ) {
 add_filter( 'contextual_help', 'morphoadmin_remove_help_tab', 999, 3 );
 
 
-// remove howdy
-function morphoadmin_remove_howdy( $wp_admin_bar ) {
-    $my_account = $wp_admin_bar->get_node( 'my-account' );
-    $newtitle = $my_account->title;
-    $wp_admin_bar->add_node( array(
-        'id' => 'my-account',
-        'title' => $newtitle,
-    ));
-}
-add_filter( 'admin_bar_menu', 'morphoadmin_remove_howdy', 1 );
-
-
 //	================================================================================================
 //	Admin menus
 //	================================================================================================
