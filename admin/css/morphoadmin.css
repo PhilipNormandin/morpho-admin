@@ -1190,7 +1190,7 @@ body.aquilaAdmin .tablenav .tablenav-pages a:hover {
     font-family: "fontAwesome" !important;
     content: "\f03e";
     position: relative;
-    top: -1px;
+    bottom: 5px;
 }
 .aquilaAdmin #edit-slug-box {
     line-height: 27px;
