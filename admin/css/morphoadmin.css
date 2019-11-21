@@ -1056,13 +1056,20 @@ body#plugin-information.aquilaAdmin {
 }
 .aquilaAdmin.wp-core-ui #publish,
 .aquilaAdmin.wp-core-ui #save-post,
+.aquilaAdmin.wp-core-ui #wrapper__wcs_image .button {
+    align-items: center !important;
+}
+.aquilaAdmin.wp-core-ui #wp-content-editor-tools .button {
+    align-items: baseline !important;
+}
+.aquilaAdmin.wp-core-ui #publish,
+.aquilaAdmin.wp-core-ui #save-post,
 .aquilaAdmin.wp-core-ui #wp-content-editor-tools .button,
 .aquilaAdmin.wp-core-ui #wrapper__wcs_image .button {
     height: 28px !important;
     min-height: 28px !important;
     line-height: 29px !important;
     display: inline-flex;
-    align-items: center !important;
     justify-content: center !important;
     padding-top: 0px !important;
     padding-bottom: 0px !important;
