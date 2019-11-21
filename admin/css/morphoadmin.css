@@ -95,10 +95,6 @@ body.wp-admin #adminmenu {
 }
 
 
-
-
-
-
 /* Propriétés communes
 ------------------------------------------------------------------------*/
 
@@ -1073,6 +1069,7 @@ body.aquilaAdmin #et_pb_fb_cta {
 .aquilaAdmin.modal-open div.media-modal-content button.media-button {
     font-size: 13px !important;
     height: 28px !important;
+    min-height: 28px !important;
     line-height: 29px !important;
     display: inline-flex;
     align-items: baseline !important;
