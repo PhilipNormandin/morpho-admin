@@ -1050,11 +1050,13 @@ body#plugin-information.aquilaAdmin {
 .aquilaAdmin.wp-core-ui #save-post {
     font-size: 14px !important;
 }
+.aquilaAdmin.wp-core-ui #wp-content-editor-tools .button,
 .aquilaAdmin.wp-core-ui #wrapper__wcs_image .button {
     font-size: 13px !important;
 }
 .aquilaAdmin.wp-core-ui #publish,
 .aquilaAdmin.wp-core-ui #save-post,
+.aquilaAdmin.wp-core-ui #wp-content-editor-tools .button,
 .aquilaAdmin.wp-core-ui #wrapper__wcs_image .button {
     height: 28px !important;
     min-height: 28px !important;
