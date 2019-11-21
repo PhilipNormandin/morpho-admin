@@ -426,17 +426,13 @@ body.wp-core-ui #page_template {
 body.wp-core-ui textarea#excerpt {
     height: 9em !important;
 }
-body.wp-core-ui.post-php #major-publishing-actions {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
+body.wp-core-ui.post-php #major-publishing-actions,
 body.wp-core-ui.post-new-php #major-publishing-actions {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 
 body.wp-core-ui.post-type-post #delete-action > a,
 body.wp-core-ui.post-type-page #delete-action > a,
@@ -468,7 +464,8 @@ body.wp-core-ui.post-type-page #delete-action .submitdelete.deletion::before {
 body.aquilaAdmin.wp-core-ui.post-type-post #delete-action .submitdelete.deletion::before {
     bottom: 2px;
 }
-body.wp-core-ui.post-php #major-publishing-actions div.clear {
+body.wp-core-ui.post-php #major-publishing-actions div.clear,
+body.wp-core-ui.post-new-php #major-publishing-actions div.clear {
     display: none;
 }
 body.wp-core-ui.post-php #delete-action > a,
