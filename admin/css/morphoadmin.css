@@ -5,7 +5,7 @@
               Adminbar & Menu
 ========================================= */
 
-
+/*
 #wpadminbar {
     color: #fff;
     background: #5e656c;
@@ -26,7 +26,7 @@
     font-size: 28px;
     line-height: 2;
 }
-
+*/
 #wpadminbar .ab-icon,
 #wpadminbar .ab-item:before,
 #wpadminbar > #wp-toolbar > #wp-admin-bar-root-default .ab-icon {
@@ -34,6 +34,7 @@
   /* font-size: 28px; */
   /* line-height: 2; */
 }
+
 
 #wp-admin-bar-root-default > li > a,
 #wp-admin-bar-root-default > li > a > .ab-label,
@@ -44,13 +45,13 @@
 }
 
 #wp-admin-bar-view-site {
-    text-align: center;
+    /* text-align: center; */
 }
 
 #adminmenu,
 #adminmenu .wp-submenu,
 #wp-admin-bar-view-site {
-    width: 200px;
+    /* width: 200px; */
 }
 
 #adminmenu,
@@ -62,14 +63,14 @@
 }
 
 #adminmenu {
-    background: #4a5158 !important;
+    /* background: #4a5158 !important; */
 }
 #adminmenu .wp-submenu {
-    background: #5e656c !important;
+    /* background: #5e656c !important; */
 }
 #adminmenu a:hover {
     color: #fff !important;
-    background-color: #727980 !important;
+    /* background-color: #727980 !important; */
 }
 
 body.wp-admin #adminmenu a:hover,
