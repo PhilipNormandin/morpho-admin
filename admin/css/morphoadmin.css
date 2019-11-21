@@ -1035,6 +1035,29 @@ body#plugin-information.aquilaAdmin {
 /* Aquila Admin UI - Boutons
 ------------------------------------------------------------------------*/
 
+
+/*--------------------   CLEAN-UP   --------------------*/
+
+
+.aquilaAdmin.wp-core-ui #publish {
+    font-size: 13px !important;
+    height: 28px !important;
+    min-height: 28px !important;
+    line-height: 29px !important;
+    display: inline-flex;
+    align-items: baseline !important;
+    justify-content: center !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+
+    /* box-sizing: border-box !important; */
+    /* text-transform: inherit; */
+}
+
+
+/*--------------------   CLEAN-UP   --------------------*/
+
+
 .aquilaAdmin.wp-core-ui .button,
 .aquilaAdmin.wp-core-ui .button-cancel,
 .aquilaAdmin.wp-core-ui a.page-title-action,
@@ -1067,15 +1090,15 @@ body.aquilaAdmin #et_pb_fb_cta {
 .aquilaAdmin.wp-core-ui a.page-title-action,
 .aquilaAdmin.wp-core-ui input.button-secondary,
 .aquilaAdmin.modal-open div.media-modal-content button.media-button {
-    font-size: 13px !important;
-    height: 28px !important;
-    min-height: 28px !important;
-    line-height: 29px !important;
-    display: inline-flex;
-    align-items: baseline !important;
-    justify-content: center !important;
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;
+    /* font-size: 13px !important; */
+    /* height: 28px !important; */
+    /* min-height: 28px !important; */
+    /* line-height: 29px !important; */
+    /* display: inline-flex; */
+    /* align-items: baseline !important; */
+    /* justify-content: center !important; */
+    /* padding-top: 0px !important; */
+    /* padding-bottom: 0px !important; */
 
     /* box-sizing: border-box !important; */
     /* text-transform: inherit; */
