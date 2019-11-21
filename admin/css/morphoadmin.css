@@ -1040,6 +1040,14 @@ body#plugin-information.aquilaAdmin {
 }
 
 
+/* Aquila Admin UI - Pages Gutenberg
+------------------------------------------------------------------------*/
+
+.aquilaAdmin.wp-core-ui.block-editor-page .edit-post-header .is-button.editor-post-preview {
+
+}
+
+
 /* Aquila Admin UI - Boutons
 ------------------------------------------------------------------------*/
 
@@ -1065,7 +1073,8 @@ body#plugin-information.aquilaAdmin {
 .aquilaAdmin.wp-core-ui #publish,
 .aquilaAdmin.wp-core-ui #save-post,
 .aquilaAdmin.wp-core-ui #wp-content-editor-tools .button,
-.aquilaAdmin.wp-core-ui #wrapper__wcs_image .button {
+.aquilaAdmin.wp-core-ui #wrapper__wcs_image .button,
+.aquilaAdmin.wp-core-ui.block-editor-page .edit-post-header .is-button.editor-post-preview {
     height: 28px !important;
     min-height: 28px !important;
     line-height: 29px !important;
@@ -1323,7 +1332,6 @@ body.aquilaAdmin .luv-framework-notice-inner {
 
 /* Aquila Admin UI - Menu
 ------------------------------------------------------------------------*/
-
 
 .aquilaAdmin #adminmenuback {
     box-shadow: none;
