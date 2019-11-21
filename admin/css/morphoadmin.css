@@ -1046,10 +1046,13 @@ body#plugin-information.aquilaAdmin {
 
 /*--------------------   CLEAN-UP   --------------------*/
 
-
 .aquilaAdmin.wp-core-ui #publish,
 .aquilaAdmin.wp-core-ui #save-post {
     font-size: 13px !important;
+}
+.aquilaAdmin.wp-core-ui #publish,
+.aquilaAdmin.wp-core-ui #save-post,
+.aquilaAdmin.wp-core-ui #wrapper__wcs_image .button {
     height: 28px !important;
     min-height: 28px !important;
     line-height: 29px !important;
