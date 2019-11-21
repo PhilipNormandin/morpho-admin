@@ -306,7 +306,7 @@ body.wp-core-ui #publishing-action .spinner {
     z-index: -1;
 }
 body.wp-core-ui #wpadminbar {
-    z-index: 2000002 !important;
+    /* z-index: 2000002 !important; */
 }
 body.wp-core-ui div#minor-publishing {
     padding-left: 10px;
@@ -597,7 +597,7 @@ body.post-php #seopress_content_analysis li[role="tab"] > a:focus {
     box-shadow: none !important;
 }
 body.aquilaAdmin.modal-open div.media-modal-content {
-    top: 65px;
+    /* top: 65px; */
 }
 /*
 body.aquilaAdmin.modal-open div.media-modal {
