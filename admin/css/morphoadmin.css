@@ -1324,6 +1324,10 @@ body.aquilaAdmin .luv-framework-notice-inner {
 /* Aquila Admin UI - Menu
 ------------------------------------------------------------------------*/
 
+
+.aquilaAdmin #adminmenuback {
+    box-shadow: none;
+}
 .aquilaAdmin #adminmenu {
     margin: 5px 0;
 }
