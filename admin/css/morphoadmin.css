@@ -1052,7 +1052,7 @@ body#plugin-information.aquilaAdmin {
     height: calc(100% - 35px);
 }
 body.aquilaAdmin.wp-admin {
-    background: #fff;
+    /* background: #fff; */
 }
 
 
