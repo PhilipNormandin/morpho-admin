@@ -1089,8 +1089,7 @@ body#plugin-information.aquilaAdmin {
     /* box-sizing: border-box !important; */
     /* text-transform: inherit; */
 }
-.aquilaAdmin.wp-core-ui #misc-publishing-actions .button,
-.aquilaAdmin.wp-core-ui #wp-content-editor-tools .button {
+.aquilaAdmin.wp-core-ui #misc-publishing-actions .button {
     height: 28px !important;
     min-height: 28px !important;
     line-height: 29px !important;
