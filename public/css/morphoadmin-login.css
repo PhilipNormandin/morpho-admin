@@ -53,17 +53,17 @@ body.login input[type="checkbox"]:checked::before {
 body.login .button {
     background-color: #05a !important;
     color: #fff;
-    padding: 10px 15px 9px 15px !important;
     height: auto !important;
     line-height: inherit !important;
-    margin-top: 3%;
     border: none;
 }
 body.login p.forgetmenot {
-    margin-top: 3% !important;
+    margin-bottom: 16px !important;
+    width: 100%;
 }
 body.login p.submit > input {
-
+    width: 100%;
+    font-size: 17px;
 }
 body.login .button:hover,
 body.login .button:active,
