@@ -15,6 +15,7 @@ body.login p#backtoblog a,
 body.login label {
     color: #444 !important;
 }
+body.login label,
 body.login p.message,
 body.login p.custom-message,
 body.login #login_error,
@@ -32,12 +33,12 @@ body.login .button {
     color: #fff;
 }
 body.login p.forgetmenot {
-    margin-bottom: 18px !important;
+    margin-bottom: 16px !important;
     width: 100%;
 }
 body.login p.submit > input {
     border-radius: 4px;
-    font-size: 17px;
+    font-size: 18px;
     width: 100%;
 }
 body.login #nav,
