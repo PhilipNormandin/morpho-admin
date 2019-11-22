@@ -1059,6 +1059,12 @@ body.aquilaAdmin.wp-admin {
 /* Aquila Admin UI - Pages Gutenberg
 ------------------------------------------------------------------------*/
 
+.aquilaAdmin.block-editor-page #wp-admin-bar-screenOptions {
+    display: none;
+}
+.aquilaAdmin.block-editor-page #wp-admin-bar-my-account {
+    margin-right: 0;
+}
 .aquilaAdmin .components-modal__header {
     height: 57px;
 }
@@ -1327,15 +1333,12 @@ body.aquilaAdmin.wp-core-ui .button.button-small {
 .aquilaAdmin #wp-admin-bar-user-actions > li {
     margin: 0px !important;
 }
-.aquilaAdmin:not(.block-editor-page) #wp-admin-bar-my-account {
+.aquilaAdmin #wp-admin-bar-my-account {
     margin-right: 60px;
 }
 .aquilaAdmin #wp-admin-bar-screenOptions {
     position: absolute;
     right: 0px;
-}
-.aquilaAdmin.block-editor-page #wp-admin-bar-screenOptions {
-    display: none;
 }
 .aquilaAdmin #wpadminbar li.screenLink#wp-admin-bar-screenOptions .ab-item {
     padding: 0;
