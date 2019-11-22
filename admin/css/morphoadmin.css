@@ -1077,7 +1077,8 @@ body#plugin-information.aquilaAdmin {
 .aquilaAdmin.wp-core-ui #publish,
 .aquilaAdmin.wp-core-ui #save-post,
 .aquilaAdmin.wp-core-ui #wp-content-editor-tools .button,
-.aquilaAdmin.wp-core-ui #wrapper__wcs_image .button {
+.aquilaAdmin.wp-core-ui #wrapper__wcs_image .button,
+.aquilaAdmin.wp-core-ui .media-modal .media-button {
     height: 30px !important;
     min-height: 30px !important;
     line-height: 31px !important;
@@ -1207,7 +1208,7 @@ body.aquilaAdmin .tablenav .tablenav-pages a:hover {
     font-family: "fontAwesome" !important;
     content: "\f03e";
     position: relative;
-    bottom: 5px;
+    bottom: 6px;
 }
 .aquilaAdmin #edit-slug-box {
     line-height: 27px;
