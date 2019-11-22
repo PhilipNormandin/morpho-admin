@@ -1045,6 +1045,9 @@ body#plugin-information.aquilaAdmin {
     top: 35px;
     height: calc(100% - 35px);
 }
+body.aquilaAdmin.wp-admin {
+    background: #fff;
+}
 
 
 /* Aquila Admin UI - Pages Gutenberg
