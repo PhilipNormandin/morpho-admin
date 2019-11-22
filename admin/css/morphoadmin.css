@@ -1053,6 +1053,10 @@ body.aquilaAdmin.wp-admin {
 /* Aquila Admin UI - Pages Gutenberg
 ------------------------------------------------------------------------*/
 
+.aquilaAdmin .components-modal__header {
+    height: 57px;
+}
+
 .aquilaAdmin.wp-core-ui.block-editor-page .edit-post-header .is-button.editor-post-preview {
 
 }
