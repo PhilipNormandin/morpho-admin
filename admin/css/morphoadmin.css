@@ -368,8 +368,9 @@ body.wp-core-ui #misc-publishing-actions a.button-cancel {
     width: 90px;
     text-align: center;
 }
+
 body.wp-core-ui #misc-publishing-actions a.button {
-    margin-left: 38px;
+    /* margin-left: 38px; */
 }
 
 body.wp-core-ui #misc-publishing-actions #timestampdiv > p {
