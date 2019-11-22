@@ -1314,7 +1314,7 @@ body.aquilaAdmin.wp-core-ui .button.button-small {
 .aquilaAdmin #wp-admin-bar-user-actions > li {
     margin: 0px !important;
 }
-.aquilaAdmin #wp-admin-bar-my-account {
+.aquilaAdmin:not(.block-editor-page) #wp-admin-bar-my-account {
     margin-right: 60px;
 }
 .aquilaAdmin #wp-admin-bar-screenOptions {
