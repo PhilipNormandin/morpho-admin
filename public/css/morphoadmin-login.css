@@ -53,9 +53,6 @@ body.login input[type="checkbox"]:checked::before {
 body.login .button {
     background-color: #05a !important;
     color: #fff;
-    height: auto !important;
-    line-height: inherit !important;
-    border: none;
 }
 body.login p.forgetmenot {
     margin-bottom: 16px !important;
