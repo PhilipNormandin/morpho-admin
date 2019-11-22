@@ -64,11 +64,13 @@ body.login p.submit > input {
 }
 body.login .button:hover,
 body.login .button:active,
-body.login .button:focus,
+body.login .button:focus {
+    background-color: #06c !important;
+}
 .login #backtoblog a:hover,
 .login #nav a:hover,
 .login h1 a:hover {
-    background-color: #06c !important;
+    color: #06c !important;
 }
 body.login #login_error,
 body.login .message,
