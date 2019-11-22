@@ -709,7 +709,7 @@ body.options-general-php #start_of_week {
 
 #seopress_cpt .sp-progress-bar,
 #seopress_pro_cpt .sp-progress-bar {
-    width: auto;
+    width: auto !important;
 }
 
 
