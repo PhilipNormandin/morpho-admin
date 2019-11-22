@@ -66,6 +66,7 @@ body.login .button:hover,
 body.login .button:active,
 body.login .button:focus {
     background-color: #06c !important;
+    color: #fff !important;
 }
 .login #backtoblog a:hover,
 .login #nav a:hover,
@@ -73,7 +74,7 @@ body.login .button:focus {
     color: #06c !important;
 }
 .login #user_pass .button {
-    color: red;
+    /* color: red; */
 }
 body.login #login_error,
 body.login .message,
