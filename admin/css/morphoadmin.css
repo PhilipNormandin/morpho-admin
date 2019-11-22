@@ -1321,6 +1321,9 @@ body.aquilaAdmin.wp-core-ui .button.button-small {
     position: absolute;
     right: 0px;
 }
+.aquilaAdmin.block-editor-page #wp-admin-bar-screenOptions {
+    display: none;
+}
 .aquilaAdmin #wpadminbar li.screenLink#wp-admin-bar-screenOptions .ab-item {
     padding: 0;
     width: 60px;
