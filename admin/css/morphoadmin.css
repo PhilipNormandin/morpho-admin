@@ -369,12 +369,12 @@ body.wp-core-ui #misc-publishing-actions a.button-cancel {
     text-align: center;
 }
 body.wp-core-ui #misc-publishing-actions a.button {
-    /* margin-left: 38px; */
+    margin-left: 38px;
 }
 
 body.wp-core-ui #misc-publishing-actions #timestampdiv > p {
-    display: flex;
-    justify-content: space-around;
+    /* display: flex; */
+    /* justify-content: space-around; */
 }
 
 body.wp-core-ui #misc-publishing-actions a.button-cancel {
