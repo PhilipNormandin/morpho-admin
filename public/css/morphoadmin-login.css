@@ -72,6 +72,9 @@ body.login .button:focus {
 .login h1 a:hover {
     color: #06c !important;
 }
+.login #user_pass .dashicons:hover {
+    color: inherit;
+}
 body.login #login_error,
 body.login .message,
 body.login .success {
