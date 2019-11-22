@@ -36,8 +36,9 @@ body.login p.forgetmenot {
     width: 100%;
 }
 body.login p.submit > input {
-    width: 100%;
+    border-radius: 4px;
     font-size: 17px;
+    width: 100%;
 }
 body.login #nav,
 body.login p.custom-message {
@@ -49,10 +50,10 @@ body.login p#backtoblog a {
 body.login #login_error,
 body.login .message,
 body.login .success {
-    border-left: none !important;
-    background-color: transparent !important;
-    box-shadow: none !important;
-    text-align: center !important;
+    /* border-left: none !important; */
+    /* background-color: transparent !important; */
+    /* box-shadow: none !important; */
+    /* text-align: center !important; */
 }
 
 
