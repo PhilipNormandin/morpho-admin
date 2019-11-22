@@ -1076,7 +1076,6 @@ body#plugin-information.aquilaAdmin {
 }
 .aquilaAdmin.wp-core-ui #publish,
 .aquilaAdmin.wp-core-ui #save-post,
-.aquilaAdmin.wp-core-ui #wp-content-editor-tools .button,
 .aquilaAdmin.wp-core-ui #wrapper__wcs_image .button,
 .aquilaAdmin.wp-core-ui .media-modal .media-button {
     height: 30px !important;
@@ -1089,6 +1088,12 @@ body#plugin-information.aquilaAdmin {
     /* padding-bottom: 0px !important; */
     /* box-sizing: border-box !important; */
     /* text-transform: inherit; */
+}
+.aquilaAdmin.wp-core-ui #misc-publishing-actions .button,
+.aquilaAdmin.wp-core-ui #wp-content-editor-tools .button {
+    height: 28px !important;
+    min-height: 28px !important;
+    line-height: 29px !important;
 }
 .aquilaAdmin.wp-core-ui.block-editor-page .edit-post-header .is-button.editor-post-preview,
 .aquilaAdmin.wp-core-ui.block-editor-page .edit-post-header .is-button.editor-post-publish-panel__toggle {
