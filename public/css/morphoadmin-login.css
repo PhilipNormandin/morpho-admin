@@ -72,7 +72,7 @@ body.login .button:focus {
 .login h1 a:hover {
     color: #06c !important;
 }
-.login #user_pass .dashicons::before {
+.login #user_pass .button {
     color: red;
 }
 body.login #login_error,
