@@ -40,7 +40,7 @@ body.login #login form {
 body.login #login input[type="text"],
 body.login #login input[type="password"],
 body.login #login input[type="checkbox"] {
-    border-color: #bdbdbd !important;
+    /* border-color: #bdbdbd !important; */
 }
 body.login #login input[type="text"]:focus,
 body.login #login input[type="password"]:focus,
@@ -64,7 +64,10 @@ body.login p.submit > input {
 }
 body.login .button:hover,
 body.login .button:active,
-body.login .button:focus {
+body.login .button:focus,
+.login #backtoblog a:hover,
+.login #nav a:hover,
+.login h1 a:hover {
     background-color: #06c !important;
 }
 body.login #login_error,
