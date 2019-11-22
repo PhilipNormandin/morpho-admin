@@ -422,6 +422,12 @@ body.wp-core-ui #post_tag .ajaxtag > p {
     display: flex;
     align-items: baseline;
 }
+body.wp-core-ui #post_lang_choice {
+    min-height: 22px;
+}
+body.wp-core-ui #post-translations {
+    padding-top: 15px;
+}
 body.wp-core-ui #post_lang_choice,
 body.wp-core-ui #post_tag .ajaxtag > p .button,
 body.wp-core-ui #post_author_override,
