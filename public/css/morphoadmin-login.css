@@ -19,36 +19,13 @@ body.login p#nav a,
 body.login p#backtoblog a {
     font-size: 15px;
 }
-body.login p#backtoblog a {
-    display: none;
-}
 body.login #login form {
-    background-color: #fff !important;
-    margin: 30px auto 10px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    border-radius: 5px;
-    -webkit-box-shadow: 0 0 15px rgba(0,0,0,.8);
-    box-shadow: 0 0 15px rgba(0,0,0,.8);
-    max-width: 350px;
-    padding: 26px 26px 20px 26px;
-    width: 100%;
-    box-sizing: border-box;
-}
-body.login #login input[type="text"],
-body.login #login input[type="password"],
-body.login #login input[type="checkbox"] {
-    /* border-color: #bdbdbd !important; */
+    padding: 24px;
 }
 body.login #login input[type="text"]:focus,
 body.login #login input[type="password"]:focus,
 body.login #login input[type="checkbox"]:focus {
     box-shadow: inset 0 1px 2px rgba(0,0,0,.07) !important;
-}
-body.login input[type="checkbox"]:checked::before {
-    /* margin: -2px 0 0 -4px !important; */
 }
 body.login .button {
     background-color: #05a !important;
@@ -62,6 +39,25 @@ body.login p.submit > input {
     width: 100%;
     font-size: 17px;
 }
+body.login #nav,
+body.login p.custom-message {
+    text-align: center !important;
+}
+body.login p#backtoblog a {
+    display: none;
+}
+body.login #login_error,
+body.login .message,
+body.login .success {
+    border-left: none !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    text-align: center !important;
+}
+
+
+/* Hover - Active - Focus effects */
+
 body.login .button:hover,
 body.login .button:active,
 body.login .button:focus {
@@ -73,18 +69,8 @@ body.login .button:focus {
 .login h1 a:hover {
     color: #06c !important;
 }
-.login #user_pass .button {
-    /* color: red; */
-}
-body.login #login_error,
-body.login .message,
-body.login .success {
-    border-left: none !important;
-    background-color: transparent !important;
-    box-shadow: none !important;
-    text-align: center !important;
-}
-body.login #nav,
-body.login p.custom-message {
-    text-align: center !important;
+body.login #login input[type="text"]:focus,
+body.login #login input[type="password"]:focus,
+body.login #login input[type="checkbox"]:focus {
+    border-color: #06c !important;
 }
