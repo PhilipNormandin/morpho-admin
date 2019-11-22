@@ -85,9 +85,9 @@ function morphoadmin_custom_login_styles() {
 
 	// if ( 'enable' === $styles ) {
 
-		wp_enqueue_style( 'morphoadmin-login', plugin_dir_url( dirname( __FILE__ ) ) . 'public/css/morphoadmin-login.css', array(), null, 'screen' );
+		// wp_enqueue_style( 'morphoadmin-login', plugin_dir_url( dirname( __FILE__ ) ) . 'public/css/morphoadmin-login.css', array(), null, 'screen' );
 
-		wp_enqueue_script( 'morphoadmin-login', plugin_dir_url( dirname( __FILE__ ) ) . 'public/js/morphoadmin-login.js', array(), null, true );
+		// wp_enqueue_script( 'morphoadmin-login', plugin_dir_url( dirname( __FILE__ ) ) . 'public/js/morphoadmin-login.js', array(), null, true );
 
 	// }
 
