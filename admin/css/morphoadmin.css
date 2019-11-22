@@ -1052,7 +1052,7 @@ body#plugin-information.aquilaAdmin {
 }
 
 
-/* Aquila Admin UI - Boutons
+/* Aquila Admin UI - Boutons et Inputs
 ------------------------------------------------------------------------*/
 
 
@@ -1094,6 +1094,9 @@ body#plugin-information.aquilaAdmin {
 .aquilaAdmin.wp-core-ui.block-editor-page .edit-post-header .is-button.editor-post-publish-panel__toggle {
     display: inline-flex;
     align-items: baseline;
+}
+.aquilaAdmin.wp-core-ui #wcs-datepicker {
+    min-height: 28px;
 }
 
 
