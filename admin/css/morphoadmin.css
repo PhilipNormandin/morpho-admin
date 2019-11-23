@@ -1078,6 +1078,11 @@ body.aquilaAdmin.wp-admin {
 .aquilaAdmin .components-modal__header {
     height: 57px;
 }
+@media (min-width: 960px) {
+    .aquilaAdmin.auto-fold .edit-post-layout__content .components-editor-notices__snackbar {
+        left: 250px;
+    }
+}
 
 .aquilaAdmin.wp-core-ui.block-editor-page .edit-post-header .is-button.editor-post-preview {
 
