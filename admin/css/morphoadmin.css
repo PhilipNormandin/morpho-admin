@@ -227,8 +227,8 @@ body.wp-admin #sb_divi_fe_meta_box .inside select {
 
 /* add bit of padding on left and right of content in edit pages */
 body.aquilaAdmin #poststuff {
-    padding-left: 2px;
-    padding-right: 2px;
+    /* padding-left: 2px; */
+    /* padding-right: 2px; */
 }
 
 
@@ -703,11 +703,24 @@ body.post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child > select:
 ------------------------------------------------------------------------*/
 
 
+.block-editor-page #poststuff h2 {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: normal;
+}
 .block-editor-page .meta-box-sortables .postbox .toggle-indicator::before {
     content: "\f343" !important;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #000;
+    width: 15px;
 }
 .block-editor-page .meta-box-sortables .postbox.closed .toggle-indicator::before {
     content: "\f347" !important;
+}
+.block-editor-page .edit-post-meta-boxes-area .postbox .handlediv {
+    height: 45px;
+    width: 45px;
 }
 
 
