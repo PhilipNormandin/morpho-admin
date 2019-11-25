@@ -684,8 +684,8 @@ body.post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child > p:nth-c
 }
 body.post-type-class #wcs-datepicker {
     grid-column: 1/4;
-    margin: 10px 0px;
-    width: inherit;
+    margin: 10px 0px !important;
+    width: inherit !important;
 }
 body.post-type-class #wcs-schedule .wcs-admin-metabox-time select {
     width: auto;
