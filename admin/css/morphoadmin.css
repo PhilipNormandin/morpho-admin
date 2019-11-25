@@ -671,7 +671,7 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 }
 
 
-/* Événements - Plugin Events Schedule
+/* Événements (Plugin Events Schedule)
 ------------------------------------------------------------------------*/
 
 body.post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child {
@@ -698,13 +698,16 @@ body.post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child > select:
     margin-right: 0;
 }
 
-body.post-type-class #wcs-schedule .wcs-admin-metabox-time input[type="text"][readonly] {
-    /* width: auto; */
-    /* min-width: 110px; */
+
+/* Gutenberg
+------------------------------------------------------------------------*/
+
+
+.block-editor-page .meta-box-sortables .postbox .toggle-indicator::before {
+    content: "\f343" !important;
 }
-body.post-type-class #wcs-schedule .wcs-admin-metabox-time select {
-    /* width: auto; */
-    /* min-width: 44px; */
+.block-editor-page .meta-box-sortables .postbox.closed .toggle-indicator::before {
+    content: "\f347" !important;
 }
 
 
