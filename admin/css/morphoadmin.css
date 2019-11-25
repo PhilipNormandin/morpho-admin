@@ -697,6 +697,9 @@ body.post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child > select:
 body.post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child > select:nth-child(7) {
     margin-right: 0;
 }
+.block-editor-page #wcs_date_time_metabox h2 > span {
+    margin-right: -4px;
+}
 
 
 /* Gutenberg
