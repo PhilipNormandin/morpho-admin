@@ -676,8 +676,8 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 
 body.post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child {
     display: grid;
-    grid-template-columns: repeat(3, auto);
-    width: 230px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
 }
 body.post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child > p:nth-child(3) {
     grid-column: 1/4;
@@ -685,12 +685,10 @@ body.post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child > p:nth-c
 body.post-type-class #wcs-datepicker {
     grid-column: 1/4;
     margin: 10px 0px !important;
-    width: inherit !important;
     text-align: center;
 }
 body.post-type-class #wcs-schedule .wcs-admin-metabox-time select {
     width: auto;
-    min-width: inherit;
     box-sizing: border-box;
 }
 body.post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child > select:nth-child(5) {
