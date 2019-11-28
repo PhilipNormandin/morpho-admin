@@ -685,7 +685,7 @@ body.post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child > p:nth-c
 }
 body.post-type-class #wcs-datepicker {
     grid-column: 1/4;
-    margin: 10px 0px !important;
+    margin: 5px 0px 10px !important;
     text-align: center;
 }
 body.post-type-class #wcs-schedule .wcs-admin-metabox-time select {
@@ -712,7 +712,6 @@ body.post-type-class.aquilaAdmin #wcs-schedule p strong {
     border-bottom: none !important;
 }
 #wcs_date_time_metabox {
-    border-top: 1px solid #e2e4e7;
     border-bottom: 1px solid #e2e4e7;
 }
 
