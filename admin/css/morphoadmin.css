@@ -128,7 +128,7 @@ body.wp-admin.aquilaAdmin div.media-modal div.imgedit-submit input.button,
 body.aquilaAdmin div.media-modal-content button.media-button,
 body.aquilaAdmin div.media-modal-content div.upload-ui button.button,
 .aquilaAdmin #plugin-information-footer a.button,
-.aquilaAdmin .components-base-control__field {
+.aquilaAdmin .components-base-control__label {
     font-family: 'Roboto', "Franklin Gothic Medium", Tahoma, sans-serif !important;
 }
 /* body.admin-bar #wpadminbar *, */
