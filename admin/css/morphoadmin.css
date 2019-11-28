@@ -672,7 +672,7 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 }
 
 
-/* Événements (Plugin Events Schedule)
+/* Gutenberg - Events Schedule - Polylang
 ------------------------------------------------------------------------*/
 
 body.post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child {
@@ -707,6 +707,13 @@ body.post-type-class.aquilaAdmin #wcs-schedule p strong {
 .edit-post-meta-boxes-area .postbox > .inside {
     padding-left: 16px !important;
     padding-right: 16px !important;
+}
+.edit-post-meta-boxes-area #poststuff h2.hndle {
+    border-bottom: none !important;
+}
+#wcs_date_time_metabox {
+    border-top: 1px solid #e2e4e7;
+    border-bottom: 1px solid #e2e4e7;
 }
 
 
