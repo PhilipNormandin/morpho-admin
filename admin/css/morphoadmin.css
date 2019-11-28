@@ -701,7 +701,7 @@ body.post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child > select:
 .block-editor-page #wcs_date_time_metabox h2 {
     margin-left: -3px;
 }
-body.post-type-class.aquilaAdmin #wcs-schedule p {
+body.post-type-class.aquilaAdmin #wcs-schedule p strong {
     font-weight: 400;
 }
 
