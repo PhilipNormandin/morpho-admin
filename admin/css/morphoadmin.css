@@ -69,7 +69,7 @@
     /* background: #5e656c !important; */
 }
 #adminmenu a:hover {
-    color: #fff !important;
+    /* color: #fff !important; */
     /* background-color: #727980 !important; */
 }
 
@@ -127,7 +127,8 @@ body.wp-admin.aquilaAdmin div.media-modal div.attachment-actions button.edit-att
 body.wp-admin.aquilaAdmin div.media-modal div.imgedit-submit input.button,
 body.aquilaAdmin div.media-modal-content button.media-button,
 body.aquilaAdmin div.media-modal-content div.upload-ui button.button,
-.aquilaAdmin #plugin-information-footer a.button {
+.aquilaAdmin #plugin-information-footer a.button,
+.aquilaAdmin .components-base-control {
     font-family: 'Roboto', "Franklin Gothic Medium", Tahoma, sans-serif !important;
 }
 /* body.admin-bar #wpadminbar *, */
@@ -698,7 +699,10 @@ body.post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child > select:
     margin-right: 0;
 }
 .block-editor-page #wcs_date_time_metabox h2 {
-    margin-left: -4px;
+    margin-left: -3px;
+}
+body.post-type-class.aquilaAdmin #wcs-schedule p {
+    font-weight: 400;
 }
 
 
