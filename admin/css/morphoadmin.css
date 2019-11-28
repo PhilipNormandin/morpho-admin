@@ -714,6 +714,11 @@ body.post-type-class.aquilaAdmin #wcs-schedule p strong {
 #wcs_date_time_metabox {
     border-bottom: 1px solid #e2e4e7;
 }
+#wcs-schedule > p:nth-child(2),
+#wcs-duration-container {
+    margin-bottom: 10px;
+}
+
 
 
 /* Gutenberg
