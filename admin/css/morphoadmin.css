@@ -718,6 +718,16 @@ body.post-type-class.aquilaAdmin #wcs-schedule p strong {
 #wcs-duration-container {
     margin-bottom: 10px;
 }
+#wcs-repeat-container > p:first-child {
+    display: flex;
+    align-items: baseline;
+}
+#wcs-repeat-container > p:first-child > select {
+    box-sizing: border-box;
+    width: auto;
+}
+
+
 
 
 
