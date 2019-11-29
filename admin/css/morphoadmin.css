@@ -710,11 +710,7 @@ body.post-type-class.aquilaAdmin #wcs-schedule p strong {
     border-bottom: none !important;
 }
 #wcs_date_time_metabox {
-    border-bottom: 1px solid #e2e4e7;
-}
-#wcs-schedule > p:nth-child(2),
-#wcs-duration-container {
-    margin-bottom: 10px;
+    /* border-bottom: 1px solid #e2e4e7; */
 }
 #wcs-repeat-container > p:first-child,
 #wcs-repeat-container ~ p {
@@ -722,14 +718,15 @@ body.post-type-class.aquilaAdmin #wcs-schedule p strong {
     align-items: baseline;
     justify-content: space-between;
 }
-#wcs-repeat-container > p:first-child > select {
-
-}
-body.post-type-class #wcs-schedule select[name="wcs-interval"],
-body.post-type-class #wcs-schedule select[name="wcs-status"] {
+#wcs-schedule select[name="wcs-interval"],
+#wcs-schedule select[name="wcs-status"] {
     box-sizing: border-box;
-    margin-left: 10px;
     width: auto;
+}
+#wcs-schedule .wcs-admin-metabox-time ~ p,
+#wcs-duration-container,
+#wcs-repeat-container ~ p {
+    margin-bottom: 10px;
 }
 
 
