@@ -677,7 +677,7 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
     font-size: 13px !important;
     font-weight: 600 !important;
     line-height: normal;
-    text-transform: capitalize !important;
+    text-transform: inherit !important;
 }
 .block-editor-page .meta-box-sortables .postbox .toggle-indicator::before {
     content: "\f343" !important;
