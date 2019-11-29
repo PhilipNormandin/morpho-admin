@@ -701,6 +701,11 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 }
 .block-editor-page #poststuff .inside {
     max-width: 400px;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+.block-editor-page .edit-post-meta-boxes-area .postbox > .inside {
+
 }
 
 
@@ -734,18 +739,11 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
     margin: 5px 0px 10px !important;
     text-align: center;
 }
-.block-editor-page #wcs-schedule select {
-
-}
 .block-editor-page #wcs_date_time_metabox h2 {
     margin-left: -3px;
 }
 .block-editor-page.aquilaAdmin #wcs-schedule p strong {
     font-weight: 400;
-}
-.block-editor-page .edit-post-meta-boxes-area .postbox > .inside {
-    padding-left: 16px !important;
-    padding-right: 16px !important;
 }
 .block-editor-page #wcs-repeat-container > p:first-child,
 .block-editor-page #wcs-repeat-container ~ p {
