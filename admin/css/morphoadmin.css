@@ -732,7 +732,7 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
     text-align: center;
 }
 .block-editor-page #wcs-schedule .wcs-admin-metabox-time select {
-    box-sizing: border-box;
+    box-sizing: border-box !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
     width: auto !important;
@@ -755,18 +755,19 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 }
 #wcs-schedule select[name="wcs-interval"],
 #wcs-schedule select[name="wcs-status"] {
-    box-sizing: border-box !important;
-    width: auto !important;
+    /* box-sizing: border-box !important; */
+    /* width: auto !important; */
 }
-#wcs-schedule .wcs-admin-metabox-time {
+.block-editor-page #wcs-schedule .wcs-admin-metabox-time,
+.block-editor-page #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending {
     margin-bottom: 16px !important;
 }
-#wcs-schedule .wcs-admin-metabox-time ~ p:nth-child(2),
-#wcs-duration-container,
-#wcs-repeat-container > p:first-child {
+.block-editor-page #wcs-schedule .wcs-admin-metabox-time ~ p:nth-child(2),
+.block-editor-page #wcs-duration-container,
+.block-editor-page #wcs-repeat-container > p:first-child {
     margin-bottom: 14px !important;
 }
-#wcs-repeat-container ~ p {
+.block-editor-page #wcs-repeat-container ~ p {
     margin-bottom: 0 !important;
 }
 
