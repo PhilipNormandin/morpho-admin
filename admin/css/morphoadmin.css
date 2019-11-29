@@ -618,9 +618,12 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 .block-editor-page.js .postbox .hndle {
     cursor: pointer !important;
 }
+.block-editor-page .edit-post-settings-sidebar__panel-block .components-button {
+    font-family: revert !important;
+}
 
 
-/* Events Schedule */
+/* Events Schedule - Polylang */
 
 .block-editor-page .meta-box-sortables #wcs-settings.postbox .hndle:hover,
 .block-editor-page .meta-box-sortables #wcs_date_time_metabox.postbox .hndle:hover,
