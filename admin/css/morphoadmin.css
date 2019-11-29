@@ -702,6 +702,9 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 .block-editor-page .edit-post-meta-boxes-area .postbox > .inside {
     border-bottom: none !important;
 }
+.block-editor-page .edit-post-meta-boxes-area .postbox {
+    border-bottom: 1px solid #e2e4e7;
+}
 .block-editor-page #poststuff .inside {
     max-width: 400px;
     padding-left: 16px !important;
