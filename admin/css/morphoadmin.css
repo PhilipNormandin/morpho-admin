@@ -685,6 +685,9 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
     font-size: 16px !important;
     font-weight: bolder !important;
     width: 15px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
 }
 .block-editor-page .meta-box-sortables .postbox.closed .toggle-indicator::before {
     content: "\f347" !important;
