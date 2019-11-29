@@ -5,24 +5,10 @@
 ------------------------------------------------------------------------*/
 
 body.admin-bar {
-  opacity: 1 !important;
+  /* opacity: 1 !important; */
   /* transition: opacity 0s; */
 }
 
-/* @font-face {
-    font-family: 'myRoboto';
-    src: url('../../fonts/Roboto/Roboto-Regular.ttf');
-    font-weight: normal;
-} */
-
-/* roboto-regular - latin */
-/* @font-face {
-  font-family: 'myRoboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../../fonts/roboto-v18-latin-regular.woff2') format('woff2'),
-       url('../../fonts/roboto-v18-latin-regular.woff') format('woff');
-} */
 
 body.admin-bar.aquilaAdmin #wpadminbar,
 body.admin-bar.aquilaAdmin #wpadminbar *,
@@ -624,6 +610,7 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 
 
 /* Events Schedule - Polylang */
+
 
 .block-editor-page .meta-box-sortables #wcs-settings.postbox .hndle:hover,
 .block-editor-page .meta-box-sortables #wcs_date_time_metabox.postbox .hndle:hover,
