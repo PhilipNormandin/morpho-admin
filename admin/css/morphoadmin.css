@@ -1095,7 +1095,7 @@ body#plugin-information.aquilaAdmin {
 }
 body.aquilaAdmin.wp-admin {
     height: auto;
-    /* background: #fff; */
+    background: #fff;
 }
 
 
