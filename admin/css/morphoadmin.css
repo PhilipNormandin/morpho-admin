@@ -704,9 +704,6 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
     padding-left: 16px !important;
     padding-right: 16px !important;
 }
-.block-editor-page .edit-post-meta-boxes-area .postbox > .inside {
-
-}
 
 
 /* Events Schedule - Polylang */
@@ -762,6 +759,7 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
     margin-left: 0 !important;
     margin-right: 0 !important;
     width: auto !important;
+    max-width: 200px !important;
 }
 .block-editor-page #wcs-schedule .wcs-admin-metabox-time,
 .block-editor-page #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending {
