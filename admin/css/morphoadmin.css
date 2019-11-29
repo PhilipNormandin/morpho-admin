@@ -735,10 +735,7 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
     text-align: center;
 }
 .block-editor-page #wcs-schedule select {
-    box-sizing: border-box !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    /* width: auto !important; */
+
 }
 .block-editor-page #wcs_date_time_metabox h2 {
     margin-left: -3px;
@@ -756,10 +753,15 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
     align-items: baseline;
     justify-content: space-between !important;
 }
-#wcs-schedule select[name="wcs-interval"],
-#wcs-schedule select[name="wcs-status"] {
-    /* box-sizing: border-box !important; */
-    /* width: auto !important; */
+.block-editor-page #wcs-schedule select[name="wcs-hour"],
+.block-editor-page #wcs-schedule select[name="wcs-minutes"],
+.block-editor-page #wcs-schedule select[name="wcs-seconds"],
+.block-editor-page #wcs-schedule select[name="wcs-interval"],
+.block-editor-page #wcs-schedule select[name="wcs-status"] {
+    box-sizing: border-box !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: auto !important;
 }
 .block-editor-page #wcs-schedule .wcs-admin-metabox-time,
 .block-editor-page #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending {
