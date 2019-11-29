@@ -555,11 +555,7 @@ body.post-type-class #new-tag-wcs-instructor {
     width: 100%;
     margin-bottom: 12px;
 }
-body.post-type-class #wcs-schedule select[name="wcs-interval"],
-body.post-type-class #wcs-schedule select[name="wcs-status"] {
-    min-width: 180px;
-    width: 70%;
-}
+
 body.post-type-class #wcs_date_time_metabox .dashicons-calendar-alt {
     display: none;
 }
@@ -723,7 +719,12 @@ body.post-type-class.aquilaAdmin #wcs-schedule p strong {
     align-items: baseline;
 }
 #wcs-repeat-container > p:first-child > select {
+
+}
+body.post-type-class #wcs-schedule select[name="wcs-interval"],
+body.post-type-class #wcs-schedule select[name="wcs-status"] {
     box-sizing: border-box;
+    margin-left: 10px;
     width: auto;
 }
 
