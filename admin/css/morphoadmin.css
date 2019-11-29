@@ -738,7 +738,7 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
     box-sizing: border-box !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
-    width: auto !important;
+    /* width: auto !important; */
 }
 .block-editor-page #wcs_date_time_metabox h2 {
     margin-left: -3px;
