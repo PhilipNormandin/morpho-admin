@@ -668,8 +668,37 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 }
 
 
-/* Gutenberg - Events Schedule - Polylang
+/* Gutenberg
 ------------------------------------------------------------------------*/
+
+
+.block-editor-page #poststuff h2 {
+    color: #191e23 !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    line-height: normal;
+    text-transform: capitalize !important;
+}
+.block-editor-page .meta-box-sortables .postbox .toggle-indicator::before {
+    content: "\f343" !important;
+    color: #191e23 !important;
+    font-size: 16px !important;
+    font-weight: bolder !important;
+    width: 15px;
+}
+.block-editor-page .meta-box-sortables .postbox.closed .toggle-indicator::before {
+    content: "\f347" !important;
+}
+.block-editor-page .edit-post-meta-boxes-area .postbox .handlediv {
+    height: 45px;
+    width: 45px;
+}
+.block-editor-page .editor-post-excerpt a.components-external-link {
+    text-decoration: underline !important;
+}
+
+
+/* Events Schedule - Polylang */
 
 body.post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child {
     display: grid;
@@ -727,36 +756,6 @@ body.post-type-class.aquilaAdmin #wcs-schedule p strong {
 #wcs-duration-container,
 #wcs-repeat-container ~ p {
     margin-bottom: 10px !important;
-}
-
-
-
-
-
-/* Gutenberg
-------------------------------------------------------------------------*/
-
-
-.block-editor-page #poststuff h2 {
-    color: #191e23 !important;
-    font-size: 13px !important;
-    font-weight: 600 !important;
-    line-height: normal;
-    text-transform: capitalize !important;
-}
-.block-editor-page .meta-box-sortables .postbox .toggle-indicator::before {
-    content: "\f343" !important;
-    color: #191e23 !important;
-    font-size: 16px !important;
-    font-weight: bolder !important;
-    width: 15px;
-}
-.block-editor-page .meta-box-sortables .postbox.closed .toggle-indicator::before {
-    content: "\f347" !important;
-}
-.block-editor-page .edit-post-meta-boxes-area .postbox .handlediv {
-    height: 45px;
-    width: 45px;
 }
 
 
