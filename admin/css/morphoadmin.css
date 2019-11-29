@@ -705,6 +705,12 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 .block-editor-page .edit-post-meta-boxes-area .postbox {
     border-bottom: 1px solid #e2e4e7;
 }
+.block-editor-page.js .postbox .hndle {
+    cursor: pointer !important;
+}
+.block-editor-page.js .postbox .hndle:hover {
+    background: #f3f4f5;
+}
 
 
 /* Events Schedule - Polylang */
