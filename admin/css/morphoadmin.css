@@ -758,7 +758,9 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
     box-sizing: border-box !important;
     width: auto !important;
 }
-#wcs-schedule .wcs-admin-metabox-time,
+#wcs-schedule .wcs-admin-metabox-time {
+    margin-bottom: 16px !important;
+}
 #wcs-schedule .wcs-admin-metabox-time ~ p:nth-child(2),
 #wcs-duration-container,
 #wcs-repeat-container > p:first-child {
