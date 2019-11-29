@@ -685,10 +685,6 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
     font-size: 16px !important;
     font-weight: bolder !important;
     width: 15px;
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    z-index: 100; 
 }
 .block-editor-page .meta-box-sortables .postbox.closed .toggle-indicator::before {
     content: "\f347" !important;
@@ -712,13 +708,21 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 .block-editor-page.js .postbox .hndle {
     cursor: pointer !important;
 }
-.block-editor-page.js .postbox .hndle:hover {
-    background: #f3f4f5;
-}
 
 
 /* Events Schedule - Polylang */
 
+.block-editor-page .meta-box-sortables #wcs_date_time_metabox.postbox .hndle:hover,
+.block-editor-page .meta-box-sortables #ml_box.postbox .hndle:hover {
+    background: #f3f4f5;
+}
+.block-editor-page .meta-box-sortables #wcs_date_time_metabox.postbox .toggle-indicator::before,
+.block-editor-page .meta-box-sortables #ml_box.postbox .toggle-indicator::before {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    z-index: 100;
+}
 .block-editor-page #wcs_date_time_metabox .inside,
 .block-editor-page #ml_box .inside {
     max-width: 400px;
