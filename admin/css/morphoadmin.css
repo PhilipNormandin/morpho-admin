@@ -192,6 +192,10 @@ body.wp-core-ui .et_pb_modal_overlay.et_pb_builder_settings input[type="range"] 
 /* Pages - Articles - Événements - Médias
 ------------------------------------------------------------------------*/
 
+#post_lang_choice {
+    box-sizing: border-box;
+}
+
 body.wp-core-ui #save-action .spinner,
 body.wp-core-ui #publishing-action .spinner {
     /* background: url('../../includes/images/Spin-1s-200px.gif') no-repeat,
@@ -614,7 +618,7 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 }
 
 
-/* Events Schedule - Polylang */
+/* Events Schedule */
 
 .block-editor-page .meta-box-sortables #wcs-settings.postbox .hndle:hover,
 .block-editor-page .meta-box-sortables #wcs_date_time_metabox.postbox .hndle:hover,
@@ -709,9 +713,6 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 .block-editor-page #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending > p:nth-child(1),
 .block-editor-page #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending > p:nth-child(2) {
     margin-top: 5px !important;
-}
-.block-editor-page #post_lang_choice {
-    box-sizing: border-box;
 }
 
 
