@@ -754,6 +754,8 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 .block-editor-page #wcs-schedule select[name="wcs-hour"],
 .block-editor-page #wcs-schedule select[name="wcs-minutes"],
 .block-editor-page #wcs-schedule select[name="wcs-seconds"],
+.block-editor-page #wcs-schedule select[name="wcs-hour-ending"],
+.block-editor-page #wcs-schedule select[name="wcs-minutes-ending"],
 .block-editor-page #wcs-schedule select[name="wcs-interval"],
 .block-editor-page #wcs-schedule select[name="wcs-status"] {
     box-sizing: border-box !important;
