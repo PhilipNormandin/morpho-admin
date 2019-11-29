@@ -696,72 +696,59 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 .block-editor-page .editor-post-excerpt a.components-external-link {
     text-decoration: underline !important;
 }
+.block-editor-page .edit-post-meta-boxes-area #poststuff h2.hndle {
+    border-bottom: none !important;
+}
 
 
 /* Events Schedule - Polylang */
 
-body.post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child {
+.block-editor-page #wcs-schedule .wcs-admin-metabox-time:first-child {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 10px;
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
-#wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending {
+.block-editor-page #wcs-schedule .wcs-admin-metabox-time:first-child > p:nth-child(3),
+.block-editor-page #wcs-datepicker {
+    grid-column: 1/4;
+}
+.block-editor-page #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 10px;
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
-#wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending > p:nth-child(1),
-#wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending > p:nth-child(2),
-#wcs-datepicker-ending {
-    grid-column: 1/4;
+.block-editor-page #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending > p:nth-child(1),
+.block-editor-page #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending > p:nth-child(2),
+.block-editor-page #wcs-datepicker-ending {
+    grid-column: 1/3;
 }
-#wcs-datepicker-ending {
+.block-editor-page #wcs-datepicker,
+.block-editor-page #wcs-datepicker-ending {
     margin: 5px 0px 10px !important;
     text-align: center;
 }
-
-body.post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child > p:nth-child(3),
-body.post-type-class #wcs-datepicker {
-    grid-column: 1/4;
-}
-#wcs-datepicker,
-#wcs-datepicker-ending {
-    margin: 5px 0px 10px !important;
-    text-align: center;
-}
-body.post-type-class #wcs-schedule .wcs-admin-metabox-time select {
-    width: auto;
+.block-editor-page #wcs-schedule .wcs-admin-metabox-time select {
     box-sizing: border-box;
-}
-#wcs-schedule .wcs-admin-metabox-time select {
     margin-left: 0 !important;
     margin-right: 0 !important;
-}
-body.post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child > select:nth-child(5) {
-    /* margin-left: 0; */
-}
-body.post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child > select:nth-child(7) {
-    /* margin-right: 0; */
+    width: auto !important;
 }
 .block-editor-page #wcs_date_time_metabox h2 {
     margin-left: -3px;
 }
-body.post-type-class.aquilaAdmin #wcs-schedule p strong {
+.block-editor-page.aquilaAdmin #wcs-schedule p strong {
     font-weight: 400;
 }
-.edit-post-meta-boxes-area .postbox > .inside {
+.block-editor-page .edit-post-meta-boxes-area .postbox > .inside {
     padding-left: 16px !important;
     padding-right: 16px !important;
 }
-.edit-post-meta-boxes-area #poststuff h2.hndle {
-    border-bottom: none !important;
-}
-#wcs-repeat-container > p:first-child,
-#wcs-repeat-container ~ p {
+.block-editor-page #wcs-repeat-container > p:first-child,
+.block-editor-page #wcs-repeat-container ~ p {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
