@@ -714,7 +714,8 @@ body.post-type-class.aquilaAdmin #wcs-schedule p strong {
 #wcs-duration-container {
     margin-bottom: 10px;
 }
-#wcs-repeat-container > p:first-child {
+#wcs-repeat-container > p:first-child,
+#wcs-repeat-container ~ p {
     display: flex;
     align-items: baseline;
 }
