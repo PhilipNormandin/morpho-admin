@@ -699,6 +699,9 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 .block-editor-page .edit-post-meta-boxes-area #poststuff h2.hndle {
     border-bottom: none !important;
 }
+.block-editor-page #poststuff .inside {
+    max-width: 400px;
+}
 
 
 /* Events Schedule - Polylang */
@@ -751,7 +754,7 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 .block-editor-page #wcs-repeat-container ~ p {
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
+    justify-content: space-between !important;
 }
 #wcs-schedule select[name="wcs-interval"],
 #wcs-schedule select[name="wcs-status"] {
