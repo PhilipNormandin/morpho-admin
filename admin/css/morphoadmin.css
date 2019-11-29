@@ -764,10 +764,6 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 .block-editor-page #wcs_date_time_metabox h2 {
     margin-left: -3px;
 }
-.block-editor-page.aquilaAdmin #wcs-schedule p strong,
-.block-editor-page.aquilaAdmin #wcs-schedule p strong {
-
-}
 .block-editor-page #wcs-repeat-container > p:first-child,
 .block-editor-page #wcs-repeat-container ~ p {
     display: flex;
