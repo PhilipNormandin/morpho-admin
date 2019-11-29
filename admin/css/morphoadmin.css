@@ -773,6 +773,11 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 .block-editor-page #wcs-repeat-container ~ p {
     margin-bottom: 0 !important;
 }
+.block-editor-page #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending > p:nth-child(1),
+.block-editor-page #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending > p:nth-child(2) {
+    margin-top: 5px !important;
+}
+
 
 
 /* Plugins - Settings
