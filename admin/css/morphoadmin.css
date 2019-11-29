@@ -718,6 +718,7 @@ body.post-type-class.aquilaAdmin #wcs-schedule p strong {
 #wcs-repeat-container ~ p {
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
 }
 #wcs-repeat-container > p:first-child > select {
 
