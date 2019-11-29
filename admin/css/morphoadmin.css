@@ -754,7 +754,7 @@ body.post-type-class.aquilaAdmin #wcs-schedule p strong {
 }
 #wcs-schedule .wcs-admin-metabox-time ~ p,
 #wcs-duration-container,
-#wcs-repeat-container ~ p {
+#wcs-repeat-container > p:first-child {
     margin-bottom: 10px !important;
 }
 
