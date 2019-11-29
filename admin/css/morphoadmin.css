@@ -720,13 +720,13 @@ body.post-type-class.aquilaAdmin #wcs-schedule p strong {
 }
 #wcs-schedule select[name="wcs-interval"],
 #wcs-schedule select[name="wcs-status"] {
-    box-sizing: border-box;
-    width: auto;
+    box-sizing: border-box !important;
+    width: auto !important;
 }
 #wcs-schedule .wcs-admin-metabox-time ~ p,
 #wcs-duration-container,
 #wcs-repeat-container ~ p {
-    margin-bottom: 10px;
+    margin-bottom: 10px !important;
 }
 
 
