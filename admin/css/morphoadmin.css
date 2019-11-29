@@ -625,7 +625,7 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 .block-editor-page .meta-box-sortables #wcs_date_time_metabox.postbox .toggle-indicator::before,
 .block-editor-page .meta-box-sortables #ml_box.postbox .toggle-indicator::before {
     position: absolute;
-    right: 14px;
+    right: 15px;
     bottom: 14px;
     z-index: 100;
 }
