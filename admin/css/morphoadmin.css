@@ -705,15 +705,16 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 .block-editor-page .edit-post-meta-boxes-area .postbox {
     border-bottom: 1px solid #e2e4e7;
 }
-.block-editor-page #poststuff .inside {
-    max-width: 400px;
-    padding-left: 16px !important;
-    padding-right: 16px !important;
-}
 
 
 /* Events Schedule - Polylang */
 
+.block-editor-page #wcs_date_time_metabox,
+.block-editor-page #ml_box {
+    max-width: 400px;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
 .block-editor-page #wcs-schedule .wcs-admin-metabox-time:first-child {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -782,7 +783,6 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 .block-editor-page #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending > p:nth-child(2) {
     margin-top: 5px !important;
 }
-
 
 
 /* Plugins - Settings
