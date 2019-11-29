@@ -717,14 +717,19 @@ body.post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child {
 #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending > p:nth-child(1),
 #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending > p:nth-child(2),
 #wcs-datepicker-ending {
- grid-column: 1/4;
+    grid-column: 1/4;
+}
+#wcs-datepicker-ending {
+    margin: 5px 0px 10px !important;
+    text-align: center;
 }
 
-body.post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child > p:nth-child(3) {
-    grid-column: 1/4;
-}
+body.post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child > p:nth-child(3),
 body.post-type-class #wcs-datepicker {
     grid-column: 1/4;
+}
+#wcs-datepicker,
+#wcs-datepicker-ending {
     margin: 5px 0px 10px !important;
     text-align: center;
 }
