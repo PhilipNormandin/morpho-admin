@@ -729,6 +729,10 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
     padding-left: 16px !important;
     padding-right: 16px !important;
 }
+.block-editor-page #wcs_date_time_metabox .inside p strong,
+.block-editor-page #ml_box .inside p strong {
+    font-weight: 400;
+}
 .block-editor-page #wcs-schedule .wcs-admin-metabox-time:first-child {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -760,8 +764,9 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 .block-editor-page #wcs_date_time_metabox h2 {
     margin-left: -3px;
 }
+.block-editor-page.aquilaAdmin #wcs-schedule p strong,
 .block-editor-page.aquilaAdmin #wcs-schedule p strong {
-    font-weight: 400;
+
 }
 .block-editor-page #wcs-repeat-container > p:first-child,
 .block-editor-page #wcs-repeat-container ~ p {
