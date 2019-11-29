@@ -616,7 +616,7 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 
 /* Events Schedule - Polylang */
 
-.block-editor-page .meta-box-sortables #wcs-settings.postbox .hndle:hover
+.block-editor-page .meta-box-sortables #wcs-settings.postbox .hndle:hover,
 .block-editor-page .meta-box-sortables #wcs_date_time_metabox.postbox .hndle:hover,
 .block-editor-page .meta-box-sortables #ml_box.postbox .hndle:hover {
     background: #f3f4f5;
