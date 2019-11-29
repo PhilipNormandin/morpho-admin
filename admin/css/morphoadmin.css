@@ -770,7 +770,7 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 .block-editor-page #wcs-schedule select[name="wcs-interval"],
 .block-editor-page #wcs-schedule select[name="wcs-status"] {
     margin-left: 10px !important;
-    width: 60% !important;
+    width: 65% !important;
 }
 .block-editor-page #wcs-schedule .wcs-admin-metabox-time,
 .block-editor-page #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending {
