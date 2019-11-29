@@ -731,7 +731,7 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
     margin: 5px 0px 10px !important;
     text-align: center;
 }
-.block-editor-page #wcs-schedule .wcs-admin-metabox-time select {
+.block-editor-page #wcs-schedule select {
     box-sizing: border-box !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
