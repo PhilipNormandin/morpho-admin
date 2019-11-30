@@ -60,7 +60,7 @@
 
 .block-editor-page #wcs_date_time_metabox .inside,
 .block-editor-page #ml_box .inside {
-    max-width: 760px;
+    max-width: 700px;
     padding-left: 16px !important;
     padding-right: 16px !important;
 }
