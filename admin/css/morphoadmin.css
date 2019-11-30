@@ -1,13 +1,156 @@
 /* Morpho Admin - Custom Admin Styles */
 
 
-/* Propriétés communes
+/* Gutenberg
 ------------------------------------------------------------------------*/
 
-body.admin-bar {
-  /* opacity: 1 !important; */
-  /* transition: opacity 0s; */
+
+.block-editor-page #poststuff h2 {
+    color: #191e23 !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    line-height: normal;
+    text-transform: inherit !important;
 }
+.block-editor-page .meta-box-sortables .postbox .toggle-indicator::before {
+    content: "\f343" !important;
+    color: #191e23 !important;
+    font-size: 16px !important;
+    font-weight: bolder !important;
+    width: 15px;
+}
+.block-editor-page .meta-box-sortables .postbox.closed .toggle-indicator::before {
+    content: "\f347" !important;
+}
+.block-editor-page .edit-post-meta-boxes-area .postbox .handlediv {
+    height: 45px;
+    width: 45px;
+}
+.block-editor-page .editor-post-excerpt a.components-external-link {
+    text-decoration: underline !important;
+}
+.block-editor-page .edit-post-meta-boxes-area #poststuff h2.hndle {
+    border-bottom: none !important;
+}
+.block-editor-page .edit-post-meta-boxes-area .postbox > .inside {
+    border-bottom: none !important;
+}
+.block-editor-page .edit-post-meta-boxes-area .postbox {
+    border-bottom: 1px solid #e2e4e7;
+}
+.block-editor-page.js .postbox .hndle {
+    cursor: pointer !important;
+}
+.block-editor-page .edit-post-settings-sidebar__panel-block .components-button {
+    font-family: revert !important;
+}
+
+
+/* Events Schedule - Polylang */
+
+.block-editor-page .meta-box-sortables #wcs-settings.postbox .hndle:hover,
+.block-editor-page .meta-box-sortables #wcs_date_time_metabox.postbox .hndle:hover,
+.block-editor-page .meta-box-sortables #ml_box.postbox .hndle:hover {
+    background: #f3f4f5;
+}
+.block-editor-page .meta-box-sortables #wcs-settings.postbox .toggle-indicator::before,
+.block-editor-page .meta-box-sortables #wcs_date_time_metabox.postbox .toggle-indicator::before,
+.block-editor-page .meta-box-sortables #ml_box.postbox .toggle-indicator::before {
+    margin-top: 0 !important;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 100;
+}
+.block-editor-page #wcs_date_time_metabox .inside,
+.block-editor-page #ml_box .inside {
+    max-width: 400px;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+.block-editor-page #wcs_date_time_metabox .inside p strong,
+.block-editor-page #ml_box .inside p strong {
+    font-weight: 400;
+}
+.block-editor-page #wcs-schedule .wcs-admin-metabox-time:first-child {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.block-editor-page #wcs-schedule .wcs-admin-metabox-time:first-child > p:nth-child(3),
+.block-editor-page #wcs-datepicker {
+    grid-column: 1/4;
+}
+.block-editor-page #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.block-editor-page #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending > p:nth-child(1),
+.block-editor-page #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending > p:nth-child(2),
+.block-editor-page #wcs-datepicker-ending {
+    grid-column: 1/3;
+}
+.block-editor-page #wcs-datepicker,
+.block-editor-page #wcs-datepicker-ending {
+    margin: 5px 0px 10px !important;
+    text-align: center;
+}
+.block-editor-page #wcs_date_time_metabox h2 {
+    margin-left: -3px;
+}
+.block-editor-page #wcs-repeat-container > p:first-child,
+.block-editor-page #wcs-repeat-container ~ p {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between !important;
+}
+.block-editor-page #wcs-schedule select[name="wcs-hour"],
+.block-editor-page #wcs-schedule select[name="wcs-minutes"],
+.block-editor-page #wcs-schedule select[name="wcs-seconds"],
+.block-editor-page #wcs-schedule select[name="wcs-hour-ending"],
+.block-editor-page #wcs-schedule select[name="wcs-minutes-ending"],
+.block-editor-page #wcs-schedule select[name="wcs-interval"],
+.block-editor-page #wcs-schedule select[name="wcs-status"] {
+    box-sizing: border-box !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: auto !important;
+}
+.block-editor-page #wcs-schedule select[name="wcs-interval"],
+.block-editor-page #wcs-schedule select[name="wcs-status"] {
+    margin-left: 10px !important;
+    width: 65% !important;
+}
+.block-editor-page #wcs-schedule .wcs-admin-metabox-time,
+.block-editor-page #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending {
+    margin-bottom: 16px !important;
+}
+.block-editor-page #wcs-schedule .wcs-admin-metabox-time ~ p:nth-child(2),
+.block-editor-page #wcs-duration-container,
+.block-editor-page #wcs-repeat-container > p:first-child {
+    margin-bottom: 14px !important;
+}
+.block-editor-page #wcs-repeat-container ~ p {
+    margin-bottom: 0 !important;
+}
+.block-editor-page #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending > p:nth-child(1),
+.block-editor-page #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending > p:nth-child(2) {
+    margin-top: 5px !important;
+}
+
+
+
+/*------------------------------- À CLEANER -------------------------------*/
+
+
+
+/* Propriétés communes
+------------------------------------------------------------------------*/
 
 
 body.admin-bar.aquilaAdmin #wpadminbar,
@@ -564,148 +707,6 @@ html .media-modal.wp-core-ui .media-sidebar h2 {
 }
 
 
-/* Gutenberg
-------------------------------------------------------------------------*/
-
-
-.block-editor-page #poststuff h2 {
-    color: #191e23 !important;
-    font-size: 13px !important;
-    font-weight: 600 !important;
-    line-height: normal;
-    text-transform: inherit !important;
-}
-.block-editor-page .meta-box-sortables .postbox .toggle-indicator::before {
-    content: "\f343" !important;
-    color: #191e23 !important;
-    font-size: 16px !important;
-    font-weight: bolder !important;
-    width: 15px;
-}
-.block-editor-page .meta-box-sortables .postbox.closed .toggle-indicator::before {
-    content: "\f347" !important;
-}
-.block-editor-page .edit-post-meta-boxes-area .postbox .handlediv {
-    height: 45px;
-    width: 45px;
-}
-.block-editor-page .editor-post-excerpt a.components-external-link {
-    text-decoration: underline !important;
-}
-.block-editor-page .edit-post-meta-boxes-area #poststuff h2.hndle {
-    border-bottom: none !important;
-}
-.block-editor-page .edit-post-meta-boxes-area .postbox > .inside {
-    border-bottom: none !important;
-}
-.block-editor-page .edit-post-meta-boxes-area .postbox {
-    border-bottom: 1px solid #e2e4e7;
-}
-.block-editor-page.js .postbox .hndle {
-    cursor: pointer !important;
-}
-.block-editor-page .edit-post-settings-sidebar__panel-block .components-button {
-    font-family: revert !important;
-}
-
-
-/* Events Schedule - Polylang */
-
-
-.block-editor-page .meta-box-sortables #wcs-settings.postbox .hndle:hover,
-.block-editor-page .meta-box-sortables #wcs_date_time_metabox.postbox .hndle:hover,
-.block-editor-page .meta-box-sortables #ml_box.postbox .hndle:hover {
-    background: #f3f4f5;
-}
-.block-editor-page .meta-box-sortables #wcs-settings.postbox .toggle-indicator::before,
-.block-editor-page .meta-box-sortables #wcs_date_time_metabox.postbox .toggle-indicator::before,
-.block-editor-page .meta-box-sortables #ml_box.postbox .toggle-indicator::before {
-    margin-top: 0 !important;
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    z-index: 100;
-}
-.block-editor-page #wcs_date_time_metabox .inside,
-.block-editor-page #ml_box .inside {
-    max-width: 400px;
-    padding-left: 16px !important;
-    padding-right: 16px !important;
-}
-.block-editor-page #wcs_date_time_metabox .inside p strong,
-.block-editor-page #ml_box .inside p strong {
-    font-weight: 400;
-}
-.block-editor-page #wcs-schedule .wcs-admin-metabox-time:first-child {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 10px;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-}
-.block-editor-page #wcs-schedule .wcs-admin-metabox-time:first-child > p:nth-child(3),
-.block-editor-page #wcs-datepicker {
-    grid-column: 1/4;
-}
-.block-editor-page #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 10px;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-}
-.block-editor-page #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending > p:nth-child(1),
-.block-editor-page #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending > p:nth-child(2),
-.block-editor-page #wcs-datepicker-ending {
-    grid-column: 1/3;
-}
-.block-editor-page #wcs-datepicker,
-.block-editor-page #wcs-datepicker-ending {
-    margin: 5px 0px 10px !important;
-    text-align: center;
-}
-.block-editor-page #wcs_date_time_metabox h2 {
-    margin-left: -3px;
-}
-.block-editor-page #wcs-repeat-container > p:first-child,
-.block-editor-page #wcs-repeat-container ~ p {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between !important;
-}
-.block-editor-page #wcs-schedule select[name="wcs-hour"],
-.block-editor-page #wcs-schedule select[name="wcs-minutes"],
-.block-editor-page #wcs-schedule select[name="wcs-seconds"],
-.block-editor-page #wcs-schedule select[name="wcs-hour-ending"],
-.block-editor-page #wcs-schedule select[name="wcs-minutes-ending"],
-.block-editor-page #wcs-schedule select[name="wcs-interval"],
-.block-editor-page #wcs-schedule select[name="wcs-status"] {
-    box-sizing: border-box !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    width: auto !important;
-}
-.block-editor-page #wcs-schedule select[name="wcs-interval"],
-.block-editor-page #wcs-schedule select[name="wcs-status"] {
-    margin-left: 10px !important;
-    width: 65% !important;
-}
-.block-editor-page #wcs-schedule .wcs-admin-metabox-time,
-.block-editor-page #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending {
-    margin-bottom: 16px !important;
-}
-.block-editor-page #wcs-schedule .wcs-admin-metabox-time ~ p:nth-child(2),
-.block-editor-page #wcs-duration-container,
-.block-editor-page #wcs-repeat-container > p:first-child {
-    margin-bottom: 14px !important;
-}
-.block-editor-page #wcs-repeat-container ~ p {
-    margin-bottom: 0 !important;
-}
-.block-editor-page #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending > p:nth-child(1),
-.block-editor-page #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending > p:nth-child(2) {
-    margin-top: 5px !important;
-}
 
 
 /* Plugins - Settings
