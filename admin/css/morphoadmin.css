@@ -51,6 +51,11 @@
     right: 15px;
     z-index: 100;
 }
+.block-editor-page .inside {
+    max-width: 400px;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
 .block-editor-page .edit-post-settings-sidebar__panel-block .components-button {
     font-family: revert !important;
 }
@@ -66,25 +71,12 @@
 
 
 
-.block-editor-page .meta-box-sortables #wcs-settings.postbox .hndle:hover,
-.block-editor-page .meta-box-sortables #wcs_date_time_metabox.postbox .hndle:hover,
-.block-editor-page .meta-box-sortables #ml_box.postbox .hndle:hover {
-    /* background: #f3f4f5; */
-}
-.block-editor-page .meta-box-sortables #wcs-settings.postbox .toggle-indicator::before,
-.block-editor-page .meta-box-sortables #wcs_date_time_metabox.postbox .toggle-indicator::before,
-.block-editor-page .meta-box-sortables #ml_box.postbox .toggle-indicator::before {
-    /* margin-top: 0 !important; */
-    /* position: absolute; */
-    /* top: 15px; */
-    /* right: 15px; */
-    /* z-index: 100; */
-}
+
 .block-editor-page #wcs_date_time_metabox .inside,
 .block-editor-page #ml_box .inside {
-    max-width: 400px;
-    padding-left: 16px !important;
-    padding-right: 16px !important;
+    /* max-width: 400px; */
+    /* padding-left: 16px !important; */
+    /* padding-right: 16px !important; */
 }
 .block-editor-page #wcs_date_time_metabox .inside p strong,
 .block-editor-page #ml_box .inside p strong {
