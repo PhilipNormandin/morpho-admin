@@ -51,14 +51,20 @@
     right: 15px;
     z-index: 100;
 }
-.block-editor-page .inside {
+.block-editor-page .edit-post-settings-sidebar__panel-block .components-button {
+    font-family: revert !important;
+}
+
+
+/* Ajustements de plugins */
+
+.block-editor-page #wcs_date_time_metabox .inside,
+.block-editor-page #ml_box .inside {
     max-width: 400px;
     padding-left: 16px !important;
     padding-right: 16px !important;
 }
-.block-editor-page .edit-post-settings-sidebar__panel-block .components-button {
-    font-family: revert !important;
-}
+
 
 
 /* Plugin Events Schedule
@@ -72,15 +78,10 @@
 
 
 
-.block-editor-page #wcs_date_time_metabox .inside,
-.block-editor-page #ml_box .inside {
-    /* max-width: 400px; */
-    /* padding-left: 16px !important; */
-    /* padding-right: 16px !important; */
-}
+
 .block-editor-page #wcs_date_time_metabox .inside p strong,
 .block-editor-page #ml_box .inside p strong {
-    font-weight: 400;
+    /* font-weight: 400; */
 }
 .block-editor-page #wcs-schedule .wcs-admin-metabox-time:first-child {
     display: grid;
