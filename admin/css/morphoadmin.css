@@ -54,6 +54,10 @@
 .block-editor-page .edit-post-settings-sidebar__panel-block .components-button {
     font-family: revert !important;
 }
+.block-editor-page .editor-post-featured-image .components-button + .components-button {
+    margin: 13px auto 0;
+    width: 70%;
+}
 
 
 /* Ajustements de plugins */
