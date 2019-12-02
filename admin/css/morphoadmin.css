@@ -67,7 +67,8 @@
 
 }
 .block-editor-page .edit-post-meta-boxes-area.is-loading::before {
-    visibility: hidden !important;
+    /* visibility: hidden !important; */
+    display: none !important;
 }
 
 
