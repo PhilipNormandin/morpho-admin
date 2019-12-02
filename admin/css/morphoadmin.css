@@ -59,7 +59,6 @@
     width: 70%;
 }
 .block-editor-page #pods-meta-more-fields .pods-form-ui-label {
-    /* color: #72777c; */
     font-size: 13px !important;
     line-height: 1.5 !important;
 }
@@ -87,7 +86,7 @@
 
 .block-editor-page #wcs_date_time_metabox .inside p strong,
 .block-editor-page #ml_box .inside p strong {
-    /* font-weight: 400; */
+    font-weight: 400;
 }
 .post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child {
     display: grid;
