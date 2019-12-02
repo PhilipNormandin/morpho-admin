@@ -64,7 +64,10 @@
     line-height: 1.5 !important;
 }
 .block-editor-page .spinner {
-visibility: hidden !important;
+
+}
+.block-editor-page .edit-post-meta-boxes-area.is-loading::before {
+    visibility: hidden !important;
 }
 
 
