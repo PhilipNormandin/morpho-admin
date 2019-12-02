@@ -149,7 +149,7 @@ function morphoadmin_custom_admin_toolbar() {
         $wp_admin_bar->remove_node( 'swift-performance' );
         $wp_admin_bar->remove_node( 'new-member' );
         $wp_admin_bar->remove_node( 'new-sermon' );
-        $wp_admin_bar->remove_node( 'new-album_photo' );
+        $wp_admin_bar->remove_node( 'new-photo_album' );
 
         // add back the new Media
         $wp_admin_bar->add_menu( array(
@@ -350,8 +350,8 @@ function morphoadmin_custom_top_level_menus_order() {
         'edit.php?post_type=class', // Events
         'upload.php', // Media
         'edit.php?post_type=page', // Pages
-        'edit.php?post_type=sermon', // Ser
-        'edit.php?post_type=album_photo', // Albums photomons
+        'edit.php?post_type=sermon', // Sermons
+        'edit.php?post_type=photo_album', // Albums photo
         'edit.php?post_type=member', // Team
         'separator2', // Second separator
         'themes.php', // Appearance
