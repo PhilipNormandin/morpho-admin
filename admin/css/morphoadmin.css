@@ -63,11 +63,7 @@
     font-size: 13px !important;
     line-height: 1.5 !important;
 }
-.block-editor-page .spinner {
-
-}
 .block-editor-page .edit-post-meta-boxes-area.is-loading .components-spinner {
-    /* visibility: hidden !important; */
     display: none !important;
 }
 
