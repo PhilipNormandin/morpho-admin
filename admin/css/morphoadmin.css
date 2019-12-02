@@ -58,6 +58,14 @@
     margin: 13px auto 0;
     width: 70%;
 }
+.block-editor-page #pods-meta-more-fields .pods-form-ui-label {
+    color: #72777c;
+    font-size: 13px !important;
+    line-height: 1.5 !important;
+}
+.block-editor-page .spinner {
+visibility: hidden !important;
+}
 
 
 /* Ajustements de plugins */
