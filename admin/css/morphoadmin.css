@@ -58,7 +58,8 @@
     margin: 13px auto 0;
     width: 70%;
 }
-.block-editor-page #pods-meta-more-fields .pods-form-ui-label {
+.block-editor-page #pods-meta-more-fields .pods-form-ui-label,
+.block-editor-page #pods-meta-plus-de-champs .pods-form-ui-label {
     font-size: 13px !important;
     font-weight: 400 !important;
     line-height: 1.5 !important;
