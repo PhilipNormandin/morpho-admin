@@ -244,9 +244,12 @@ th[class*="column-language_"],
 }
 body.aquilaAdmin .wp-list-table thead {
     position: sticky;
-    top: 145px;
+    top: 65px;
     background-color: #fff;
     z-index: 999;
+}
+body.toplevel_page_the_grid.aquilaAdmin .wp-list-table thead {
+    top: 145px;
 }
 
 .wp-core-ui.wp-customizer #customize-save-button-wrapper #save {
