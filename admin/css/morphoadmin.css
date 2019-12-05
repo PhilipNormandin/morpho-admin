@@ -243,7 +243,7 @@ th[class*="column-language_"],
 }
 body.aquilaAdmin .wp-list-table thead {
     position: sticky;
-    top: 65px;
+    top: 145px;
     background-color: #fff;
     z-index: 999;
 }
