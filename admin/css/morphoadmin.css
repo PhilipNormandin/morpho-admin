@@ -249,7 +249,7 @@ body.aquilaAdmin .wp-list-table thead {
     z-index: 999;
 }
 body.toplevel_page_the_grid.aquilaAdmin .wp-list-table thead {
-    top: 145px;
+    position: inherit;
 }
 
 .wp-core-ui.wp-customizer #customize-save-button-wrapper #save {
