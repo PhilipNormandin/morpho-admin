@@ -1208,6 +1208,25 @@ body.aquilaAdmin.wp-admin {
 /*--------------------   CLEAN-UP   --------------------*/
 
 
+.wp-core-ui .button,
+body.wp-admin .button,
+.wp-core-ui .button-primary,
+body.wp-admin .button-primary,
+.wp-core-ui .button-secondary,
+body.wp-admin .button-secondary,
+.wp-core-ui .add-new-h2,
+body.wp-admin .add-new-h2,
+.wp-core-ui .add-new-h2:active,
+body.wp-admin .add-new-h2:active,
+.wp-core-ui .page-title-action,
+body.wp-admin .page-title-action,
+.wp-core-ui .page-title-action:active,
+body.wp-admin .page-title-action:active {
+    text-decoration: inherit !important;
+}
+
+
+
 .aquilaAdmin.wp-core-ui .button,
 .aquilaAdmin.wp-core-ui .button-cancel,
 .aquilaAdmin.wp-core-ui a.page-title-action,
