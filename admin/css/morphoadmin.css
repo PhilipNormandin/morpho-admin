@@ -1175,7 +1175,8 @@ body.aquilaAdmin.wp-admin {
 .aquilaAdmin.wp-core-ui #save-post,
 .aquilaAdmin.wp-core-ui #wp-content-editor-tools .button,
 .aquilaAdmin.wp-core-ui #wrapper__wcs_image .button,
-.aquilaAdmin.wp-core-ui .media-modal .media-button {
+.aquilaAdmin.wp-core-ui .media-modal .media-button,
+.aquilaAdmin.wp-core-ui input.button {
     height: 30px !important;
     min-height: 30px !important;
     line-height: 31px !important;
