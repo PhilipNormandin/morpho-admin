@@ -70,7 +70,8 @@
 .block-editor-page .edit-post-meta-boxes-area.is-loading .components-spinner {
     display: none !important;
 }
-.block-editor-page .components-notice-list.components-editor-notices__pinned {
+.block-editor-page .components-notice-list.components-editor-notices__pinned,
+.block-editor-page .components-notice-list.components-editor-notices__dismissible {
     left: 0 !important;
 }
 
