@@ -190,7 +190,8 @@ body.wp-admin.aquilaAdmin div.media-modal div.imgedit-submit input.button,
 body.aquilaAdmin div.media-modal-content button.media-button,
 body.aquilaAdmin div.media-modal-content div.upload-ui button.button,
 .aquilaAdmin #plugin-information-footer a.button,
-.aquilaAdmin .components-base-control__label {
+.aquilaAdmin .components-base-control__label,
+body.aquilaAdmin button {
     font-family: 'Roboto', "Franklin Gothic Medium", Tahoma, sans-serif !important;
 }
 /* body.admin-bar #wpadminbar *, */
@@ -1157,7 +1158,6 @@ body.aquilaAdmin.wp-admin {
 ------------------------------------------------------------------------*/
 
 
-/*--------------------   CLEAN-UP   --------------------*/
 
 .aquilaAdmin.wp-core-ui #publish,
 .aquilaAdmin.wp-core-ui #save-post {
@@ -1217,7 +1217,8 @@ body.aquilaAdmin.wp-admin {
     display: inline-flex;
     align-items: baseline;
 }
-.aquilaAdmin.wp-core-ui.block-editor-page  button.editor-post-permalink__edit {
+.aquilaAdmin.wp-core-ui.block-editor-page  button.editor-post-permalink__edit,
+.aquilaAdmin.wp-core-ui.block-editor-page button.components-notice__action {
     display: inline-flex;
     align-items: center;
 }
@@ -1226,7 +1227,6 @@ body.aquilaAdmin.wp-admin {
 }
 
 
-/*--------------------   CLEAN-UP   --------------------*/
 
 
 .wp-core-ui .button,
