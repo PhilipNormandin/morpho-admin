@@ -191,7 +191,7 @@ body.aquilaAdmin div.media-modal-content button.media-button,
 body.aquilaAdmin div.media-modal-content div.upload-ui button.button,
 .aquilaAdmin #plugin-information-footer a.button,
 .aquilaAdmin .components-base-control__label,
-body.wp-admin.aquilaAdmin button {
+body.wp-admin.aquilaAdmin button.components-notice__action {
     font-family: 'Roboto', sans-serif !important;
 }
 /* body.admin-bar #wpadminbar *, */
