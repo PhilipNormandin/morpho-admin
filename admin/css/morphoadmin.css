@@ -1213,6 +1213,10 @@ body.aquilaAdmin.wp-admin {
     display: inline-flex;
     align-items: baseline;
 }
+.aquilaAdmin.wp-core-ui.block-editor-page  button.editor-post-permalink__edit {
+    display: inline-flex;
+    align-items: center;
+}
 .aquilaAdmin.wp-core-ui #wcs-datepicker {
     min-height: 28px;
 }
