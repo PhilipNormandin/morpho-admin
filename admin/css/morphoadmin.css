@@ -70,6 +70,9 @@
 .block-editor-page .edit-post-meta-boxes-area.is-loading .components-spinner {
     display: none !important;
 }
+.block-editor-page .components-notice-list.components-editor-notices__pinned {
+    left: 0 !important;
+}
 
 
 /* Ajustements de plugins */
