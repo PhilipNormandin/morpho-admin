@@ -1172,6 +1172,7 @@ body.aquilaAdmin.wp-admin {
     /* align-items: baseline !important; */
 }
 .aquilaAdmin.wp-core-ui #publish,
+.aquilaAdmin.wp-core-ui #save,
 .aquilaAdmin.wp-core-ui #save-post,
 .aquilaAdmin.wp-core-ui #wp-content-editor-tools .button,
 .aquilaAdmin.wp-core-ui #wrapper__wcs_image .button,
