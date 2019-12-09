@@ -167,6 +167,10 @@
 .post-type-class #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending > p:nth-child(2) {
     margin-top: 5px !important;
 }
+.post-type-class input#add-repeat {
+    margin: 5px 0 10px;
+    width: 100%;
+}
 
 
 
