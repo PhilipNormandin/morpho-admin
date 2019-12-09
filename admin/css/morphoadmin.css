@@ -74,6 +74,9 @@
 .block-editor-page .components-notice-list.components-editor-notices__dismissible {
     left: 0 !important;
 }
+.block-editor-page.aquilaAdmin .has-fixed-toolbar .edit-post-layout__content {
+    top: 120px !important;
+}
 
 
 /* Ajustements de plugins */
