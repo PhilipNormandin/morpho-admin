@@ -171,6 +171,11 @@
     margin: 5px 0 10px;
     width: 100%;
 }
+.post-type-class #wcs-repeat__holder > .wcs-repeat__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
 
 
 
