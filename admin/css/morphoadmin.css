@@ -41,8 +41,9 @@
 .block-editor-page.js .postbox .hndle {
     cursor: pointer !important;
 }
-.block-editor-page .postbox .hndle:hover {
-    background: #f3f4f5;
+.block-editor-page .postbox .hndle:hover,
+.block-editor-page .components-icon-button:not(:disabled):not([aria-disabled="true"]):not(.is-default):hover {
+    background: #f3f4f5 !important;
 }
 .block-editor-page .postbox .toggle-indicator::before {
     margin-top: 0 !important;
