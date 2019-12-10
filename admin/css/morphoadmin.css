@@ -42,6 +42,7 @@
     cursor: pointer !important;
 }
 .block-editor-page .postbox .hndle:hover,
+.block-editor-block-list__insertion-point-inserter .block-editor-inserter__toggle,
 .block-editor-page .components-icon-button:not(:disabled):not([aria-disabled="true"]):not(.is-default):hover {
     background: #f3f4f5 !important;
 }
