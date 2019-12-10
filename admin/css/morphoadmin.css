@@ -45,6 +45,9 @@ body.block-editor-page,
 .block-editor-page .postbox .hndle:hover,
 .block-editor-block-list__insertion-point-inserter .block-editor-inserter__toggle,
 .block-editor-page .components-icon-button:not(:disabled):not([aria-disabled="true"]):not(.is-default):hover {
+    /* background: #fff !important; */
+}
+body.block-editor-page {
     background: #fff !important;
 }
 .block-editor-page .edit-post-layout__metaboxes,
