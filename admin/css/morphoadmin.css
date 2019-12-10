@@ -80,6 +80,9 @@
 .block-editor-page .editor-post-title__block textarea {
     border: none !important;
 }
+.block-editor-page.aquilaAdmin .editor-post-title__block textarea:hover {
+    box-shadow: none !important;
+}
 
 
 /* Ajustements de plugins */
