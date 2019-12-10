@@ -47,7 +47,8 @@ body.block-editor-page,
 .block-editor-page .components-icon-button:not(:disabled):not([aria-disabled="true"]):not(.is-default):hover {
     background: #fff !important;
 }
-.block-editor-page .edit-post-layout__metaboxes {
+.block-editor-page .edit-post-layout__metaboxes,
+.block-editor-page .edit-post-sidebar {
     background: #f3f4f5 !important;
 }
 .block-editor-page .postbox .toggle-indicator::before {
