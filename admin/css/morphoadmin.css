@@ -77,6 +77,9 @@
 .block-editor-page.aquilaAdmin .has-fixed-toolbar .edit-post-layout__content {
     top: 120px !important;
 }
+.block-editor-page. .editor-post-title__block {
+    border: none !important;
+}
 
 
 /* Ajustements de plugins */
