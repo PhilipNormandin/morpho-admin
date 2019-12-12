@@ -7,7 +7,7 @@
 
 h2.tomb-taxonomy-header,
 h2.tomb-taxonomy-header + .tomb-taxonomy-table {
-    display: none;
+    /* display: none; */
 }
 
 
