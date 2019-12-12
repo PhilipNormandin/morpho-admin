@@ -193,7 +193,7 @@ body.block-editor-page {
 
 
 .post-type-attachment select#shortpixel_status {
-    margin-right: 8px;
+    margin-right: 6px;
 }
 .aquilaAdmin .mode-grid .attachments-browser .media-toolbar-primary {
     display: flex;
