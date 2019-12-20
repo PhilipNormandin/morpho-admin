@@ -1,6 +1,15 @@
 /* Morpho Admin - Custom Admin Styles */
 
 
+/* Aquila Buttons
+------------------------------------------------------------------------*/
+
+.aquilaAdmin #plugin_update_from_iframe {
+    font-size: 13px !important;
+    min-height: 28px !important;
+}
+
+
 /* Gutenberg
 ------------------------------------------------------------------------*/
 
@@ -1301,7 +1310,7 @@ body.wp-admin .page-title-action:active {
 .aquilaAdmin.wp-core-ui .button-cancel,
 .aquilaAdmin.wp-core-ui a.page-title-action,
 .aquilaAdmin.wp-core-ui input.button-secondary {
-    letter-spacing: 0.5px !important;
+    /* letter-spacing: 0.5px !important; */
     font-weight: 500 !important;
     border-radius: 3px;
 }
