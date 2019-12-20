@@ -188,6 +188,15 @@ body.block-editor-page {
 }
 
 
+/* Plugin Polylang
+------------------------------------------------------------------------*/
+
+
+#select-post-language span.pll-select-flag {
+    display: none;
+}
+
+
 /* Media
 ------------------------------------------------------------------------*/
 
