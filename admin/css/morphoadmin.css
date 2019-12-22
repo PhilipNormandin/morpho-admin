@@ -201,7 +201,8 @@ body.block-editor-page {
 ------------------------------------------------------------------------*/
 
 
-#wf-live-traffic-util-overlay-wrapper{
+.aquilaAdmin #wf-live-traffic-util-overlay-wrapper,
+.aquilaAdmin #wf-live-traffic-util-overlay-wrapper .wf-live-traffic-util-overlay {
     top: 65px;
 }
 
