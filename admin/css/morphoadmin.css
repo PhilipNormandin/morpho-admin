@@ -112,12 +112,12 @@ body.block-editor-page {
 ------------------------------------------------------------------------*/
 
 
-.aquilaAdmin #wcp-content-resize > .ui-resizable {
+body.aquilaAdmin #wcp-content-resize > .ui-resizable {
     top: 65px;
     left: 250px;
 }
-body.aquilaAdmin #wpcontent {
-    /* padding-left: 330px; */
+body.aquilaAdmin .media-toolbar.sticky-media {
+    top: 65px;
 }
 
 
