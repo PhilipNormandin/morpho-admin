@@ -108,6 +108,19 @@ body.block-editor-page {
 }
 
 
+/* Media (plugin Folders)
+------------------------------------------------------------------------*/
+
+
+.aquilaAdmin #wcp-content-resize > .ui-resizable {
+    top: 65px;
+    left: 250px;
+}
+body.wp-admin.aquilaAdmin #wpcontent {
+    padding-left: 325px;
+}
+
+
 /* Plugin Events Schedule
 ------------------------------------------------------------------------*/
 
