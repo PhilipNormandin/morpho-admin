@@ -117,7 +117,7 @@ body.block-editor-page {
     left: 250px;
 }
 body.wp-admin.aquilaAdmin #wpcontent {
-    padding-left: 325px;
+    /* padding-left: 325px; */
 }
 
 
