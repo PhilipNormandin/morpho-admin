@@ -116,7 +116,7 @@ body.block-editor-page {
     top: 65px;
     left: 250px;
 }
-.aquilaAdmin #wpcontent {
+body.aquilaAdmin #wpcontent {
     padding-left: 330px;
 }
 
