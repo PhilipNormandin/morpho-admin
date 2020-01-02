@@ -1,6 +1,101 @@
 /* Morpho Admin - Custom Admin Styles */
 
 
+/* =========================================
+              Adminbar & Menu
+========================================= */
+
+
+#wpadminbar {
+    color: #fff;
+    background: #5e656c;
+    height: 40px;
+    -webkit-box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.25), 5px 0px 10px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.25), 5px 0px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.25), 5px 0px 10px rgba(0, 0, 0, 0.22);
+}
+
+#wp-admin-bar-my-account > a.ab-item {
+    color: #fff !important;
+    font-size: 16px !important;
+    line-height: 40px !important;
+}
+
+#wpadminbar .ab-icon {
+    height: 40px;
+    font-size: 28px;
+    line-height: 2;
+}
+
+
+#wpadminbar .ab-icon,
+#wpadminbar .ab-item:before,
+#wpadminbar > #wp-toolbar > #wp-admin-bar-root-default .ab-icon {
+  /* height: 50px; */
+  /* font-size: 28px; */
+  /* line-height: 2; */
+}
+
+
+#wp-admin-bar-root-default > li > a,
+#wp-admin-bar-root-default > li > a > .ab-label,
+#wp-admin-bar-root-default > li > div.ab-item,
+#wp-admin-bar-my-account > a {
+    /* font-size: 16px !important; */
+    /* line-height: 50px !important; */
+}
+
+#wp-admin-bar-view-site {
+    /* text-align: center; */
+}
+
+#adminmenu,
+#adminmenu .wp-submenu,
+#wp-admin-bar-view-site {
+    /* width: 200px; */
+}
+
+#adminmenu,
+#adminmenu .wp-submenu,
+#adminmenuback,
+#adminmenuwrap,
+#wp-admin-bar-view-site {
+    /* width: 200px; */
+}
+
+#adminmenu {
+    /* background: #4a5158 !important; */
+}
+#adminmenu .wp-submenu {
+    /* background: #5e656c !important; */
+}
+#adminmenu a:hover {
+    /* color: #fff !important; */
+    /* background-color: #727980 !important; */
+}
+
+body.wp-admin #adminmenu a:hover,
+body.wp-admin #adminmenu li.menu-top:hover,
+body.wp-admin #adminmenu li.opensub > a.menu-top,
+body.wp-admin #adminmenu li > a.menu-top:focus {
+    /* background-color: #727980 !important; */
+}
+
+
+body.wp-admin #adminmenu .wp-submenu,
+body.wp-admin #adminmenu .wp-has-current-submenu .wp-submenu,
+body.wp-admin #adminmenu .wp-has-current-submenu.opensub .wp-submenu,
+body.wp-admin #adminmenu a.wp-has-current-submenu:focus + .wp-submenu {
+    /* background: #5e656c; */
+}
+
+body.wp-admin #adminmenuback,
+body.wp-admin #adminmenuwrap,
+body.wp-admin #adminmenu {
+    /* background: #4a5158; */
+}
+
+
 /* Aquila Buttons
 ------------------------------------------------------------------------*/
 
