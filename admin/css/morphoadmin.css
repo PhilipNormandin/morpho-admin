@@ -6,9 +6,22 @@
 ========================================= */
 
 
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head,
+#adminmenu .wp-menu-arrow,
+#adminmenu .wp-menu-arrow div,
+#adminmenu li.current a.menu-top,
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,
+.folded #adminmenu li.current.menu-top,
+.folded #adminmenu li.wp-has-current-submenu,
+#adminmenu li a.wp-has-current-submenu .update-plugins,
+#adminmenu li.current a .awaiting-mod,
 #wpadminbar {
-    color: #fff;
-    background: #5e656c;
+    background: #5e656c !important;
+}
+
+#wpadminbar {
+    /* color: #fff; */
+    /* background: #5e656c; */
     height: 40px;
     -webkit-box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.25), 5px 0px 10px rgba(0, 0, 0, 0.22);
     -moz-box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.25), 5px 0px 10px rgba(0, 0, 0, 0.22);
@@ -16,15 +29,15 @@
 }
 
 #wp-admin-bar-my-account > a.ab-item {
-    color: #fff !important;
-    font-size: 16px !important;
-    line-height: 40px !important;
+    /* color: #fff !important; */
+    /* font-size: 16px !important; */
+    /* line-height: 40px !important; */
 }
 
 #wpadminbar .ab-icon {
-    height: 40px;
-    font-size: 28px;
-    line-height: 2;
+    /* height: 40px; */
+    /* font-size: 28px; */
+    /* line-height: 2; */
 }
 
 
