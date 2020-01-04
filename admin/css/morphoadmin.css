@@ -26,6 +26,7 @@
 /* Colors
 ----------------------- */
 
+#adminmenu .wp-submenu,
 #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head,
 #adminmenu .wp-menu-arrow,
 #adminmenu .wp-menu-arrow div,
@@ -35,8 +36,15 @@
 .folded #adminmenu li.wp-has-current-submenu,
 #adminmenu li.current a .awaiting-mod,
 #wpadminbar {
-    background: #5e656c !important;
+    background-color: #5e656c !important;
 }
+#adminmenu,
+#adminmenuback,
+#adminmenuwrap {
+    background-color: #4a5158 !important;
+}
+#adminmenuwrap a,
+#adminmenu .wp-submenu a,
 #adminmenu li div.wp-menu-image:before,
 #adminmenu .wp-menu-image img,
 #collapse-menu span,
@@ -48,22 +56,9 @@
 
 
 
-#adminmenuwrap a {
 
-    color: #fff !important;
-}
-#adminmenu .wp-submenu a {
-    color: #ffffff !important;
-}
-#adminmenu, #adminmenuback, #adminmenuwrap {
 
-    background-color: #4a5158 !important;
 
-}
-#adminmenu .wp-submenu {
-    background: #5e656c !important;
-
-}
 #adminmenu .wp-has-current-submenu .wp-submenu,
 #adminmenu .wp-has-current-submenu .wp-submenu.sub-open,
 #adminmenu .wp-has-current-submenu.opensub .wp-submenu,
@@ -92,7 +87,7 @@
 
 
 /* =========================================
-                  Dashboard
+              Dashboard widgets
 ========================================= */
 
 
