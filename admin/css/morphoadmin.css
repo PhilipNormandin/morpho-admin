@@ -51,8 +51,8 @@
 #adminmenu .wp-menu-image img,
 #collapse-menu span,
 #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,
-.wp-menu-name:focus,
 #wpadminbar a.ab-item,
+#wpadminbar .quicklinks .menupop ul li .ab-item,
 #wpadminbar > #wp-toolbar span.ab-label,
 #wpadminbar #wp-admin-bar-user-info .display-name {
     color: #fff !important;
@@ -61,22 +61,19 @@
 #wpadminbar a:hover,
 #wpadminbar span:hover,
 #wpadminbar:not(.mobile) > #wp-toolbar li:hover span.ab-label,
-#wpadminbar .quicklinks .menupop ul li .ab-item,
 #wpadminbar .ab-topmenu > li.hover > .ab-item,
 #wpadminbar .ab-topmenu > li:hover > .ab-item,
 #wpadminbar .ab-topmenu > li.hover > .ab-item:focus,
 #wpadminbar ul#wp-admin-bar-root-default > li:hover span.ab-label,
-#wpadminbar .menupop:hover .display-name  {
-    color: #fff !important;
-}
-
-
+#wpadminbar .menupop:hover .display-name,
 #wpadminbar .ab-top-menu > li.hover > .ab-item,
 #wpadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus,
 #wpadminbar:not(.mobile) .ab-top-menu > li:hover > .ab-item,
-#wpadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus {
-    color: red !important;
+#wpadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus,
+.wp-menu-name:focus {
+    color: #fff !important;
 }
+
 
 
 #adminmenu li.wp-has-current-submenu div.wp-menu-image:before,
