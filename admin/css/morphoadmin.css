@@ -66,7 +66,8 @@
 #wpadminbar:not(.mobile) .ab-top-menu > li:hover > .ab-item,
 #wpadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus,
 #wpadminbar #wp-admin-bar-menu-toggle:hover .ab-icon:before,
-.wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before {
+/* .wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before, */
+.wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle a {
     background-color: #727980 !important;
 }
 #adminmenu li.menu-top.wp-menu-open:hover {
