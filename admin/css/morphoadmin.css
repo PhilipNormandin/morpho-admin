@@ -157,8 +157,7 @@
 }
 #adminmenu .wp-submenu-head,
 #adminmenu a.menu-top {
-    /* padding: 7px 0; */
-    height: 46px;
+    padding: 7px 0;
 }
 
 @media screen and (min-width: 782px) {
