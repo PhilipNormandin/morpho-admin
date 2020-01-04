@@ -113,6 +113,18 @@
 }
 
 
+/* Spacing
+----------------------- */
+
+@media screen and (min-width: 782px) {
+
+    #wpadminbar .quicklinks > ul> li > a {
+        padding: 6px 12px;
+    }
+
+}
+
+
 /* Avatar
 ----------------------- */
 
@@ -123,6 +135,17 @@
     height: 24px;
     border: 1px solid #fff;
     border-radius: 50%
+}
+
+@media screen and (max-width: 782px) {
+
+    #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a {
+        width: 70px;
+    }
+    #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img {
+        top: 7px;
+    }
+
 }
 
 
@@ -338,11 +361,7 @@ a, .button-link.editinline {
 #wpadminbar .ab-top-menu>li {
     padding: 0;
 }
-@media screen and (min-width: 782px) {
-    #wpadminbar .quicklinks > ul> li > a {
-        padding: 6px 12px;
-    }
-}
+
 #wpadminbar .ab-top-menu > li.hover > .ab-item,
 #wpadminbar .ab-top-menu > li:hover > .ab-item,
 #wpadminbar .ab-top-menu > li >.ab-item:focus,
@@ -354,14 +373,7 @@ a, .button-link.editinline {
     padding-left: 10px;
 }
 
-@media screen and (max-width: 782px) {
-    #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a {
-        width: 70px;
-    }
-    #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img {
-        top: 7px;
-    }
-}
+
 #wpadminbar .dashicons,
 #wpadminbar .dashicons-before:before {
     font-size: 30px;
