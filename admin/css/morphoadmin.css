@@ -31,7 +31,6 @@
 #adminmenu .wp-menu-arrow,
 #adminmenu .wp-menu-arrow div,
 #adminmenu li.current a.menu-top,
-#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,
 .folded #adminmenu li.current.menu-top,
 .folded #adminmenu li.wp-has-current-submenu,
 #adminmenu li.current a .awaiting-mod,
@@ -43,12 +42,16 @@
 #adminmenuwrap {
     background-color: #4a5158 !important;
 }
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu {
+    background-color: #009e07 !important;
+}
 #adminmenuwrap a,
 #adminmenu .wp-submenu a,
 #adminmenu li div.wp-menu-image:before,
 #adminmenu .wp-menu-image img,
 #collapse-menu span,
 #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,
+.wp-menu-name:focus,
 #wpadminbar #wp-admin-bar-user-info .display-name,
 #wpadminbar .menupop:hover .display-name {
     color: #fff !important;
@@ -179,9 +182,7 @@
     background-color: #727980 !important;
 
 }
-#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .wp-menu-name:focus {
-    color: #ffffff !important;
-}
+
 #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu:hover {
     color: #eee;
     color: #ffffff !important;
@@ -355,7 +356,6 @@ a, .button-link.editinline {
 #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu {
     padding-bottom:6px;
     padding-top: 6px;
-    background: #009e07 !important;
 }
 #adminmenu .wp-has-current-submenu ul>li>a {
     padding-left:34px;
