@@ -54,6 +54,9 @@
 #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu {
     background-color: #009e07 !important;
 }
+#adminmenu li.menu-top:hover,
+#adminmenu li.opensub > a.menu-top,
+#adminmenu li > a.menu-top:focus,
 #adminmenu .wp-submenu li:hover,
 #wpadminbar a.ab-item:hover,
 #wpadminbar .ab-top-menu > li.hover > .ab-item,
@@ -206,14 +209,6 @@
 
 
 
-#adminmenu li.menu-top:hover,
-#adminmenu li.opensub > a.menu-top,
-#adminmenu li > a.menu-top:focus {
-
-    background-color: #727980 !important;
-    background-color: red !important;
-
-}
 
 #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu:hover {
     color: #eee;
