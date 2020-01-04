@@ -67,8 +67,9 @@
 #wpadminbar a:hover,
 #wpadminbar span:hover,
 #wpadminbar:not(.mobile) > #wp-toolbar li:hover span.ab-label,
-#wpadminbar .ab-topmenu > li.hover > .ab-item,
-#wpadminbar .ab-topmenu > li:hover > .ab-item,
+#wpadminbar .ab-top-menu > li.hover > .ab-item,
+#wpadminbar .ab-top-menu > li:hover > .ab-item,
+#wpadminbar .ab-top-menu > li > .ab-item:focus,
 #wpadminbar .ab-topmenu > li.hover > .ab-item:focus,
 #wpadminbar ul#wp-admin-bar-root-default > li:hover span.ab-label,
 #wpadminbar .menupop:hover .display-name,
@@ -362,12 +363,7 @@ a, .button-link.editinline {
     padding: 0;
 }
 
-#wpadminbar .ab-top-menu > li.hover > .ab-item,
-#wpadminbar .ab-top-menu > li:hover > .ab-item,
-#wpadminbar .ab-top-menu > li >.ab-item:focus,
-#wpadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus {
-    background: transparent;
-}
+
 #wpadminbar #wp-admin-bar-wp-logo > .ab-item {
     padding: 4.5px;
     padding-left: 10px;
