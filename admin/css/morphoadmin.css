@@ -71,6 +71,20 @@
 }
 
 
+#wpadminbar .ab-top-menu > li.hover > .ab-item,
+#wpadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus,
+#wpadminbar:not(.mobile) .ab-top-menu > li:hover > .ab-item,
+#wpadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus {
+    color: red !important;
+}
+
+
+#adminmenu li.wp-has-current-submenu div.wp-menu-image:before,
+#adminmenu li.current a.menu-top div.wp-menu-image:before {
+    color: #ffffff !important;
+}
+
+
 #wpadminbar a.auto-fold,
 #adminmenu div.wp-menu-image {
     color: #ffffff !important;
@@ -236,9 +250,7 @@ a, .button-link.editinline {
 #adminmenu li.current a.menu-top {
     color: #ffffff !important;
 }
-#adminmenu li.wp-has-current-submenu div.wp-menu-image:before, #adminmenu li.current a.menu-top div.wp-menu-image:before {
-    color: #ffffff !important;
-}
+
 #adminmenu li.wp-has-current-submenu:hover div.wp-menu-image:before, #adminmenu li.current a.menu-top:hover div.wp-menu-image:before, #adminmenu li.current a.menu-top:hover {
 
 }
@@ -250,9 +262,7 @@ a, .button-link.editinline {
     background:  !important;
 }
 
-#wpadminbar .ab-top-menu>li.hover>.ab-item, #wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus, #wpadminbar:not(.mobile) .ab-top-menu>li:hover>.ab-item, #wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus {
 
-}
 #wpadminbar .quicklinks .ab-sub-wrapper .menupop.hover>a, #wpadminbar .quicklinks .menupop ul li a:focus, #wpadminbar .quicklinks .menupop ul li a:focus strong, #wpadminbar .quicklinks .menupop ul li a:hover, #wpadminbar .quicklinks .menupop ul li a:hover strong, #wpadminbar .quicklinks .menupop.hover ul li a:focus, #wpadminbar .quicklinks .menupop.hover ul li a:hover, #wpadminbar .quicklinks .menupop.hover ul li div[tabindex]:focus, #wpadminbar .quicklinks .menupop.hover ul li div[tabindex]:hover, #wpadminbar li #adminbarsearch.adminbar-focused:before, #wpadminbar li .ab-item:focus .ab-icon:before, #wpadminbar li .ab-item:focus:before, #wpadminbar li a:focus .ab-icon:before, #wpadminbar li.hover .ab-icon:before, #wpadminbar li.hover .ab-item:before, #wpadminbar li:hover #adminbarsearch:before, #wpadminbar li:hover .ab-icon:before, #wpadminbar li:hover .ab-item:before, #wpadminbar.nojs .quicklinks .menupop:hover ul li a:focus, #wpadminbar.nojs .quicklinks .menupop:hover ul li a:hover, #wpadminbar.mobile .quicklinks .hover .ab-icon:before, #wpadminbar.mobile .quicklinks .hover .ab-item:before {
 
     color: #fff !important;
