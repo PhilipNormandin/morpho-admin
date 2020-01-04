@@ -153,9 +153,12 @@
 #adminmenu .wp-submenu a,
 #adminmenu .wp-has-current-submenu ul > li > a,
 .folded #adminmenu li.menu-top .wp-submenu > li > a {
-    /* padding: 10px 15px; */
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 15px;
+}
+#adminmenu .wp-submenu-head,
+#adminmenu a.menu-top {
+    /* padding: 7px 0; */
+    height: 46px;
 }
 
 @media screen and (min-width: 782px) {
@@ -405,12 +408,7 @@ a, .button-link.editinline {
 #adminmenu li.wp-menu-separator {
     display: none;
 }
-#adminmenu .wp-submenu-head,
-#adminmenu a.menu-top {
-    padding:7px 0;
-    /*! height: 46px; */
-    /*     margin: 7px 0; */
-}
+
 .folded #adminmenu .wp-submenu-head,.folded #adminmenu a.menu-top {
     padding:5px 0;
 }
