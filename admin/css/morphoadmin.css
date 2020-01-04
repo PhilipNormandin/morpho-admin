@@ -133,6 +133,11 @@
 /* Spacing
 ----------------------- */
 
+#wpadminbar .ab-submenu,
+#wpadminbar .ab-top-menu > li {
+    padding: 0;
+}
+
 @media screen and (min-width: 782px) {
 
     #wpadminbar .quicklinks > ul> li > a {
@@ -363,12 +368,7 @@ a, .button-link.editinline {
     margin-top:0;
     left:0;
 }
-#wpadminbar .ab-submenu {
-    padding:0;
-}
-#wpadminbar .ab-top-menu>li {
-    padding: 0;
-}
+
 
 
 #wpadminbar #wp-admin-bar-wp-logo > .ab-item {
