@@ -52,6 +52,7 @@
 #collapse-menu span,
 #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,
 .wp-menu-name:focus,
+#wpadminbar > #wp-toolbar span.ab-label,
 #wpadminbar #wp-admin-bar-user-info .display-name,
 #wpadminbar .menupop:hover .display-name {
     color: #fff !important;
@@ -60,6 +61,12 @@
 
 
 
+
+#wpadminbar a.auto-fold,
+#adminmenu div.wp-menu-image {
+    color: #ffffff !important;
+    color: red !important;
+}
 
 
 #adminmenu .wp-has-current-submenu .wp-submenu,
@@ -217,9 +224,6 @@ a, .button-link.editinline {
 
 
 
-#wpadminbar span, #wpadminbar a.auto-fold #adminmenu div.wp-menu-image {
-    color: #ffffff !important;
-}
 #adminmenu li.current a.menu-top {
     color: #ffffff !important;
 }
