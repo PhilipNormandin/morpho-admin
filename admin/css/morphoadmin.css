@@ -88,7 +88,7 @@
 #wpadminbar #wp-admin-bar-user-info .display-name,
 #wpadminbar a.auto-fold,
 /* #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before, */
-/* .wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before  */
+.wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before 
 {
     color: #fff !important;
 }
