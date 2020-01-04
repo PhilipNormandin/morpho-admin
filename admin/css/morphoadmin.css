@@ -65,8 +65,8 @@
 #wpadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus {
     background-color: #727980 !important;
 }
-#adminmenu li.wp-menu-open.menu-top:hover {
-    background-color: none;
+#adminmenu li.menu-top.wp-menu-open:hover {
+    background-color: unset;
 }
 #adminmenuwrap a,
 #adminmenu .wp-submenu a,
