@@ -57,6 +57,8 @@
 #adminmenu .wp-submenu a,
 #adminmenu li div.wp-menu-image:before,
 #adminmenu .wp-menu-image img,
+#adminmenu li.wp-has-current-submenu div.wp-menu-image:before,
+#adminmenu li.current a.menu-top div.wp-menu-image:before,
 #collapse-menu span,
 #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,
 #wpadminbar a.ab-item,
@@ -83,12 +85,6 @@
 }
 
 
-
-#adminmenu li.wp-has-current-submenu div.wp-menu-image:before,
-#adminmenu li.current a.menu-top div.wp-menu-image:before {
-    color: #ffffff !important;
-    color: red !important;
-}
 
 
 #wpadminbar a.auto-fold,
