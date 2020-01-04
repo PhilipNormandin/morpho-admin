@@ -35,6 +35,7 @@
 .folded #adminmenu li.wp-has-current-submenu,
 #adminmenu li.current a .awaiting-mod,
 #wpadminbar,
+#wpadminbar .menupop .ab-sub-wrapper,
 #adminmenu .wp-has-current-submenu .wp-submenu,
 #adminmenu .wp-has-current-submenu .wp-submenu.sub-open,
 #adminmenu .wp-has-current-submenu.opensub .wp-submenu,
@@ -204,18 +205,6 @@
 
 
 
-
-
-
-
-
-
-#wpadminbar .menupop .ab-sub-wrapper {
-
-    background-color: #5e656c !important;
-background-color: red !important;
-
-}
 
 #adminmenu li.menu-top:hover, #adminmenu li.opensub>a.menu-top, #adminmenu li>a.menu-top:focus {
 
