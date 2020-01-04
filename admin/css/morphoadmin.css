@@ -144,16 +144,11 @@
 }
 #wpadminbar ul li .ab-sub-wrapper .ab-submenu > li > a {
     padding: 5px 20px;
-    /* padding-top: 5px; */
-    /* padding-bottom: 5px; */
 }
 #wpadminbar #wp-admin-bar-user-actions > li,
 #wpadminbar .quicklinks .menupop ul li {
     margin-left: 0px;
     margin-right: 0px;
-}
-#wpadminbar .quicklinks .menupop ul li a {
-    /* padding: 0 20px; */
 }
 #adminmenu .wp-submenu a,
 #adminmenu .wp-has-current-submenu ul > li > a,
