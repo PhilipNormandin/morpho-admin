@@ -134,7 +134,9 @@
 ----------------------- */
 
 #wpadminbar .ab-submenu,
-#wpadminbar .ab-top-menu > li {
+#wpadminbar .ab-top-menu > li,
+#wpadminbar #wp-admin-bar-user-actions.ab-submenu,
+#wpadminbar .quicklinks .menupop ul {
     padding: 0;
 }
 
@@ -183,10 +185,7 @@
     margin-left: 0px;
     margin-right: 0px;
 }
-#wpadminbar #wp-admin-bar-user-actions.ab-submenu,
-#wpadminbar .quicklinks .menupop ul {
-    padding: 0px 0;
-}
+
 #wpadminbar .menupop .ab-sub-wrapper {
 
     padding: 10px 0;
