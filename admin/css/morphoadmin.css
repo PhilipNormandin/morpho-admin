@@ -115,6 +115,21 @@
 
 
 
+/* Links
+----------------------- */
+
+#wp-admin-bar-view-site {
+    width: 160px;
+    text-align: center;
+}
+#wp-admin-bar-view-site a {
+    text-transform: uppercase !important;
+}
+#adminmenu .wp-submenu .wp-submenu-head {
+    display: none;
+}
+
+
 /* Spacing
 ----------------------- */
 
@@ -222,16 +237,7 @@
 
 
 
-#wp-admin-bar-view-site {
-    width: 160px;
-    text-align: center;
-}
-#adminmenu .wp-submenu .wp-submenu-head {
-    display: none;
-}
-#wp-admin-bar-view-site a {
-    text-transform: uppercase !important;;
-}
+
 
 #wpadminbar .menupop .ab-sub-wrapper {
 
