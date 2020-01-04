@@ -211,23 +211,11 @@
 
 
 
-
-
-
-.current.menu-top.menu-top-first.menu-top-last a:hover {
-    color: #eee;
-    color: #ffffff;
-color: red !important;
-}
-.wp-core-ui .button-primary {
-    background:  !important;
-    border-color:  !important;
-    box-shadow: 0 1px 0  !important;
-    text-shadow: none!important;
-}
 @media screen and (max-width: 782px) {
-    .wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before, #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before  {
+    .wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before,
+    #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before  {
         color: #ffffff !important;
+        color: red !important;
         background: #5e656c !important;
 
     }
