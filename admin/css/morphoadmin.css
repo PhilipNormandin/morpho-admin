@@ -206,9 +206,12 @@
 
 
 
-#adminmenu li.menu-top:hover, #adminmenu li.opensub>a.menu-top, #adminmenu li>a.menu-top:focus {
+#adminmenu li.menu-top:hover,
+#adminmenu li.opensub > a.menu-top,
+#adminmenu li > a.menu-top:focus {
 
     background-color: #727980 !important;
+    background-color: red !important;
 
 }
 
