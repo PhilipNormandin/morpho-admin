@@ -153,9 +153,9 @@
 #adminmenu .wp-submenu a,
 #adminmenu .wp-has-current-submenu ul > li > a,
 .folded #adminmenu li.menu-top .wp-submenu > li > a {
-    padding: 10px 15px;
-    /* padding-top: 10px; */
-    /* padding-bottom: 10px; */
+    /* padding: 10px 15px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 @media screen and (min-width: 782px) {
