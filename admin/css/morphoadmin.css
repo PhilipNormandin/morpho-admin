@@ -113,7 +113,17 @@
 }
 
 
+/* Avatar
+----------------------- */
 
+#wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img {
+    float: left;
+    margin: 3px 15px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #fff;
+    border-radius: 50%
+}
 
 
 /* =========================================
@@ -340,14 +350,7 @@ a, .button-link.editinline {
     padding: 4.5px;
     padding-left: 10px;
 }
-#wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar>a img {
-    float:left;
-    margin:3px 15px;
-    width:24px;
-    height:24px;
-    border:1px solid #FFF;
-    border-radius:50%
-}
+
 @media screen and (max-width: 782px) {
     #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar>a {
         width: 70px;
