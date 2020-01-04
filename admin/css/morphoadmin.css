@@ -65,7 +65,7 @@
 #wpadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus,
 #wpadminbar:not(.mobile) .ab-top-menu > li:hover > .ab-item,
 #wpadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus,
-#wpadminbar #wp-admin-bar-menu-toggle:hover {
+#wpadminbar #wp-admin-bar-menu-toggle:hover .ab-icon:before {
     background-color: #727980 !important;
 }
 #adminmenu li.menu-top.wp-menu-open:hover {
