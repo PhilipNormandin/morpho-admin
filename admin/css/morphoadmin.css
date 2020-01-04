@@ -52,6 +52,7 @@
 #collapse-menu span,
 #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,
 .wp-menu-name:focus,
+#wpadminbar a.ab-item,
 #wpadminbar > #wp-toolbar span.ab-label,
 #wpadminbar #wp-admin-bar-user-info .display-name,
 #wpadminbar .menupop:hover .display-name {
@@ -256,9 +257,7 @@ a, .button-link.editinline {
 #wpadminbar .menupop .ab-sub-wrapper:hover {
     background:  !important;
 }
-#wpadminbar a.ab-item {
-    color: #ffffff !important;
-}
+
 @media screen and (max-width: 782px) {
     #wpadminbar .ab-icon, #wpadminbar .ab-item:before, #wpadminbar>#wp-toolbar>#wp-admin-bar-root-default .ab-icon {
         color: #ffffff !important;
