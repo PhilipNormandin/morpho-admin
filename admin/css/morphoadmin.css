@@ -53,8 +53,6 @@
 #wpadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus {
     background-color: #727980 !important;
 }
-
-
 #adminmenuwrap a,
 #adminmenu .wp-submenu a,
 #adminmenu li div.wp-menu-image:before,
@@ -67,7 +65,6 @@
 #wpadminbar #wp-admin-bar-user-info .display-name {
     color: #fff !important;
 }
-
 #wpadminbar a:hover,
 #wpadminbar span:hover,
 #wpadminbar:not(.mobile) > #wp-toolbar li:hover span.ab-label,
@@ -90,6 +87,7 @@
 #adminmenu li.wp-has-current-submenu div.wp-menu-image:before,
 #adminmenu li.current a.menu-top div.wp-menu-image:before {
     color: #ffffff !important;
+    color: red !important;
 }
 
 
@@ -112,7 +110,6 @@
     background-color: #5e656c !important;
 
 }
-
 
 
 /* Links
@@ -179,9 +176,7 @@
     display: none;
 }
 #adminmenu li.menu-top {
-    /* border-bottom: 1px solid #333 !important; */
-    /* border-bottom: 1px solid rgba(255, 255, 255, 0.075) !important; */
-    border-bottom: 4px solid #333 !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.075) !important;
 }
 
 
