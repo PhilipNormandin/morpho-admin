@@ -45,6 +45,12 @@
 #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu {
     background-color: #009e07 !important;
 }
+#wpadminbar .ab-top-menu > li.hover > .ab-item,
+#wpadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus,
+#wpadminbar:not(.mobile) .ab-top-menu > li:hover > .ab-item,
+#wpadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus {
+    background-color: #727980 !important;
+}
 #adminmenuwrap a,
 #adminmenu .wp-submenu a,
 #adminmenu li div.wp-menu-image:before,
@@ -106,13 +112,7 @@
 
 }
 
-#wpadminbar .ab-top-menu > li.hover > .ab-item,
-#wpadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus,
-#wpadminbar:not(.mobile) .ab-top-menu > li:hover > .ab-item,
-#wpadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus {
-    background-color: #727980 !important;
-    color: #00b9eb;
-}
+
 
 
 
