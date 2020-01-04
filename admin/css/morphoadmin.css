@@ -141,8 +141,8 @@
 }
 #wpadminbar #wp-admin-bar-user-actions > li,
 #wpadminbar .quicklinks .menupop ul li {
-    /* margin-left: 0px; */
-    /* margin-right: 0px; */
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 @media screen and (min-width: 782px) {
