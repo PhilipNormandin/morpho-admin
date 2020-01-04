@@ -116,7 +116,8 @@
 #wpadminbar .ab-submenu,
 #wpadminbar .ab-top-menu > li,
 #wpadminbar #wp-admin-bar-user-actions.ab-submenu,
-#wpadminbar .quicklinks .menupop ul {
+#wpadminbar .quicklinks .menupop ul,
+#adminmenu .wp-submenu {
     padding: 0;
 }
 #wpadminbar .menupop .ab-sub-wrapper {
@@ -210,9 +211,7 @@
 
 
 
-#adminmenu .wp-submenu {
-    padding: 0 0 0 0;
-}
+
 
 
 #wpadminbar {
