@@ -102,6 +102,17 @@
     color: #fff !important;
 }
 
+@media screen and (max-width: 782px) {
+
+    .wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before,
+    #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before  {
+        color: #fff !important;
+        background: #5e656c !important;
+
+    }
+
+}
+
 
 /* Links
 ----------------------- */
@@ -211,19 +222,7 @@
 
 
 
-@media screen and (max-width: 782px) {
-    .wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before,
-    #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before  {
-        color: #ffffff !important;
-        color: red !important;
-        background: #5e656c !important;
 
-    }
-    .wp-has-submenu.wp-not-current-submenu.menu-top {
-        background:  !important;
-
-    }
-}
 a, .button-link.editinline {
     color: ;
 }
