@@ -34,7 +34,15 @@
 .folded #adminmenu li.current.menu-top,
 .folded #adminmenu li.wp-has-current-submenu,
 #adminmenu li.current a .awaiting-mod,
-#wpadminbar {
+#wpadminbar,
+#adminmenu .wp-has-current-submenu .wp-submenu,
+#adminmenu .wp-has-current-submenu .wp-submenu.sub-open,
+#adminmenu .wp-has-current-submenu.opensub .wp-submenu,
+#adminmenu a.wp-has-current-submenu:focus + .wp-submenu,
+.no-js li.wp-has-current-submenu:hover .wp-submenu,
+#adminmenu div.wp-menu-name:active,
+#adminmenu li.opensub > a.menu-top,
+#wpadminbar .shortlink-input  {
     background-color: #5e656c !important;
 }
 #adminmenu,
@@ -56,6 +64,7 @@
 #adminmenuwrap a,
 #adminmenu .wp-submenu a,
 #adminmenu li div.wp-menu-image:before,
+#adminmenu div.wp-menu-image,
 #adminmenu .wp-menu-image img,
 #adminmenu li.wp-has-current-submenu div.wp-menu-image:before,
 #adminmenu li.current a.menu-top div.wp-menu-image:before,
@@ -64,7 +73,8 @@
 #wpadminbar a.ab-item,
 #wpadminbar .quicklinks .menupop ul li .ab-item,
 #wpadminbar > #wp-toolbar span.ab-label,
-#wpadminbar #wp-admin-bar-user-info .display-name {
+#wpadminbar #wp-admin-bar-user-info .display-name,
+#wpadminbar a.auto-fold {
     color: #fff !important;
 }
 #wpadminbar a:hover,
@@ -82,29 +92,6 @@
 #wpadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus,
 .wp-menu-name:focus {
     color: #fff !important;
-}
-
-
-
-
-#wpadminbar a.auto-fold,
-#adminmenu div.wp-menu-image {
-    color: #ffffff !important;
-    color: red !important;
-}
-
-
-#adminmenu .wp-has-current-submenu .wp-submenu,
-#adminmenu .wp-has-current-submenu .wp-submenu.sub-open,
-#adminmenu .wp-has-current-submenu.opensub .wp-submenu,
-#adminmenu a.wp-has-current-submenu:focus+.wp-submenu,
-.no-js li.wp-has-current-submenu:hover .wp-submenu,
-#adminmenu div.wp-menu-name:active,
-#adminmenu li.opensub>a.menu-top,
-#wpadminbar .shortlink-input  {
-
-    background-color: #5e656c !important;
-
 }
 
 
