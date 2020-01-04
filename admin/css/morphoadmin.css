@@ -166,6 +166,9 @@
 #adminmenu li.menu-top {
     border-bottom: 1px solid rgba(255, 255, 255, 0.075) !important;
 }
+#wpadminbar {
+    box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.25), 5px 0px 10px rgba(0, 0, 0, 0.22);
+}
 
 
 /* Avatar
@@ -200,36 +203,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#wpadminbar {
-    box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.25), 5px 0px 10px rgba(0, 0, 0, 0.22);
-}
-
-#adminmenu li a.wp-has-current-submenu .update-plugins {
-
-}
-#adminmenu li a:focus div.wp-menu-image:before, #adminmenu li.opensub div.wp-menu-image:before {
-
-}
-#adminmenu li div.wp-menu-image:before, #adminmenu .wp-menu-image img {
-
-}
-#adminmenu .wp-submenu a:focus, #adminmenu .wp-submenu a:hover, #adminmenu a:hover, #adminmenu li.menu-top>a:focus,#adminmenu li.menu-top:hover, #adminmenu li.opensub>a.menu-top, #adminmenu li>a.menu-top:focus, #adminmenu li a:focus div.wp-menu-image:before, #adminmenu li.opensub div.wp-menu-image:before, #adminmenu .wp-submenu li.current a, #adminmenu .wp-submenu a:hover {
-
-}
 
 
 
