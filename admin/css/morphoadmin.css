@@ -172,6 +172,19 @@
 }
 
 
+/* Separators
+----------------------- */
+
+#adminmenu li.wp-menu-separator {
+    display: none;
+}
+#adminmenu li.menu-top {
+    /* border-bottom: 1px solid #333 !important; */
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.075) !important; */
+    border-bottom: 4px solid #333 !important;
+}
+
+
 /* Avatar
 ----------------------- */
 
@@ -405,9 +418,7 @@ a, .button-link.editinline {
     float: right;
     margin-right: 5px;
 }
-#adminmenu li.wp-menu-separator {
-    display: none;
-}
+
 
 .folded #adminmenu .wp-submenu-head,.folded #adminmenu a.menu-top {
     padding:5px 0;
@@ -483,12 +494,7 @@ input[type=email],input[type=number],input[type=password],input[type=search],inp
 #adminmenu, #adminmenuback, #adminmenuwrap {
     padding: 3px 0;
 }
-#adminmenu li.menu-top {
-    border-bottom:1px solid #333!important;
-    border-bottom:1px solid rgba(255, 255, 255, 0.075)!important;
-    /*! height: 40px; */
-    /*! line-height: 50px; */
-}
+
 
 /* Duplicate Post Styling */
 #duplicate-action {
