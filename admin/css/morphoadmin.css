@@ -133,7 +133,11 @@
 #adminmenu .wp-submenu a,
 #adminmenu .wp-has-current-submenu ul > li > a,
 .folded #adminmenu li.menu-top .wp-submenu > li > a {
-    padding: 10px 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#adminmenu .wp-has-current-submenu ul > li > a {
+    padding-left: 34px;
 }
 #adminmenu .wp-submenu-head,
 #adminmenu a.menu-top {
@@ -382,9 +386,7 @@ a, .button-link.editinline {
     padding-bottom: 6px;
     padding-top:  6px;
 }
-#adminmenu .wp-has-current-submenu ul > li > a {
-    padding-left: 34px;
-}
+
 
 /* Admin Menu */
 
