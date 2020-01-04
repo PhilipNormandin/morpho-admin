@@ -43,7 +43,9 @@
 .no-js li.wp-has-current-submenu:hover .wp-submenu,
 #adminmenu div.wp-menu-name:active,
 #adminmenu li.opensub > a.menu-top,
-#wpadminbar .shortlink-input  {
+#wpadminbar .shortlink-input,
+.wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before,
+#wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before  {
     background-color: #5e656c !important;
 }
 #adminmenu,
@@ -62,7 +64,8 @@
 #wpadminbar .ab-top-menu > li.hover > .ab-item,
 #wpadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus,
 #wpadminbar:not(.mobile) .ab-top-menu > li:hover > .ab-item,
-#wpadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus {
+#wpadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus,
+#wpadminbar #wp-admin-bar-menu-toggle:hover {
     background-color: #727980 !important;
 }
 #adminmenu li.menu-top.wp-menu-open:hover {
@@ -81,7 +84,9 @@
 #wpadminbar .quicklinks .menupop ul li .ab-item,
 #wpadminbar > #wp-toolbar span.ab-label,
 #wpadminbar #wp-admin-bar-user-info .display-name,
-#wpadminbar a.auto-fold {
+#wpadminbar a.auto-fold,
+.wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before,
+#wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before {
     color: #fff !important;
 }
 #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu:hover,
@@ -106,8 +111,10 @@
 
     .wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before,
     #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before  {
-        color: #fff !important;
-        background: #5e656c !important;
+        /* color: #fff !important; */
+        /* background: #5e656c !important; */
+    }
+    #wpadminbar #wp-admin-bar-menu-toggle:hover {
 
     }
 
