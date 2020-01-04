@@ -216,6 +216,7 @@
 #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu:hover {
     color: #eee;
     color: #ffffff !important;
+    color: red !important;
 }
 .current.menu-top.menu-top-first.menu-top-last a :hover {
     color: #eee;
