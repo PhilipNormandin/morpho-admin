@@ -58,6 +58,8 @@
     color: #fff !important;
 }
 
+#wpadminbar a:hover,
+#wpadminbar span:hover,
 #wpadminbar .quicklinks .menupop ul li .ab-item,
 #wpadminbar .ab-topmenu > li.hover > .ab-item,
 #wpadminbar .ab-topmenu > li:hover > .ab-item,
@@ -66,7 +68,6 @@
 #wpadminbar .menupop:hover .display-name  {
     /* color: #fff !important; */
 }
-
 
 
 #wpadminbar a.auto-fold,
@@ -243,10 +244,7 @@ a, .button-link.editinline {
 #wpadminbar .ab-icon, #wpadminbar .ab-item:before, #wpadminbar>#wp-toolbar>#wp-admin-bar-root-default .ab-icon,#wpadminbar #adminbarsearch:before, #wpadminbar .ab-icon:before, #wpadminbar .ab-item:before {
     color: #ffffff;
 }
-#wpadminbar span:hover, #wpadminbar a:hover {
-    color: #5e656c !important;
-    color: #fff !important;
-}
+
 #adminmenu li.current a.menu-top:hover,#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu:hover {
     background:  !important;
 }
