@@ -64,8 +64,7 @@
 #wpadminbar .ab-topmenu > li.hover > .ab-item:focus,
 #wpadminbar ul#wp-admin-bar-root-default > li:hover span.ab-label,
 #wpadminbar .menupop:hover .display-name  {
-    color: #fff !important;
-    color: red !important;
+    /* color: #fff !important; */
 }
 
 
