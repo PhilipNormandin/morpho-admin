@@ -46,7 +46,8 @@
 #wpadminbar .shortlink-input,
 .wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before,
 .wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle a,
-#wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before {
+#wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before,
+#wpadminbar #wp-admin-bar-menu-toggle:active .ab-icon:before {
     background-color: #5e656c !important;
 }
 #adminmenu,
