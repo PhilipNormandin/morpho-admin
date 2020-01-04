@@ -84,6 +84,7 @@
 #wpadminbar a.auto-fold {
     color: #fff !important;
 }
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu:hover,
 #wpadminbar a:hover,
 #wpadminbar span:hover,
 #wpadminbar:not(.mobile) > #wp-toolbar li:hover span.ab-label,
@@ -213,14 +214,10 @@
 
 
 
-#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu:hover {
-    color: #eee;
-    color: #ffffff !important;
-    color: red !important;
-}
 .current.menu-top.menu-top-first.menu-top-last a :hover {
     color: #eee;
     color: #ffffff;
+color: red !important;
 }
 .wp-core-ui .button-primary {
     background:  !important;
