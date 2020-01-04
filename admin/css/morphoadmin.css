@@ -54,7 +54,7 @@
 #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu {
     background-color: #009e07 !important;
 }
-#adminmenu li.menu-top:hover,
+#adminmenu li:not(.wp-menu-open).menu-top:hover,
 #adminmenu li.opensub > a.menu-top,
 #adminmenu li > a.menu-top:focus,
 #adminmenu .wp-submenu li:hover,
