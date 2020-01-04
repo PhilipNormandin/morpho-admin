@@ -139,10 +139,20 @@
 #wpadminbar .quicklinks .menupop ul {
     padding: 0;
 }
+#wpadminbar .menupop .ab-sub-wrapper {
+    padding: 10px 0;
+}
+#wpadminbar ul li .ab-sub-wrapper .ab-submenu > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 #wpadminbar #wp-admin-bar-user-actions > li,
 #wpadminbar .quicklinks .menupop ul li {
     margin-left: 0px;
     margin-right: 0px;
+}
+#wpadminbar .quicklinks .menupop ul li a {
+    padding: 0 20px;
 }
 
 @media screen and (min-width: 782px) {
@@ -187,22 +197,11 @@
 
 
 
-#wpadminbar .menupop .ab-sub-wrapper {
 
-    padding: 10px 0;
-}
 
-#wpadminbar ul li .ab-sub-wrapper .ab-submenu > li > a {
-    padding-top: 5px;
-    padding-bottom: 5px;
 
-}
 
-#wpadminbar .quicklinks .menupop ul li a {
 
-    padding: 0 20px;
-
-}
 
 #adminmenu .wp-submenu a,
 #adminmenu .wp-has-current-submenu ul > li > a,
