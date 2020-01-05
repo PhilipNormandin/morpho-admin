@@ -456,6 +456,17 @@ body.block-editor-page {
 }
 
 
+/* Wordfence
+----------------------- */
+
+
+#wf-live-traffic-util-overlay-wrapper,
+#wf-live-traffic-util-overlay-wrapper .wf-live-traffic-util-overlay {
+    top: 44px;
+}
+
+
+
 /* Buttons
 ----------------------- */
 
