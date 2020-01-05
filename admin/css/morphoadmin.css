@@ -246,8 +246,16 @@
 #wp-admin-bar-view-site a {
     text-transform: uppercase !important;
 }
-#adminmenu .wp-submenu .wp-submenu-head {
-    display: none;
+
+
+/* Hiding stuff
+----------------------- */
+
+#adminmenu .wp-submenu .wp-submenu-head,
+ul#adminmenu a.wp-has-current-submenu:after,
+ul#adminmenu > li.current > a.current:after,
+#adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:after {
+    display:none;
 }
 
 
@@ -279,11 +287,6 @@
 
 
 
-ul#adminmenu a.wp-has-current-submenu:after,
-ul#adminmenu > li.current > a.current:after,
-#adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:after {
-    display:none;
-}
 .wrap .add-new-h2,.wrap .add-new-h2:active {
     top:-8px;
 }
