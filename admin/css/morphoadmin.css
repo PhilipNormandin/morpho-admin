@@ -219,13 +219,10 @@
 
 
 
-#adminmenu li.wp-has-current-submenu:hover div.wp-menu-image:before,
-#adminmenu li.current a.menu-top:hover div.wp-menu-image:before,
-#adminmenu li.current a.menu-top:hover {
-color: red !important;
-}
+
 #wpadminbar .ab-icon, #wpadminbar .ab-item:before, #wpadminbar>#wp-toolbar>#wp-admin-bar-root-default .ab-icon,#wpadminbar #adminbarsearch:before, #wpadminbar .ab-icon:before, #wpadminbar .ab-item:before {
     color: #ffffff;
+color: red !important;
 }
 
 #adminmenu li.current a.menu-top:hover,#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu:hover {
