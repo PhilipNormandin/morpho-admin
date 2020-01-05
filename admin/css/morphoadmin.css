@@ -447,6 +447,15 @@ body.block-editor-page {
 }
 
 
+/* Polylang
+----------------------- */
+
+
+#select-post-language span.pll-select-flag {
+    display: none;
+}
+
+
 /* Buttons
 ----------------------- */
 
