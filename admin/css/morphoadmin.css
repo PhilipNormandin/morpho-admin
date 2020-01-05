@@ -298,10 +298,10 @@ body.post-type-class #wpadminbar #wp-admin-bar-preview {
 .block-editor-page .editor-post-excerpt a.components-external-link {
     text-decoration: underline !important;
 }
-.block-editor-page .edit-post-meta-boxes-area #poststuff h2.hndle {
+.block-editor-page .edit-post-meta-boxes-area.is-side #poststuff h2.hndle {
     border-bottom: none !important;
 }
-.block-editor-page .edit-post-meta-boxes-area .postbox > .inside {
+.block-editor-page .edit-post-meta-boxes-area.is-side .postbox > .inside {
     border-bottom: none !important;
 }
 .block-editor-page .edit-post-meta-boxes-area .postbox {
@@ -324,9 +324,6 @@ body.block-editor-page {
     right: 15px;
     z-index: 100;
 }
-.block-editor-page .edit-post-settings-sidebar__panel-block .components-button {
-    font-family: revert !important;
-}
 .block-editor-page .editor-post-featured-image .components-button + .components-button.is-default {
     margin: 13px auto 0;
     width: 70%;
@@ -343,19 +340,7 @@ body.block-editor-page {
 .block-editor-page .edit-post-meta-boxes-area.is-loading .components-spinner {
     display: none !important;
 }
-.block-editor-page .components-notice-list.components-editor-notices__pinned,
-.block-editor-page .components-notice-list.components-editor-notices__dismissible {
-    left: 0 !important;
-}
-.block-editor-page.aquilaAdmin .has-fixed-toolbar .edit-post-layout__content {
-    top: 120px !important;
-}
-.block-editor-page .editor-post-title__block textarea {
-    border: none !important;
-}
-.block-editor-page.aquilaAdmin .editor-post-title__block textarea:hover {
-    box-shadow: none !important;
-}
+
 
 
 /* Buttons
