@@ -255,7 +255,20 @@
 ul#adminmenu a.wp-has-current-submenu:after,
 ul#adminmenu > li.current > a.current:after,
 #adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:after {
-    display:none;
+    display: none;
+}
+
+
+/* =========================================
+            Page & Post Controls
+========================================= */
+
+
+/* Buttons
+----------------------- */
+
+#major-publishing-actions {
+    padding: 0;
 }
 
 
@@ -287,26 +300,12 @@ ul#adminmenu > li.current > a.current:after,
 
 
 
-.wrap .add-new-h2,.wrap .add-new-h2:active {
-    top:-8px;
-}
-.update-core-php h2 {
-    margin-top: 1em;
-}
-#titlediv #title-prompt-text {
-    font-size:1.2em;
-    font-weight:100;
-}
-input[type=email],input[type=number],input[type=password],input[type=search],input[type=tel],input[type=text],input[type=url],select,textarea {
-    box-shadow:none;
-}
-#major-publishing-actions {
-    padding:0;
-}
+
+
 #delete-action {
     float:none;
-    padding:15px 0;
-    text-align:center;
+    padding: 15px 0;
+    text-align: center;
 }
 #delete-action a {
     text-decoration:underline;
