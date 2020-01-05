@@ -146,6 +146,10 @@
 #adminmenu {
     margin: 0;
 }
+#adminmenu .wp-not-current-submenu .wp-submenu,
+.folded #adminmenu .wp-has-current-submenu .wp-submenu {
+    padding: 10px 0;
+}
 #adminmenu .wp-submenu a,
 #adminmenu .wp-has-current-submenu ul > li > a,
 .folded #adminmenu li.menu-top .wp-submenu > li > a {
@@ -274,11 +278,10 @@
 
 
 
-#adminmenu .wp-not-current-submenu .wp-submenu,
-.folded #adminmenu .wp-has-current-submenu .wp-submenu {
-    padding: 10px 0;
-}
-ul#adminmenu a.wp-has-current-submenu:after,ul#adminmenu>li.current>a.current:after,#adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:after {
+
+ul#adminmenu a.wp-has-current-submenu:after,
+ul#adminmenu > li.current > a.current:after,
+#adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:after {
     display:none;
 }
 .wrap .add-new-h2,.wrap .add-new-h2:active {
