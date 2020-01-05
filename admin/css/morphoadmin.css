@@ -143,6 +143,9 @@
     margin-left: 0px;
     margin-right: 0px;
 }
+#adminmenu {
+    margin: 0;
+}
 #adminmenu .wp-submenu a,
 #adminmenu .wp-has-current-submenu ul > li > a,
 .folded #adminmenu li.menu-top .wp-submenu > li > a {
@@ -159,6 +162,11 @@
 }
 #collapse-menu {
     margin: 10px 0 5px !important;
+}
+#adminmenu .awaiting-mod,
+#adminmenu .update-plugins {
+    float: right;
+    margin-right: 5px;
 }
 
 @media screen and (min-width: 782px) {
@@ -208,22 +216,7 @@
 }
 
 
-/* Links
------------------------ */
-
-#wp-admin-bar-view-site {
-    width: 160px;
-    text-align: center;
-}
-#wp-admin-bar-view-site a {
-    text-transform: uppercase !important;
-}
-#adminmenu .wp-submenu .wp-submenu-head {
-    display: none;
-}
-
-
-/* Menu icons
+/* Icons & Links
 ----------------------- */
 
 #adminmenu #menu-posts .wp-menu-image::before {
@@ -237,6 +230,16 @@
 }
 #adminmenu .wp-menu-image img {
     opacity: 1;
+}
+#wp-admin-bar-view-site {
+    width: 160px;
+    text-align: center;
+}
+#wp-admin-bar-view-site a {
+    text-transform: uppercase !important;
+}
+#adminmenu .wp-submenu .wp-submenu-head {
+    display: none;
 }
 
 
@@ -262,13 +265,8 @@
 /* Admin Menu */
 
 
-#adminmenu {
-    margin:0;
-}
-#adminmenu .awaiting-mod, #adminmenu .update-plugins {
-    float: right;
-    margin-right: 5px;
-}
+
+
 
 
 .folded #adminmenu .wp-submenu-head,.folded #adminmenu a.menu-top {
