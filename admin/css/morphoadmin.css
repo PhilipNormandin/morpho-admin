@@ -123,6 +123,7 @@
 
 #wpadminbar {
     height: auto;
+    box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.25), 5px 0px 10px rgba(0, 0, 0, 0.22);
 }
 #wpadminbar .ab-submenu,
 #wpadminbar .ab-top-menu > li,
@@ -162,6 +163,9 @@
 
 @media screen and (min-width: 782px) {
 
+    html {
+        padding-top: 44px !important;
+    }
     #wpadminbar .quicklinks > ul> li > a {
         padding: 6px 12px;
     }
@@ -177,9 +181,6 @@
 }
 #adminmenu li.menu-top {
     border-bottom: 1px solid rgba(255, 255, 255, 0.075) !important;
-}
-#wpadminbar {
-    box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.25), 5px 0px 10px rgba(0, 0, 0, 0.22);
 }
 
 
