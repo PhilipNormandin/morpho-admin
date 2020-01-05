@@ -146,6 +146,11 @@
 #adminmenu {
     margin: 0;
 }
+#adminmenu,
+#adminmenuback,
+#adminmenuwrap {
+    padding: 3px 0;
+}
 #adminmenu .wp-not-current-submenu .wp-submenu,
 .folded #adminmenu .wp-has-current-submenu .wp-submenu {
     padding: 10px 0;
