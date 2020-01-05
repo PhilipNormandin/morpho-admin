@@ -259,7 +259,8 @@
 #adminmenu .wp-submenu .wp-submenu-head,
 ul#adminmenu a.wp-has-current-submenu:after,
 ul#adminmenu > li.current > a.current:after,
-#adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:after {
+#adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:after,
+body.post-type-class #wpadminbar #wp-admin-bar-preview {
     display: none;
 }
 
