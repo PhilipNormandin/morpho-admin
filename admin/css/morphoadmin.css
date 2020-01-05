@@ -264,109 +264,100 @@ ul#adminmenu > li.current > a.current:after,
 ========================================= */
 
 
+/* Gutenberg
+----------------------- */
+
+
+.block-editor-page #poststuff h2 {
+    color: #191e23 !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    line-height: normal;
+    text-transform: inherit !important;
+}
+.block-editor-page .meta-box-sortables .postbox .toggle-indicator::before {
+    content: "\f343" !important;
+    color: #191e23 !important;
+    font-size: 16px !important;
+    font-weight: bolder !important;
+    width: 15px;
+}
+.block-editor-page .meta-box-sortables .postbox.closed .toggle-indicator::before {
+    content: "\f347" !important;
+}
+.block-editor-page .edit-post-meta-boxes-area .postbox .handlediv {
+    height: 45px;
+    width: 45px;
+}
+.block-editor-page .editor-post-excerpt a.components-external-link {
+    text-decoration: underline !important;
+}
+.block-editor-page .edit-post-meta-boxes-area #poststuff h2.hndle {
+    border-bottom: none !important;
+}
+.block-editor-page .edit-post-meta-boxes-area .postbox > .inside {
+    border-bottom: none !important;
+}
+.block-editor-page .edit-post-meta-boxes-area .postbox {
+    border-bottom: 1px solid #e2e4e7;
+}
+.block-editor-page.js .postbox .hndle {
+    cursor: pointer !important;
+}
+body.block-editor-page {
+    background: #fff !important;
+}
+.block-editor-page .edit-post-layout__metaboxes,
+.block-editor-page .edit-post-sidebar {
+    background: #f3f4f5 !important;
+}
+.block-editor-page .postbox .toggle-indicator::before {
+    margin-top: 0 !important;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 100;
+}
+.block-editor-page .edit-post-settings-sidebar__panel-block .components-button {
+    font-family: revert !important;
+}
+.block-editor-page .editor-post-featured-image .components-button + .components-button.is-default {
+    margin: 13px auto 0;
+    width: 70%;
+}
+.block-editor-page #pods-meta-more-fields .pods-form-ui-label,
+.block-editor-page #pods-meta-plus-de-champs .pods-form-ui-label {
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+}
+.block-editor-page .edit-post-sidebar {
+    color: #000 !important;
+}
+.block-editor-page .edit-post-meta-boxes-area.is-loading .components-spinner {
+    display: none !important;
+}
+.block-editor-page .components-notice-list.components-editor-notices__pinned,
+.block-editor-page .components-notice-list.components-editor-notices__dismissible {
+    left: 0 !important;
+}
+.block-editor-page.aquilaAdmin .has-fixed-toolbar .edit-post-layout__content {
+    top: 120px !important;
+}
+.block-editor-page .editor-post-title__block textarea {
+    border: none !important;
+}
+.block-editor-page.aquilaAdmin .editor-post-title__block textarea:hover {
+    box-shadow: none !important;
+}
+
+
 /* Buttons
 ----------------------- */
 
-#major-publishing-actions {
-    padding: 0;
-}
+
 
 
 /* =========================================
               Dashboard widgets
 ========================================= */
-
-
-
-
-/* Admin Bar Styling */
-
-
-
-
-
-/***** Modern Theme Styling ******/
-
-
-
-
-
-/* Admin Menu */
-
-
-
-
-
-
-
-
-
-
-#delete-action {
-    float:none;
-    padding: 15px 0;
-    text-align: center;
-}
-#delete-action a {
-    text-decoration:underline;
-}
-#publishing-action {
-    float:none;
-    display:block;
-    width:100%;
-}
-#publishing-action .spinner {
-    width:100%;
-    background-position:top center;
-    display: none;
-    float: none;
-    padding:5px 0;
-    margin: 0;
-}
-#publishing-action .spinner.is-active {
-    display: block;
-}
-#publishing-action #publish {
-    float:none;
-    font-size:16px;
-    height:auto;
-    padding:10px;
-    width:100%;
-}
-.wp-media-buttons .insert-media {
-    font-size:12px;
-}
-.wp-media-buttons .add_media span.wp-media-buttons-icon:before {
-    font-size:14px!important;
-}
-#acf-col-right {
-    display:none;
-}
-#acf-col-left {
-    margin:0!important;
-}
-.vc_navbar.subnav-fixed {
-    top:40px!important;
-}
-#adminmenu, #adminmenuback, #adminmenuwrap {
-    padding: 3px 0;
-}
-
-
-/* Duplicate Post Styling */
-#duplicate-action {
-    text-align: center!important;
-    margin-top: 15px;
-    margin-bottom: -5px!important;
-}
-
-/* License Manager Styling */
-#wp-admin-bar-fslm_notifications {
-    padding-top: 4.5px!important;
-}
-
-/* Visual Compser Styling */
-.vc_subnav-fixed {
-    position: fixed;
-    top: 44px!important;
-}
