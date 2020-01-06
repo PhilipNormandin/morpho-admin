@@ -332,7 +332,7 @@ body.block-editor-page {
 }
 .block-editor-page .editor-post-featured-image .components-button + .components-button.is-default {
     margin: 13px auto;
-    width: 70%;
+    width: 90%;
 }
 .block-editor-page .editor-post-featured-image .components-button + .components-button.is-destructive {
     margin: 13px auto 8px;
