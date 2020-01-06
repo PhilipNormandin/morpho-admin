@@ -337,12 +337,6 @@ body.block-editor-page {
 .block-editor-page .editor-post-featured-image .components-button + .components-button.is-destructive {
     margin: 13px auto 8px;
 }
-.block-editor-page #pods-meta-more-fields .pods-form-ui-label,
-.block-editor-page #pods-meta-plus-de-champs .pods-form-ui-label {
-    font-size: 13px !important;
-    font-weight: 400 !important;
-    line-height: 1.5 !important;
-}
 .block-editor-page .edit-post-sidebar {
     color: #000 !important;
 }
@@ -508,6 +502,15 @@ table.wp-list-table th[class*="language_"] {
 /* Pods
 ----------------------- */
 
+#pods-meta-more-fields .pods-form-ui-label,
+#pods-meta-plus-de-champs .pods-form-ui-label {
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+}
+body.post-type-photo_album tr.pods-form-ui-row-name-print-order {
+    padding-top: 0px;
+}
 body.toplevel_page_pods #sb_divi_fe_meta_box {
     display: none;
 }
