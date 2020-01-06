@@ -259,7 +259,7 @@
 }
 
 
-/* Hiding stuff
+/* Hide stuff
 ----------------------- */
 
 #adminmenu .wp-submenu .wp-submenu-head,
@@ -502,6 +502,14 @@ div.editor-post-link div.components-base-control + p {
 #post-translations th.pll-language-column,
 table.wp-list-table th[class*="language_"] {
     text-transform: uppercase;
+}
+
+
+/* Pods
+----------------------- */
+
+body.toplevel_page_pods #sb_divi_fe_meta_box {
+    display: none;
 }
 
 
