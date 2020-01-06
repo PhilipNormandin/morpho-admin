@@ -328,12 +328,11 @@ body.block-editor-page {
     z-index: 100;
 }
 .block-editor-page .editor-post-featured-image .components-button + .components-button.is-default {
+    margin: 13px auto;
     width: 70%;
 }
-.block-editor-page .editor-post-featured-image .components-button + .components-button.is-default,
 .block-editor-page .editor-post-featured-image .components-button + .components-button.is-destructive {
     margin: 13px auto 8px;
-    width: 70%;
 }
 .block-editor-page #pods-meta-more-fields .pods-form-ui-label,
 .block-editor-page #pods-meta-plus-de-champs .pods-form-ui-label {
