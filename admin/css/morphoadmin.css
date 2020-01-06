@@ -426,7 +426,14 @@ body.block-editor-page {
 }
 .post-type-class #wcs-schedule .wcs-admin-metabox-time ~ p:nth-child(2),
 .post-type-class #wcs-duration-container,
-.post-type-class #wcs-repeat-container > p:first-child {
+.post-type-class #wcs-repeat-container > p:first-child,
+.post-type-class #wrapper__wcs_repeat_days {
+    margin-bottom: 14px !important;
+}
+.post-type-class #wcs-until input {
+    margin-top: 14px !important;
+}
+.post-type-class #wcs-repeat-container {
     margin-bottom: 14px !important;
 }
 .post-type-class #wcs-repeat-container ~ p {
