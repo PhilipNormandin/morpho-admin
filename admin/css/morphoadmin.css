@@ -274,7 +274,6 @@ body.post-type-class #wp-admin-bar-view {
 /* Gutenberg
 ----------------------- */
 
-
 .block-editor-page #poststuff h2 {
     color: #191e23 !important;
     font-size: 13px !important;
@@ -368,7 +367,6 @@ body.block-editor-page .postbox {
 /* Notifications
 ----------------------- */
 
-
 #update-nag,
 .update-nag {
     margin-top: 37px;
@@ -377,7 +375,6 @@ body.block-editor-page .postbox {
 
 /* Events Schedule
 ----------------------- */
-
 
 .block-editor-page #wcs_date_time_metabox .inside p strong,
 .block-editor-page #ml_box .inside p strong {
@@ -474,7 +471,6 @@ body.block-editor-page .postbox {
 /* Polylang
 ----------------------- */
 
-
 #select-post-language span.pll-select-flag {
     display: none;
 }
@@ -495,20 +491,190 @@ table.wp-list-table th[id*="language_"] {
 /* Wordfence
 ----------------------- */
 
-
 #wf-live-traffic-util-overlay-wrapper,
 #wf-live-traffic-util-overlay-wrapper .wf-live-traffic-util-overlay {
     top: 44px;
 }
 
 
-
-/* Buttons
------------------------ */
-
-
-
-
 /* =========================================
               Dashboard widgets
 ========================================= */
+
+
+/* Grid
+----------------------- */
+
+#dashboard-widgets {
+    padding-top: 30px !important;
+}
+#dashboard-widgets-wrap,
+#morphoadmin-welcome-message {
+    box-sizing: border-box;
+    max-width: 1280px;
+}
+#dashboard-widgets-wrap .postbox-container {
+    width: 100% !important;
+}
+#dashboard-widgets .postbox {
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+}
+#postbox-container-2 > div.empty-container,
+#postbox-container-3 > div.empty-container,
+#postbox-container-4 > div.empty-container {
+    display: none;
+}
+#dashboard-widgets #postbox-container-1 #normal-sortables {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+#morphoadmin_welcome_panel,
+#morphoadmin_support_panel {
+    grid-column: 1 / -1;
+}
+#morphoadmin_support_panel {
+    max-width: 59%;
+    /* min-width: 578px; */
+    /* justify-self: center; */
+}
+#morphoadmin-welcome-message h2,
+#morphoadmin-support-message h3 {
+    text-transform: inherit !important;
+    color: #333;
+}
+
+@media only screen and (max-width: 960px) {
+
+    #morphoadmin_support_panel {
+        max-width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 961px) and (max-width: 1411px) {
+
+    #morphoadmin_support_panel {
+        max-width: 49%;
+    }
+
+}
+
+
+/* Welcome Message
+----------------------- */
+
+#morphoadmin_welcome_panel {
+    margin-bottom: 30px;
+}
+#morphoadmin-welcome-message {
+    padding: 30px;
+}
+#morphoadmin-welcome-message h2 {
+    font-size: 36px;
+    padding: 0 0 18px 0;
+    margin-top: 0;
+    line-height: 1.2em;
+}
+#morphoadmin-welcome-message > p {
+    font-size: 18px;
+    padding: 10px 0;
+    margin: 0;
+}
+
+
+/* Widgets
+----------------------- */
+
+/* valeur min-width doit égaler valeur dans minmax grid-template-columns */
+#morphoadmin_view_site_widget,
+#morphoadmin_profile_widget,
+#morphoadmin_posts_widget,
+#morphoadmin_events_widget,
+#morphoadmin_media_widget,
+#morphoadmin_users_widget,
+#morphoadmin_pages_widget,
+#morphoadmin_plugins_widget,
+#morphoadmin_settings_widget,
+#morphoadmin_posts_to_translate_widget,
+#morphoadmin_pages_to_translate_widget {
+    min-width: 200px !important;
+    margin-bottom: 0 !important;
+}
+#dashboard-widgets #postbox-container-1 .postbox .handlediv,
+#dashboard-widgets #postbox-container-1 .postbox .hndle {
+    display: none;
+}
+#dashboard-widgets .morphoadmin-dashboard-widget-links > a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#dashboard-widgets .morphoadmin-dashboard-widget-links > a h3 {
+    color: #444;
+    font-size: 18px;
+    letter-spacing: -0.01em;
+    margin: 0;
+    padding: 8px 10px 15px;
+}
+#dashboard-widgets .morphoadmin-dashboard-widget-links > a .dashicons {
+    font-size: 64px;
+    color: #333;
+    width: auto;
+    height: 90px !important;
+    padding: 15px 10px 8px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    display: inline-flex;
+    align-items: center;
+}
+#dashboard-widgets #morphoadmin_profile_widget a .dashicons {
+    font-size: 80px;
+}
+#dashboard-widgets .morphoadmin-dashboard-widget-links > a .dashicons:hover {
+    opacity: .8;
+    -webkit-transform: scale(1.08);
+    -moz-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    -o-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+.aquilaAdmin #dashboard-widgets .morphoadmin-dashboard-widget-links .dashicons-admin-post::before,
+.aquilaAdmin #dashboard-widgets .morphoadmin-dashboard-widget-links .dashicons-admin-media::before {
+    font-family: "fontAwesome" !important;
+    content: "\f040";
+}
+.aquilaAdmin #dashboard-widgets .morphoadmin-dashboard-widget-links .dashicons-admin-post::before {
+    content: "\f040";
+}
+.aquilaAdmin #dashboard-widgets .morphoadmin-dashboard-widget-links .dashicons-admin-media::before {
+    content: "\f03e";
+}
+
+
+/* Assitance message
+----------------------- */
+
+#morphoadmin_support_panel {
+    margin-top: 30px;
+}
+#morphoadmin-support-message {
+    padding: 30px;
+}
+#morphoadmin-support-message h3 {
+    font-size: 26px;
+    padding: 0 0 18px 0;
+    margin: 0;
+    line-height: 1em;
+}
+#morphoadmin-support-message > p {
+    font-size: 18px;
+    padding: 10px 0;
+    margin: 0;
+}
+#morphoadmin-support-message > p:last-child {
+    padding-bottom: 0;
+}
