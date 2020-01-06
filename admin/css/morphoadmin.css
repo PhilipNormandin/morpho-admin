@@ -365,6 +365,16 @@ body.block-editor-page .postbox {
 }
 
 
+/* Notifications
+----------------------- */
+
+
+#update-nag,
+.update-nag {
+    margin-top: 37px;
+}
+
+
 /* Events Schedule
 ----------------------- */
 
