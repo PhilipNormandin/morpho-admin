@@ -609,6 +609,7 @@ table.wp-list-table th[id*="language_"] {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-decoration: none;
 }
 #dashboard-widgets .morphoadmin-dashboard-widget-links > a h3 {
     color: #444;
@@ -640,18 +641,6 @@ table.wp-list-table th[id*="language_"] {
     -ms-transform: scale(1.08);
     -o-transform: scale(1.08);
     transform: scale(1.08);
-}
-
-.aquilaAdmin #dashboard-widgets .morphoadmin-dashboard-widget-links .dashicons-admin-post::before,
-.aquilaAdmin #dashboard-widgets .morphoadmin-dashboard-widget-links .dashicons-admin-media::before {
-    font-family: "fontAwesome" !important;
-    content: "\f040";
-}
-.aquilaAdmin #dashboard-widgets .morphoadmin-dashboard-widget-links .dashicons-admin-post::before {
-    content: "\f040";
-}
-.aquilaAdmin #dashboard-widgets .morphoadmin-dashboard-widget-links .dashicons-admin-media::before {
-    content: "\f03e";
 }
 
 
