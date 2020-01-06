@@ -482,11 +482,12 @@ body.block-editor-page .postbox {
 }
 #select-post-language {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     margin-bottom: 14px;
 }
 #post_lang_choice {
-    width: 70%;
+    width: 80%;
+    margin-right: 3px;
 }
 #post-translations th.pll-language-column,
 table.wp-list-table th[class*="language_"] {
