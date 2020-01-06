@@ -350,6 +350,9 @@ body.block-editor-page .postbox {
 .edit-post-meta-boxes-area .postbox > .inside {
     border-bottom: none;
 }
+div.editor-post-excerpt a.components-external-link {
+    display: none !important;
+}
 
 @media screen and (min-width: 782px) {
 
