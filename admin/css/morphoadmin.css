@@ -146,10 +146,8 @@
 #adminmenu {
     margin: 0;
 }
-#adminmenu,
-#adminmenuback,
-#adminmenuwrap {
-    padding: 3px 0;
+#adminmenu {
+    padding: 6px 0;
 }
 #adminmenu li.menu-top {
     min-height: 49px;
