@@ -640,7 +640,7 @@ function morphoadmin_create_posts_widget() {
     ?>
     <div class="morphoadmin-dashboard-widget-links">
         <a href="<?php echo get_site_url() . "/wp-admin/edit.php"; ?>">
-            <span class="dashicons dashicons-admin-post"></span>
+            <span class="dashicons dashicons-edit"></span>
             <h3><?php echo __( $posts_stt ); ?></h3>
         </a>
     </div>
