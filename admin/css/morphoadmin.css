@@ -461,6 +461,17 @@ body.block-editor-page {
 #select-post-language span.pll-select-flag {
     display: none;
 }
+#select-post-language {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 14px;
+}
+#post_lang_choice {
+    width: 70%;
+}
+#post-translations th.pll-language-column {
+    text-transform: uppercase;
+}
 
 
 /* Wordfence
