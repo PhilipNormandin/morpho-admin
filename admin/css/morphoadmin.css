@@ -350,7 +350,8 @@ body.block-editor-page .postbox {
 .edit-post-meta-boxes-area .postbox > .inside {
     border-bottom: none;
 }
-div.editor-post-excerpt a.components-external-link {
+div.editor-post-excerpt a.components-external-link,
+div.editor-post-link div.components-base-control + p {
     display: none !important;
 }
 
