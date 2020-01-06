@@ -235,6 +235,9 @@
 #adminmenu #menu-posts .wp-menu-image::before {
     content: "\f464";
 }
+#adminmenu #toplevel_page_mlang .wp-menu-image::before {
+    content: "\f11f";
+}
 #adminmenu #toplevel_page_Wordfence .wp-menu-image::before {
     content: "\f332";
 }
