@@ -1,0 +1,478 @@
+/* Morpho Admin - Custom Admin Styles */
+
+
+/* =========================================
+               Admin bar & menu
+========================================= */
+
+
+/* Colors
+----------------------- */
+
+#adminmenu .wp-submenu,
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head,
+#adminmenu .wp-menu-arrow,
+#adminmenu .wp-menu-arrow div,
+#adminmenu li.current a.menu-top,
+.folded #adminmenu li.current.menu-top,
+.folded #adminmenu li.wp-has-current-submenu,
+#adminmenu li.current a .awaiting-mod,
+#wpadminbar,
+#wpadminbar .menupop .ab-sub-wrapper,
+#adminmenu .wp-has-current-submenu .wp-submenu,
+#adminmenu .wp-has-current-submenu .wp-submenu.sub-open,
+#adminmenu .wp-has-current-submenu.opensub .wp-submenu,
+#adminmenu a.wp-has-current-submenu:focus + .wp-submenu,
+.no-js li.wp-has-current-submenu:hover .wp-submenu,
+#adminmenu div.wp-menu-name:active,
+#adminmenu li.opensub > a.menu-top,
+#wpadminbar .shortlink-input,
+.wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before,
+.wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle a,
+#wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before,
+#wpadminbar #wp-admin-bar-menu-toggle:active .ab-icon:before {
+    background-color: #5e656c !important;
+}
+#adminmenu,
+#adminmenuback,
+#adminmenuwrap {
+    background-color: #4a5158 !important;
+}
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu {
+    background-color: #009e07 !important;
+}
+#adminmenu li:not(.wp-menu-open).menu-top:hover,
+#adminmenu li.opensub > a.menu-top,
+#adminmenu li > a.menu-top:focus,
+#adminmenu .wp-submenu li:hover,
+#wpadminbar li:not(#wp-admin-bar-menu-toggle) a.ab-item:hover,
+#wpadminbar .ab-top-menu > li.hover > .ab-item,
+#wpadminbar #wp-admin-bar-menu-toggle:hover .ab-icon:before,
+.wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before {
+    background-color: #727980 !important;
+}
+#adminmenu li.menu-top.wp-menu-open:hover {
+    background-color: unset;
+}
+#adminmenuwrap a,
+#adminmenu .wp-submenu a,
+#adminmenu li div.wp-menu-image:before,
+#adminmenu div.wp-menu-image,
+#adminmenu .wp-menu-image img,
+#adminmenu li.wp-has-current-submenu div.wp-menu-image:before,
+#adminmenu li.current a.menu-top div.wp-menu-image:before,
+#collapse-menu span,
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,
+#wpadminbar a.ab-item,
+#wpadminbar .quicklinks .menupop ul li .ab-item,
+#wpadminbar > #wp-toolbar span.ab-label,
+#wpadminbar #wp-admin-bar-user-info .display-name,
+#wpadminbar a.auto-fold,
+#wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before,
+.wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before,
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu:hover,
+#wpadminbar a:hover,
+#wpadminbar span:hover,
+#wpadminbar:not(.mobile) > #wp-toolbar li:hover span.ab-label,
+#wpadminbar .ab-top-menu > li.hover > .ab-item,
+#wpadminbar .ab-top-menu > li:hover > .ab-item,
+#wpadminbar .ab-top-menu > li > .ab-item:focus,
+#wpadminbar .ab-topmenu > li.hover > .ab-item:focus,
+#wpadminbar ul#wp-admin-bar-root-default > li:hover span.ab-label,
+#wpadminbar .menupop:hover .display-name,
+#wpadminbar .ab-top-menu > li.hover > .ab-item,
+#wpadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus,
+#wpadminbar:not(.mobile) .ab-top-menu > li:hover > .ab-item,
+#wpadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus,
+.wp-menu-name:focus,
+#wpadminbar .ab-icon,
+#wpadminbar .ab-icon:before,
+#wpadminbar .ab-item:before,
+#wpadminbar > #wp-toolbar > #wp-admin-bar-root-default .ab-icon,
+#wpadminbar #adminbarsearch:before {
+    color: #fff !important;
+}
+#wpadminbar .quicklinks .ab-sub-wrapper .menupop.hover > a,
+#wpadminbar .quicklinks .menupop ul li a:focus,
+#wpadminbar .quicklinks .menupop ul li a:focus strong,
+#wpadminbar .quicklinks .menupop ul li a:hover,
+#wpadminbar .quicklinks .menupop ul li a:hover strong,
+#wpadminbar .quicklinks .menupop.hover ul li a:focus,
+#wpadminbar .quicklinks .menupop.hover ul li a:hover,
+#wpadminbar .quicklinks .menupop.hover ul li div[tabindex]:focus,
+#wpadminbar .quicklinks .menupop.hover ul li div[tabindex]:hover,
+#wpadminbar li #adminbarsearch.adminbar-focused:before,
+#wpadminbar li .ab-item:focus .ab-icon:before,
+#wpadminbar li .ab-item:focus:before,
+#wpadminbar li a:focus .ab-icon:before,
+#wpadminbar li.hover .ab-icon:before,
+#wpadminbar li.hover .ab-item:before,
+#wpadminbar li:hover #adminbarsearch:before,
+#wpadminbar li:hover .ab-icon:before,
+#wpadminbar li:hover .ab-item:before,
+#wpadminbar.nojs .quicklinks .menupop:hover ul li a:focus,
+#wpadminbar.nojs .quicklinks .menupop:hover ul li a:hover,
+#wpadminbar.mobile .quicklinks .hover .ab-icon:before,
+#wpadminbar.mobile .quicklinks .hover .ab-item:before {
+    color: #fff !important;
+}
+
+
+/* Sizing & Spacing
+----------------------- */
+
+#wpadminbar {
+    height: auto;
+    box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.25), 5px 0px 10px rgba(0, 0, 0, 0.22);
+}
+#wpadminbar .ab-submenu,
+#wpadminbar .ab-top-menu > li,
+#wpadminbar #wp-admin-bar-user-actions.ab-submenu,
+#wpadminbar .quicklinks .menupop ul,
+#adminmenu .wp-submenu {
+    padding: 0;
+}
+#wpadminbar .menupop .ab-sub-wrapper {
+    padding: 10px 0;
+}
+#wpadminbar ul li .ab-sub-wrapper .ab-submenu > li > a {
+    padding: 5px 20px;
+}
+#wpadminbar #wp-admin-bar-user-actions > li,
+#wpadminbar .quicklinks .menupop ul li {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#adminmenu {
+    margin: 0;
+}
+#adminmenu,
+#adminmenuback,
+#adminmenuwrap {
+    padding: 3px 0;
+}
+#adminmenu .wp-not-current-submenu .wp-submenu,
+.folded #adminmenu .wp-has-current-submenu .wp-submenu {
+    padding: 10px 0;
+}
+#adminmenu .wp-submenu a,
+#adminmenu .wp-has-current-submenu ul > li > a,
+.folded #adminmenu li.menu-top .wp-submenu > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#adminmenu .wp-has-current-submenu ul > li > a {
+    padding-left: 34px;
+}
+#adminmenu .wp-submenu-head,
+#adminmenu a.menu-top,
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu {
+    padding: 7px 0;
+}
+.folded #adminmenu .wp-submenu-head,
+.folded #adminmenu a.menu-top {
+    padding: 5px 0;
+}
+#collapse-menu {
+    margin: 10px 0 5px !important;
+}
+#adminmenu .awaiting-mod,
+#adminmenu .update-plugins {
+    float: right;
+    margin-right: 5px;
+}
+
+@media screen and (min-width: 782px) {
+
+    html {
+        padding-top: 44px !important;
+    }
+    #wpadminbar .quicklinks > ul> li > a {
+        padding: 6px 12px;
+    }
+
+}
+
+
+/* Separators
+----------------------- */
+
+#adminmenu li.wp-menu-separator {
+    display: none;
+}
+#adminmenu li.menu-top {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.075) !important;
+}
+
+
+/* Avatar
+----------------------- */
+
+#wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img {
+    float: left;
+    margin: 3px 15px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #fff;
+    border-radius: 50%
+}
+
+@media screen and (max-width: 782px) {
+
+    #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a {
+        width: 70px;
+    }
+    #wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img {
+        top: 7px;
+    }
+
+}
+
+
+/* Icons & Links
+----------------------- */
+
+#adminmenu #menu-posts .wp-menu-image::before {
+    content: "\f464";
+}
+#adminmenu #toplevel_page_Wordfence .wp-menu-image::before {
+    content: "\f332";
+}
+#toplevel_page_Wordfence .wp-menu-image img {
+    display: none
+}
+#adminmenu .wp-menu-image img {
+    opacity: 1;
+}
+#wp-admin-bar-view-site {
+    width: 160px;
+    text-align: center;
+}
+#wp-admin-bar-view-site a {
+    text-transform: uppercase !important;
+}
+
+
+/* Hiding stuff
+----------------------- */
+
+#adminmenu .wp-submenu .wp-submenu-head,
+ul#adminmenu a.wp-has-current-submenu:after,
+ul#adminmenu > li.current > a.current:after,
+#adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:after,
+body.post-type-class #wp-admin-bar-preview,
+body.post-type-class #wp-admin-bar-view {
+    display: none;
+}
+
+
+/* =========================================
+            Page & Post Controls
+========================================= */
+
+
+/* Gutenberg
+----------------------- */
+
+
+.block-editor-page #poststuff h2 {
+    color: #191e23 !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    line-height: normal;
+    text-transform: inherit !important;
+}
+.block-editor-page .meta-box-sortables .postbox .toggle-indicator::before {
+    content: "\f343" !important;
+    color: #191e23 !important;
+    font-size: 16px !important;
+    font-weight: bolder !important;
+    width: 15px;
+}
+.block-editor-page .meta-box-sortables .postbox.closed .toggle-indicator::before {
+    content: "\f347" !important;
+}
+.block-editor-page .edit-post-meta-boxes-area .postbox .handlediv {
+    height: 45px;
+    width: 45px;
+}
+.block-editor-page .editor-post-excerpt a.components-external-link {
+    text-decoration: underline !important;
+}
+.block-editor-page .edit-post-meta-boxes-area.is-side #poststuff h2.hndle {
+    border-bottom: none !important;
+}
+.block-editor-page .edit-post-meta-boxes-area.is-side .postbox > .inside {
+    border-bottom: none !important;
+}
+.block-editor-page .edit-post-meta-boxes-area .postbox {
+    border-bottom: 1px solid #e2e4e7;
+}
+.block-editor-page.js .postbox .hndle {
+    cursor: pointer !important;
+}
+body.block-editor-page {
+    background: #fff !important;
+}
+.block-editor-page .edit-post-layout__metaboxes,
+.block-editor-page .edit-post-sidebar {
+    background: #f3f4f5 !important;
+}
+.block-editor-page .postbox .toggle-indicator::before {
+    margin-top: 0 !important;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 100;
+}
+.block-editor-page .editor-post-featured-image .components-button + .components-button.is-default {
+    margin: 13px auto 0;
+    width: 70%;
+}
+.block-editor-page #pods-meta-more-fields .pods-form-ui-label,
+.block-editor-page #pods-meta-plus-de-champs .pods-form-ui-label {
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+}
+.block-editor-page .edit-post-sidebar {
+    color: #000 !important;
+}
+.block-editor-page .edit-post-meta-boxes-area.is-loading .components-spinner {
+    display: none !important;
+}
+
+@media screen and (min-width: 782px) {
+
+    .edit-post-header {
+        top: 44px;
+    }
+    .edit-post-layout__content {
+        top: 100px;
+        min-height: calc(100% - 100px);
+    }
+    .edit-post-sidebar {
+        top: 100px;
+    }
+
+}
+
+
+/* Events Schedule
+----------------------- */
+
+
+.block-editor-page #wcs_date_time_metabox .inside p strong,
+.block-editor-page #ml_box .inside p strong {
+    font-weight: 400;
+}
+.post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.post-type-class #wcs-schedule .wcs-admin-metabox-time:first-child > p:nth-child(3),
+.post-type-class #wcs-datepicker {
+    grid-column: 1/4;
+}
+.post-type-class #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.post-type-class #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending > p:nth-child(1),
+.post-type-class #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending > p:nth-child(2),
+.post-type-class #wcs-datepicker-ending {
+    grid-column: 1/3;
+}
+.post-type-class #wcs-datepicker,
+.post-type-class #wcs-datepicker-ending {
+    margin: 5px 0px 10px !important;
+    text-align: center;
+}
+.post-type-class #wcs_date_time_metabox h2 {
+    margin-left: -3px;
+}
+.post-type-class #wcs-repeat-container > p:first-child,
+.post-type-class #wcs-repeat-container ~ p {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between !important;
+}
+.post-type-class #wcs-schedule select[name="wcs-hour"],
+.post-type-class #wcs-schedule select[name="wcs-minutes"],
+.post-type-class #wcs-schedule select[name="wcs-seconds"],
+.post-type-class #wcs-schedule select[name="wcs-hour-ending"],
+.post-type-class #wcs-schedule select[name="wcs-minutes-ending"],
+.post-type-class #wcs-schedule select[name="wcs-interval"],
+.post-type-class #wcs-schedule select[name="wcs-status"] {
+    box-sizing: border-box !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: auto !important;
+}
+.post-type-class #wcs-schedule select[name="wcs-interval"],
+.post-type-class #wcs-schedule select[name="wcs-status"] {
+    margin-left: 10px !important;
+    width: 65% !important;
+}
+.post-type-class #wcs-schedule .wcs-admin-metabox-time,
+.post-type-class #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending {
+    margin-bottom: 16px !important;
+}
+.post-type-class #wcs-schedule .wcs-admin-metabox-time ~ p:nth-child(2),
+.post-type-class #wcs-duration-container,
+.post-type-class #wcs-repeat-container > p:first-child {
+    margin-bottom: 14px !important;
+}
+.post-type-class #wcs-repeat-container ~ p {
+    margin-bottom: 0 !important;
+}
+.post-type-class #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending > p:nth-child(1),
+.post-type-class #wcs-schedule .wcs-admin-metabox-time.wcs-admin-metabox-time--ending > p:nth-child(2) {
+    margin-top: 5px !important;
+}
+.post-type-class input#add-repeat {
+    margin: 5px 0 10px;
+    width: 100%;
+}
+.post-type-class #wcs-repeat__holder > .wcs-repeat__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+/* Polylang
+----------------------- */
+
+
+#select-post-language span.pll-select-flag {
+    display: none;
+}
+
+
+/* Wordfence
+----------------------- */
+
+
+#wf-live-traffic-util-overlay-wrapper,
+#wf-live-traffic-util-overlay-wrapper .wf-live-traffic-util-overlay {
+    top: 44px;
+}
+
+
+
+/* Buttons
+----------------------- */
+
+
+
+
+/* =========================================
+              Dashboard widgets
+========================================= */
