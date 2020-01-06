@@ -486,7 +486,8 @@ body.block-editor-page .postbox {
 #post_lang_choice {
     width: 70%;
 }
-#post-translations th.pll-language-column {
+#post-translations th.pll-language-column,
+table.wp-list-table th[id*="language_"] {
     text-transform: uppercase;
 }
 
