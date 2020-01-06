@@ -264,8 +264,9 @@ ul#adminmenu a.wp-has-current-submenu:after,
 ul#adminmenu > li.current > a.current:after,
 #adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:after,
 body.post-type-class #wp-admin-bar-preview,
-body.post-type-class #wp-admin-bar-view {
-    display: none;
+body.post-type-class #wp-admin-bar-view,
+#wpbody-content div.swift-performance-notice {
+    display: none !important;
 }
 
 
