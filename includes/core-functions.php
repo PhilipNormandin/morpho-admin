@@ -337,7 +337,7 @@ function morphoadmin_custom_admin_menus() {
         'WP-Optimize' );
 
 }
-add_action( 'admin_init', 'morphoadmin_custom_admin_menus' );
+// add_action( 'admin_init', 'morphoadmin_custom_admin_menus' );
 
 
 // re-order top-level menus
@@ -374,8 +374,8 @@ function morphoadmin_custom_top_level_menus_order() {
 
     );
 }
-add_filter( 'custom_menu_order', '__return_true' );
-add_filter( 'menu_order', 'morphoadmin_custom_top_level_menus_order' );
+// add_filter( 'custom_menu_order', '__return_true' );
+// add_filter( 'menu_order', 'morphoadmin_custom_top_level_menus_order' );
 
 
 //	================================================================================================
