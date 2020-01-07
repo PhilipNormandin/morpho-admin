@@ -670,7 +670,7 @@ body.profile-php tr.user-admin-color-wrap {
     align-items: center;
 }
 #dashboard-widgets #morphoadmin_profile_widget a .dashicons {
-    font-size: 80px;
+    font-size: 92px;
 }
 #dashboard-widgets .morphoadmin-dashboard-widget-links > a .dashicons:hover {
     opacity: .8;
