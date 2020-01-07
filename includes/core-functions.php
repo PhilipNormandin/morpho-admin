@@ -318,15 +318,17 @@ function morphoadmin_custom_admin_menus() {
         'envato-market' );
 
     // repositionne Updraftplus Backups
-    remove_submenu_page(
-        'options-general.php',
-        'updraftplus' );
-    add_submenu_page(
-        'options-general.php',
-        'Updraftplus Backups',
-        'Updraftplus Backups',
-        'manage_options',
-        'updraftplus' );
+    if ( isset( $submenu[ 'updraftplus' ] ) ) {
+        remove_submenu_page(
+            'options-general.php',
+            'updraftplus' );
+        add_submenu_page(
+            'options-general.php',
+            'Updraftplus Backups',
+            'Updraftplus Backups',
+            'manage_options',
+            'updraftplus' );
+    }
 
     // repositionne WP-Optimize
     if ( isset( $submenu[ 'WP-Optimize' ] ) ) {
