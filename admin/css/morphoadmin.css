@@ -235,6 +235,10 @@
 
 #wp-admin-bar-root-default #wp-admin-bar-languages > a::before {
     content: "\f326";
+    top: 1px;
+}
+#wpadminbar #wp-admin-bar-languages .ab-icon::before {
+    display: none;
 }
 #adminmenu #menu-posts .wp-menu-image::before {
     content: "\f464";
