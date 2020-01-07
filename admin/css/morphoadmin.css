@@ -234,8 +234,7 @@
 ----------------------- */
 
 #wp-admin-bar-root-default #wp-admin-bar-languages > a::before {
-    /* content: "\f326"; */
-    content: "\f11f";
+    content: "\f326";
     top: 1px;
 }
 #wpadminbar #wp-admin-bar-languages .ab-icon {
@@ -245,7 +244,7 @@
     content: "\f464";
 }
 #adminmenu #toplevel_page_mlang .wp-menu-image::before {
-    content: "\f11f";
+    /* content: "\f11f"; */
 }
 #adminmenu #toplevel_page_Wordfence .wp-menu-image::before {
     content: "\f332";
