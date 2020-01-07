@@ -345,7 +345,7 @@ function morphoadmin_custom_admin_menus() {
        }
 
 }
-add_action( 'admin_menu', 'morphoadmin_custom_admin_menus', 999 );
+// add_action( 'admin_menu', 'morphoadmin_custom_admin_menus', 999 );
 
 
 // re-order top-level menus
@@ -382,8 +382,8 @@ function morphoadmin_custom_top_level_menus_order() {
 
     );
 }
-add_filter( 'custom_menu_order', '__return_true' );
-add_filter( 'menu_order', 'morphoadmin_custom_top_level_menus_order' );
+// add_filter( 'custom_menu_order', '__return_true' );
+// add_filter( 'menu_order', 'morphoadmin_custom_top_level_menus_order' );
 
 
 //	================================================================================================
