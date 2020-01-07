@@ -308,14 +308,16 @@ function morphoadmin_custom_admin_menus() {
         'sb_et_tax_li_submenu_cb' );
 
     // repositionne Envato Market
-    remove_menu_page(
-        'envato-market' );
-    add_submenu_page(
-        'plugins.php',
-        'Envato Market',
-        'Envato Market',
-        'manage_options',
-        'envato-market' );
+    if ( isset( $submenu[ 'envato-market' ] ) ) {
+        remove_menu_page(
+            'envato-market' );
+        add_submenu_page(
+            'plugins.php',
+            'Envato Market',
+            'Envato Market',
+            'manage_options',
+            'envato-market' );
+    }
 
     // repositionne Updraftplus Backups
     if ( isset( $submenu[ 'updraftplus' ] ) ) {
