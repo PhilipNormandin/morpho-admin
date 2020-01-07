@@ -233,6 +233,9 @@
 /* Icons & Links
 ----------------------- */
 
+#wp-admin-bar-root-default #wp-admin-bar-languages > a::before {
+    content: "\f326";
+}
 #adminmenu #menu-posts .wp-menu-image::before {
     content: "\f464";
 }
