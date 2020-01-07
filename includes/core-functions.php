@@ -246,7 +246,7 @@ add_filter( 'contextual_help', 'morphoadmin_remove_help_tab', 999, 3 );
 // custom top-level menus and sub-menus
 function morphoadmin_custom_admin_menus() {
 
-    global $submenu;
+     global $menu, $submenu;
 
     // remove Projects
     remove_menu_page(
@@ -308,10 +308,7 @@ function morphoadmin_custom_admin_menus() {
         'sb_et_tax_li_submenu_cb' );
 
     // repositionne Envato Market
-    if ( isset( $submenu[ 'envato-market' ] ) ) {
-
-        echo "TESSSSTTTTTTIIIIIIINNNNNNGGGGG!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
-
+    if ( isset( $menu[ 'envato-market' ] ) ) {
         remove_menu_page(
             'envato-market' );
         add_submenu_page(
@@ -336,7 +333,7 @@ function morphoadmin_custom_admin_menus() {
     }
 
     // repositionne WP-Optimize
-    if ( isset( $submenu[ 'WP-Optimize' ] ) ) {
+    if ( isset( $menu[ 'WP-Optimize' ] ) ) {
         remove_menu_page(
             'WP-Optimize' );
         add_submenu_page(
