@@ -308,7 +308,8 @@ function morphoadmin_custom_admin_menus() {
         'sb_et_tax_li_submenu_cb' );
 
     // repositionne Envato Market
-    if ( isset( $menu[ 'envato-market' ] ) ) {
+    $menuname = 'envato-market';
+    if ( isset( $menu[ $menuname ] ) ) {
         remove_menu_page(
             'envato-market' );
         add_submenu_page(
