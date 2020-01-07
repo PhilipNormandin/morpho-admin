@@ -246,6 +246,8 @@ add_filter( 'contextual_help', 'morphoadmin_remove_help_tab', 999, 3 );
 // custom top-level menus and sub-menus
 function morphoadmin_custom_admin_menus() {
 
+    global $submenu;
+
     // remove Projects
     remove_menu_page(
         'edit.php?post_type=project' );
@@ -293,7 +295,7 @@ function morphoadmin_custom_admin_menus() {
         'sb_et_search_li',
         'sb_et_search_li_submenu_cb' );
 
-    // repositionne Search Layout Injector
+    // repositionne Taxonomie Layout Injector
     remove_submenu_page(
         'options-general.php',
         'sb_et_tax_li' );
@@ -327,17 +329,19 @@ function morphoadmin_custom_admin_menus() {
         'updraftplus' );
 
     // repositionne WP-Optimize
-    remove_menu_page(
-        'WP-Optimize' );
-    add_submenu_page(
-        'options-general.php',
-        'WP-Optimize',
-        'WP-Optimize',
-        'manage_options',
-        'WP-Optimize' );
+    if ( isset( $submenu[ 'WP-Optimize' ] ) ) {
+        remove_menu_page(
+            'WP-Optimize' );
+        add_submenu_page(
+            'options-general.php',
+            'WP-Optimize',
+            'WP-Optimize',
+            'manage_options',
+            'WP-Optimize' );
+       }
 
 }
-// add_action( 'admin_init', 'morphoadmin_custom_admin_menus' );
+add_action( 'admin_init', 'morphoadmin_custom_admin_menus' );
 
 
 // re-order top-level menus
@@ -374,8 +378,8 @@ function morphoadmin_custom_top_level_menus_order() {
 
     );
 }
-// add_filter( 'custom_menu_order', '__return_true' );
-// add_filter( 'menu_order', 'morphoadmin_custom_top_level_menus_order' );
+add_filter( 'custom_menu_order', '__return_true' );
+add_filter( 'menu_order', 'morphoadmin_custom_top_level_menus_order' );
 
 
 //	================================================================================================
