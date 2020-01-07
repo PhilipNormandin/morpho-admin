@@ -163,7 +163,7 @@
     padding-bottom: 10px;
 }
 #adminmenu .wp-has-current-submenu ul > li > a {
-    padding-left: 34px;
+    padding-left: 36px;
 }
 #adminmenu .wp-submenu-head,
 #adminmenu a.menu-top,
@@ -314,9 +314,6 @@ body.post-type-class #wp-admin-bar-view {
 .block-editor-page.js .postbox .hndle {
     cursor: pointer !important;
 }
-body.block-editor-page {
-    background: #fff !important;
-}
 .block-editor-page .edit-post-layout__metaboxes,
 .block-editor-page .edit-post-sidebar {
     background: #f3f4f5 !important;
@@ -341,7 +338,7 @@ body.block-editor-page {
 .block-editor-page .edit-post-meta-boxes-area.is-loading .components-spinner {
     display: none !important;
 }
-body.block-editor-page .postbox {
+.block-editor-page .postbox {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 .edit-post-meta-boxes-area #poststuff .closed h2.hndle,
