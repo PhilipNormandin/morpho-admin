@@ -262,6 +262,13 @@
 #wp-admin-bar-view-site a {
     text-transform: uppercase !important;
 }
+button#collapse-button {
+    font-size: 13px;
+    line-height: initial;
+    font-weight: initial;
+    letter-spacing: initial;
+    text-transform: initial;
+}
 
 
 /* Hide stuff
