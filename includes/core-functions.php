@@ -246,8 +246,6 @@ add_filter( 'contextual_help', 'morphoadmin_remove_help_tab', 999, 3 );
 // custom top-level menus and sub-menus
 function morphoadmin_custom_admin_menus() {
 
-     global $menu, $submenu;
-
     // remove Projects
     remove_menu_page(
         'edit.php?post_type=project' );
@@ -605,7 +603,8 @@ function morphoadmin_create_profile_widget() {
     ?>
     <div class="morphoadmin-dashboard-widget-links">
         <a href="<?php echo get_site_url() . "/wp-admin/profile.php"; ?>">
-            <span class="dashicons dashicons-id"></span>
+            <!-- <span class="dashicons dashicons-id"></span> -->
+            <span class="dashicons dashicons-id-alt"></span>
             <h3><?php echo __( $profile_stt ); ?></h3>
         </a>
     </div>
