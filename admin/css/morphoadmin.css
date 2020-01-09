@@ -43,7 +43,6 @@
 }
 #adminmenu li:not(.wp-menu-open).menu-top:hover,
 #adminmenu li.menu-top:focus,
-#adminmenu li.opensub > a.menu-top,
 #adminmenu .wp-submenu li:hover,
 #adminmenu .wp-submenu li:focus,
 #wpadminbar ul#wp-admin-bar-root-default li a.ab-item:hover,
