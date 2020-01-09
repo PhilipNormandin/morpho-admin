@@ -46,6 +46,8 @@
 #adminmenu li > a.menu-top:focus,
 #adminmenu .wp-submenu li:hover,
 #wpadminbar li:not(#wp-admin-bar-menu-toggle) a.ab-item:hover,
+#wpadminbar li#wp-admin-bar-view-site a.ab-item:hover,
+#wpadminbar li#wp-admin-bar-view-site a.ab-item:focus,
 #wpadminbar .ab-top-menu > li.hover > .ab-item,
 #wpadminbar #wp-admin-bar-menu-toggle:hover .ab-icon:before,
 .wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before {
