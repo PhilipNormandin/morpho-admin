@@ -546,7 +546,9 @@ body.profile-php tr.user-admin-color-wrap {
 ----------------------- */
 
 #wf-live-traffic-util-overlay-wrapper,
-#wf-live-traffic-util-overlay-wrapper .wf-live-traffic-util-overlay {
+#wf-live-traffic-util-overlay-wrapper .wf-live-traffic-util-overlay,
+.wf-options-controls,
+.sticky-menu .wf-options-controls {
     top: 44px;
 }
 
