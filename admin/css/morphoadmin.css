@@ -553,6 +553,14 @@ body.profile-php tr.user-admin-color-wrap {
 }
 
 
+/* WP-Optimize
+----------------------- */
+
+.wpo-main-header{
+    top: 44px;
+}
+
+
 /* =========================================
               Dashboard widgets
 ========================================= */
