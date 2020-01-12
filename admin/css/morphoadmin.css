@@ -566,6 +566,14 @@ body.toplevel_page_pods #sb_divi_fe_meta_box {
 }
 
 
+/* The Grid 
+----------------------- */
+
+#tg-banner.tg-fixed {
+    top: 44px !important;
+}
+
+
 /* Wordfence
 ----------------------- */
 
