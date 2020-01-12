@@ -152,7 +152,7 @@
     padding: 6px 0;
 }
 #adminmenu li.menu-top,
-li#collapse-menu {
+button#collapse-button {
     min-height: 49px;
 }
 #adminmenu .wp-not-current-submenu .wp-submenu,
