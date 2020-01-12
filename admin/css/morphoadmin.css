@@ -537,7 +537,7 @@ body.toplevel_page_pods #sb_divi_fe_meta_box {
 /* Profile
 ----------------------- */
 
-body.profile-php tr.user-admin-color-wrap {
+#profile-page tr.user-admin-color-wrap {
     display: none;
 }
 
