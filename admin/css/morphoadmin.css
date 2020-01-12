@@ -154,6 +154,10 @@
 li#collapse-menu {
     min-height: 49px;
 }
+li#collapse-menu {
+    display: flex;
+    align-items: center;
+}
 #adminmenu .wp-not-current-submenu .wp-submenu,
 .folded #adminmenu .wp-has-current-submenu .wp-submenu {
     padding: 10px 0;
