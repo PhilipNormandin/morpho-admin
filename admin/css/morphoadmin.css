@@ -111,10 +111,9 @@
 #adminmenu #collapse-button {
     color:#fff !important;
 }
-#adminmenu #collapse-button:hover,
-#adminmenu #collapse-button:target,
-#adminmenu #collapse-button:target,
-#adminmenu #collapse-button:focus {
+#adminmenu #collapse-menu:hover,
+#adminmenu #collapse-menu:target,
+#adminmenu #collapse-menu:focus {
     background:#727980;
     color:#fff !important;
 }
@@ -152,7 +151,7 @@
     padding: 6px 0;
 }
 #adminmenu li.menu-top,
-button#collapse-button {
+li#collapse-menu {
     min-height: 49px;
 }
 #adminmenu .wp-not-current-submenu .wp-submenu,
