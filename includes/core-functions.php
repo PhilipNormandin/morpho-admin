@@ -603,7 +603,6 @@ function morphoadmin_create_profile_widget() {
     ?>
     <div class="morphoadmin-dashboard-widget-links">
         <a href="<?php echo get_site_url() . "/wp-admin/profile.php"; ?>">
-            <!-- <span class="dashicons dashicons-id"></span> -->
             <span class="dashicons dashicons-id-alt"></span>
             <h3><?php echo __( $profile_stt ); ?></h3>
         </a>
@@ -1156,7 +1155,7 @@ function morphoadmin_title_place_holder( $title , $post ) {
 
     return $title;
 }
-add_filter('enter_title_here', 'morphoadmin_title_place_holder' , 20 , 2 );
+// add_filter('enter_title_here', 'morphoadmin_title_place_holder' , 20 , 2 );
 
 
 // Change the meta box title to the pod name
@@ -1170,7 +1169,7 @@ function morphoadmin_pods_meta_title( $title ) {
 
 	return $title;
 }
-add_filter( 'pods_meta_default_box_title', 'morphoadmin_pods_meta_title' );
+// add_filter( 'pods_meta_default_box_title', 'morphoadmin_pods_meta_title' );
 
 
 //	================================================================================================
