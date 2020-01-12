@@ -550,7 +550,7 @@ table.wp-list-table th[class*="language_"] {
     font-weight: 400 !important;
     line-height: 1.5 !important;
 }
-body.post-type-photo_album tr.pods-form-ui-row-name-print-order {
+#poststuff tr.pods-form-ui-row-name-print-order {
     padding-top: 0px;
 }
 body.toplevel_page_pods #sb_divi_fe_meta_box {
