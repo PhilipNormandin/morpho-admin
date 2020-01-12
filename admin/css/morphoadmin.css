@@ -37,14 +37,14 @@
 #wpadminbar .shortlink-input a,
 #wpadminbar li .ab-icon::before,
 #wpadminbar li .ab-item::before{
-    color:red !important;
+    color:#fff !important;
 }
 #wpadminbar .menupop .ab-sub-wrapper a:hover,
 #wpadminbar .shortlink-input a:hover,
 #wpadminbar li:hover .ab-icon::before,
 #wpadminbar li:hover .ab-item::before {
     background:#727980;
-    color:green !important;
+    color:#fff !important;
 }
 body.wp-admin #adminmenuback,
 body.wp-admin #adminmenuwrap,
