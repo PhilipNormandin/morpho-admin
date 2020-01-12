@@ -46,14 +46,6 @@
     background:#727980;
     color:#fff !important;
 }
-body.wp-admin #adminmenuback,
-body.wp-admin #adminmenuwrap,
-body.wp-admin #adminmenu {
-    background:#4a5158;
-}
-body.wp-admin #adminmenu a {
-    color:#fff;
-}
 #wpadminbar .ab-item,
 #wpadminbar a.ab-item,
 #wpadminbar > #wp-toolbar span.ab-label,
@@ -63,6 +55,14 @@ body.wp-admin #adminmenu a {
 #wpadminbar #adminbarsearch:before,
 #wpadminbar .ab-icon:before,
 #wpadminbar .ab-item:before {
+    color:#fff;
+}
+body.wp-admin #adminmenuback,
+body.wp-admin #adminmenuwrap,
+body.wp-admin #adminmenu {
+    background:#4a5158;
+}
+body.wp-admin #adminmenu a {
     color:#fff;
 }
 body.wp-admin #adminmenu .wp-submenu,
@@ -108,7 +108,6 @@ body.wp-admin #adminmenu .wp-has-current-submenu.opensub .wp-submenu li.current 
     color:#fff;
 }
 body.wp-admin #adminmenu #collapse-button {
-    background:#5e656c;
     color:#fff;
 }
 body.wp-admin #adminmenu #collapse-button:hover,
@@ -117,7 +116,7 @@ body.wp-admin #adminmenu #collapse-button:target,
 body.wp-admin #adminmenu #collapse-button:focus {
     background:#727980;
     color:#fff;
-} 
+}
 
 
 /* Sizing & Spacing
