@@ -10,14 +10,14 @@
 ----------------------- */
 
 #wpadminbar {
-    background:#5e656c;
+    background:#5e656c !important;
     color:#fff !important;
 }
 #wpadminbar .ab-top-menu>li.hover>.ab-item,
 #wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus,
 #wpadminbar:not(.mobile) .ab-top-menu>li:hover>.ab-item,
 #wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus {
-    background:#727980;
+    background:#727980 !important;
     color:#fff !important;
 }
 #wpadminbar:not(.mobile) > #wp-toolbar li:hover span.ab-label,
@@ -27,11 +27,11 @@
 }
 #wpadminbar .quicklinks .menupop ul.ab-sub-secondary,
 #wpadminbar .quicklinks .menupop ul.ab-sub-secondary .ab-submenu {
-    background:#5e656c;
+    background:#5e656c !important;
 }
 #wpadminbar .menupop .ab-sub-wrapper,
 #wpadminbar .shortlink-input {
-    background:#5e656c;
+    background:#5e656c !important;
 }
 #wpadminbar .menupop .ab-sub-wrapper a,
 #wpadminbar .shortlink-input a,
@@ -43,7 +43,7 @@
 #wpadminbar .shortlink-input a:hover,
 #wpadminbar li:hover .ab-icon::before,
 #wpadminbar li:hover .ab-item::before {
-    background:#727980;
+    background:#727980 !important;
     color:#fff !important;
 }
 #wpadminbar .ab-item,
@@ -60,7 +60,7 @@
 #adminmenuback,
 #adminmenuwrap,
 #adminmenu {
-    background:#4a5158;
+    background:#4a5158 !important;
 }
 #adminmenu a {
     color:#fff !important;
@@ -69,13 +69,13 @@
 #adminmenu .wp-has-current-submenu .wp-submenu,
 #adminmenu .wp-has-current-submenu.opensub .wp-submenu,
 #adminmenu a.wp-has-current-submenu:focus + .wp-submenu {
-    background:#5e656c;
+    background:#5e656c !important;
 }
 #adminmenu a:hover,
 #adminmenu li.menu-top:hover,
 #adminmenu li.opensub > a.menu-top,
 #adminmenu li > a.menu-top:focus {
-    background-color:#727980;
+    background-color:#727980 !important;
     color:#fff !important;
 }
 #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head,
@@ -83,7 +83,7 @@
 #adminmenu .wp-menu-arrow div,
 #adminmenu li.current a.menu-top,
 #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu {
-    background:#009e07;
+    background:#009e07 !important;
 }
 #adminmenu .wp-submenu a:focus,
 #adminmenu .wp-submenu a:hover,
@@ -114,7 +114,7 @@
 #adminmenu #collapse-menu:hover,
 #adminmenu #collapse-menu:target,
 #adminmenu #collapse-menu:focus {
-    background:#727980;
+    background:#727980 !important;
     color:#fff !important;
 }
 
