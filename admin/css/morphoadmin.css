@@ -16,7 +16,8 @@
 #wpadminbar .ab-top-menu>li.hover>.ab-item,
 #wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus,
 #wpadminbar:not(.mobile) .ab-top-menu>li:hover>.ab-item,
-#wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus {
+#wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus,
+.wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle a {
     background:#727980 !important;
     color:#fff !important;
 }
@@ -193,9 +194,6 @@ li#collapse-menu {
 
     html {
         padding-top: 44px !important;
-    }
-    #wpadminbar .quicklinks > ul> li > a {
-        /* padding: 6px 12px; */
     }
 
 }
