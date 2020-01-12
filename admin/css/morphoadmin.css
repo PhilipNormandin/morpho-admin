@@ -195,6 +195,9 @@ li#collapse-menu {
     html {
         padding-top: 44px !important;
     }
+    #wpadminbar .quicklinks > ul> li > a {
+        padding: 6px 12px;
+    }
 
 }
 
