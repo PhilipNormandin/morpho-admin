@@ -398,6 +398,9 @@ div.editor-post-link div.components-base-control + p {
     .edit-post-sidebar {
         top: 100px;
     }
+    .edit-post-layout .editor-post-publish-panel {
+        top: 44px;
+    }
 
 }
 
