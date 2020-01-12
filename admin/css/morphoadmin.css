@@ -508,6 +508,14 @@ div.editor-post-link div.components-base-control + p {
 }
 
 
+/* Events Schedule
+----------------------- */
+
+.media-toolbar.sticky-media {
+    top: 44px !important;
+}
+
+
 /* Polylang
 ----------------------- */
 
