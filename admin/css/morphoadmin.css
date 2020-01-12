@@ -239,13 +239,7 @@ li#collapse-menu {
 
 #wp-admin-bar-root-default #wp-admin-bar-languages > a::before {
     content: "\f326";
-    font-size: 34px;
-    text-align: center;
-    top: 0;
-    display: block;
-    line-height: 1.33333333;
-    height: 46px !important;
-    width: 52px;
+    top: 1;
 }
 #wpadminbar #wp-admin-bar-languages .ab-icon {
     display: none;
@@ -278,6 +272,20 @@ button#collapse-button {
     font-weight: initial;
     letter-spacing: initial;
     text-transform: initial;
+}
+
+@media screen and (max-width: 781px) {
+
+    #wp-admin-bar-root-default #wp-admin-bar-languages > a::before {
+        font-size: 34px;
+        text-align: center;
+        top: 0;
+        display: block;
+        line-height: 1.33333333;
+        height: 46px !important;
+        width: 52px;
+    }
+
 }
 
 
