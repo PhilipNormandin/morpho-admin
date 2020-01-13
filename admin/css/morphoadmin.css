@@ -301,7 +301,8 @@ ul#adminmenu > li.current > a.current:after,
 #adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:after,
 body.post-type-class #wp-admin-bar-preview,
 body.post-type-class #wp-admin-bar-view,
-#wp-admin-bar-archive {
+#wp-admin-bar-archive,
+body.post-type-member #wp-admin-bar-view {
     display: none !important;
 }
 
