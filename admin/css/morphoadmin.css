@@ -416,6 +416,13 @@ div.editor-post-link div.components-base-control + p {
 #wpbody-content div.swift-performance-notice {
     display: none !important;
 }
+.luv-framework-notice {
+    height: 44px !important;
+	line-height: 34px !important;
+}
+.luv-framework-notice-inner {
+    height: 34px !important;
+}
 
 
 /* Events Schedule
