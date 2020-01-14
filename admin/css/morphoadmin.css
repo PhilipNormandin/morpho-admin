@@ -245,7 +245,7 @@ li#collapse-menu {
     top: 1px;
 }
 #wpadminbar #wp-admin-bar-languages .ab-icon {
-    display: none;
+    display: none !important;
 }
 #adminmenu #menu-posts .wp-menu-image::before {
     content: "\f464";
@@ -257,7 +257,7 @@ li#collapse-menu {
     content: "\f332";
 }
 #toplevel_page_Wordfence .wp-menu-image img {
-    display: none
+    display: none !important;
 }
 #adminmenu .wp-menu-image img {
     opacity: 1;
