@@ -389,7 +389,7 @@ div.editor-post-link div.components-base-control + p {
 
 @media screen and (min-width: 782px) {
 
-    .edit-post-header {
+    .block-editor-editor-skeleton {
         top: 44px;
     }
     .edit-post-layout__content {
