@@ -362,9 +362,10 @@ body.post-type-member #wp-admin-bar-view {
     right: 15px;
     z-index: 100;
 }
-.block-editor-page .editor-post-featured-image .components-button + .components-button.is-default {
-    margin: 13px auto;
-    width: 75%;
+.block-editor-page .editor-post-featured-image .components-button.is-secondary {
+    display: flex;
+    justify-content: center;
+    width: 150px;
 }
 .block-editor-page .editor-post-featured-image .components-button + .components-button.is-destructive {
     margin: 13px auto 8px;
