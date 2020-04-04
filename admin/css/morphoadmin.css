@@ -389,6 +389,9 @@ div.editor-post-excerpt a.components-external-link,
 div.editor-post-link div.components-base-control + p {
     display: none !important;
 }
+.edit-post-visual-editor .block-editor-writing-flow__click-redirect {
+    min-height: 15vh;
+}
 
 @media screen and (min-width: 782px) {
 
