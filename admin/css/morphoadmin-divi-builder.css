@@ -6,6 +6,7 @@
 }
 
 /* Cache header et footer dans le constructeur de page */
+.et-fb header,
 .et-fb #top-header,
 .et-fb #main-header,
 .et-fb #my-footer {
