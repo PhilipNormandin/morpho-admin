@@ -12,6 +12,9 @@
 .et-fb #my-footer {
 	display: none;
 }
+.et-fb #et-main-area {
+    padding-top: 0;
+}
 
 
 /* Styles from WP and other plugins
