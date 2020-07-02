@@ -10,10 +10,10 @@
 .et-fb #top-header,
 .et-fb #main-header,
 .et-fb #my-footer {
-	display: none;
+	/* display: none; */
 }
 .et-fb #et-main-area {
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 
 
